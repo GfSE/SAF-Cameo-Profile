@@ -1,7 +1,7 @@
 # SAF-Cameo-Profile
-The repository contains the SAF profile and the FFDS example presented at [TdSE 2021](https://tdse.org/). 
+The repository features the SAF profile and the SAF FFDS example presented at [TdSE 2021](https://tdse.org/). 
 
-Both, profile and example are intended to be used with SAF Cameo 19SP4 (LTR).
+Both, profile and example are intended to be used with SAF Cameo Systems Modeler 19SP4 (LTR).
 
 Please see the model file itself for licensing terms.
 
