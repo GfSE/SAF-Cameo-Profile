@@ -10,4 +10,4 @@ The SAF_FFDS Example is based on the following publication:
 [SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML - Tim Weilkiens](https://www.oose.de/nuetzliches/sysmod-the-systems-modeling-toolbox/)
 
 # SAF_Profile.mdzip
-**System Architecture Framework SAF_Profile** has been created by the SAF Working Group of the German Chapter of INCOSE (GfSE).The SAF Profile provides the Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification).
+**System Architecture Framework SAF_Profile** has been created by the SAF Working Group of the German Chapter of INCOSE (GfSE). The SAF Profile provides the Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification).
