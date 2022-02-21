@@ -1,7 +1,5 @@
-# SAF-Cameo-Profile
-The repository features the SAF Profile and the SAF FFDS Example presented at [TdSE 2021](https://tdse.org/). Both, Profile and Example are intended to be used with SAF Cameo Systems Modeler 19SP4 (LTR).
-
-Please see the model file itself for licensing terms.
+# Cameo Systems Modeler Repository
+The repository features the SAF Profile and the SAF FFDS Example presented at TdSE 2021. Both, Profile and Example are intended to be used with SAF Cameo Systems Modeler 19SP4 (LTR). Please see the model file itself for licensing terms.
 
 # SAF_FFDS.mdzip
 **Fire Forest Detection System FFDS_Example** has been created by SAF Working Group of the German Chapter of INCOSE (GfSE) according to the SAF Framework rules. Check out content diagram **SAF_FFDS_view_grid** for an overview of views and the navigation possibiliy to diagrams.
