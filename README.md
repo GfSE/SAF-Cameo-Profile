@@ -17,4 +17,4 @@ The SAF_FFDS example model is based on the following publication:
 # SAF_Profile.mdzip
 System Architecture Framework Profile of the SAF Working Group of the German Chapter of INCOSE (GfSE).
 
-The profile provides the Stereotypes according to the [SAF Specification](https://github.com/GfSE/SAF-Specification/blob/TdSE2022/README.md).
+The profile provides the Stereotypes according to the [SAF Specification](https://github.com/GfSE/SAF-Specification/blob/Initial-Release/README.md).
