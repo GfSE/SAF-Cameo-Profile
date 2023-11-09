@@ -4,4 +4,4 @@ This repository provides the current release of the **SAF Profile** intended to 
 
 # SAF_Profile.mdzip
 
-**SAF_Profile** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile contains the stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/).
+**SAF_Profile** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile contains the Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/), [List of Stereotypes](https://github.com/GfSE/SAF-Specification/blob/main/stereotypes.md).
