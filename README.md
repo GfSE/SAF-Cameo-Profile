@@ -4,4 +4,4 @@ This repository provides the TdSE2023 release of the SAF Profile intended to be 
 
 # SAF_Profile.mdzip
 
-**System Architecture Framework SAF_Profile** has been created by the SAF Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile features the stereotypes according to the [SAF-Specification released to TdSE 2023](https://github.com/GfSE/SAF-Specification/tree/TdSE2023).
+SAF_Profile has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile contains the Stereotypes according to the [SAF-Specification released to TdSE 2023](https://github.com/GfSE/SAF-Specification/tree/TdSE2023), [List of Stereotypes]/(https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md).
