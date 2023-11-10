@@ -1,20 +1,11 @@
-# SAF-Cameo-Profile
-The repository contains the SAF profile and the example presented on TdSE2021. 
+# Cameo Systems Modeler Repository
 
-Both profile and example are intended to be used with SAF Cameo 19SP4 (LTR).
-
-Please see the model files itself for licensing terms.
-
-# SAF_FFDS.mdzip
-Example model, which has been created according to the SAF Framework by SAF Working Group of the German Chapter of INCOSE (GfSE)
-
-See the diagram SAF_FFDS_view_grid for an overview of  viewpoints and navigation to diagrams. The package 3-VPQuery also provides reference to the viewpoints content.
-
-The SAF_FFDS example model is based on the following publication:
-
-[SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML - Tim Weilkiens](https://www.oose.de/nuetzliches/sysmod-the-systems-modeling-toolbox/)
+This repository provides the current release of the **SAF Profile** intended to be used with Cameo Systems Modeler 19SP4 LTR. Please see the model file itself for licensing terms.
 
 # SAF_Profile.mdzip
-System Architecture Framework Profile of the SAF Working Group of the German Chapter of INCOSE (GfSE).
 
-The profile provides the Stereotypes according to the [SAF Specification](https://github.com/GfSE/SAF-Specification/blob/Initial-Release/README.md).
+**SAF_Profile** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile contains the Stereotypes according to the [SAF Specification](https://github.com/GfSE/SAF-Specification/blob/Initial-Release/README.md).
+
+## Versions
+
+The repository contains the **SAF Profile** presented for TdSE2021. 
