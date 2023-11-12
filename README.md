@@ -8,7 +8,7 @@ This repository provides the current release of the **SAF Profile** intended to 
 
 
 ## Versions
-This is the main branch that reflects the current state of development and is updated as required.
+This is the main branch that reflects the current state of development and it is updated as required.
 
 The following releases are available, each of wwhich is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Cameo-Profile/tree/Initial-Release)
