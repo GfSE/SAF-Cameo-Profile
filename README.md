@@ -10,6 +10,6 @@ This repository provides the current release of the **SAF Profile** intended to 
 ## Versions
 This is the main branch that reflects the current state of development and it is updated as required.
 
-The following releases are available, each of wwhich is kept in a separate branch:
+The following releases are available, each of which is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Cameo-Profile/tree/Initial-Release)
 * [TdSE2023](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2023)
