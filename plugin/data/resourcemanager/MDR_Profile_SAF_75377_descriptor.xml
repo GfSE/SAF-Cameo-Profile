@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceDescriptor critical="false" date="23-11-20" description="SAF Profile 1.0,&#xA;Provider Name: mac." group="mac Resource" homePage="" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF" product="SAF" restartMagicdraw="false" type="Profile">
+    <version human="1.0" internal="100010" resource="1000100"/>
+    <provider email="" homePage="https://github.com/GfSE/SAF-Specification" name="A.Haarer"/>
+    <edition>Reader</edition>
+    <edition>Community</edition>
+    <edition>Standard</edition>
+    <edition>Professional Java</edition>
+    <edition>Professional C++</edition>
+    <edition>Professional C#</edition>
+    <edition>Professional</edition>
+    <edition>Architect</edition>
+    <edition>Enterprise</edition>
+
+	<requiredResource id="1440" name="SysML">
+		<minVersion internal="1900010" human="19.0 SP3" />
+	</requiredResource>
+
+	<installation>
+	
+		<file
+			from="data/defaults/data/diagrams/OperationalContextDiagram/descriptor.xml"
+			to="data/defaults/data/diagrams/OperationalContextDiagram/descriptor.xml"
+		/>
+		<file
+			from="data/defaults/data/diagrams/OperationalPerformerDiagram/descriptor.xml"
+			to="data/defaults/data/diagrams/OperationalPerformerDiagram/descriptor.xml"
+		/>
+		<file
+			from="data/defaults/data/diagrams/OperationalStoryDiagram/descriptor.xml"
+			to="data/defaults/data/diagrams/OperationalStoryDiagram/descriptor.xml"
+		/>
+		<file
+			from="profiles/SAF_Profile.mdzip"
+			to="profiles/SAF_Profile.mdzip"
+		/>	
+		<file 
+		    from="data/resourcemanager/MDR_Plugin_SAF_4001_descriptor.xml" 
+			to="data/resourcemanager/MDR_Plugin_SAF_4001_descriptor.xml"
+			/>
+	</installation>
+
+</resourceDescriptor>
