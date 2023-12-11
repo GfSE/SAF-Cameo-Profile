@@ -297,23 +297,15 @@
             <icon type="small" size="16" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/activitydiagram.png"></icon>
             <icon type="large" size="16" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/activitydiagram.svg"></icon>
             <actions>
-                <group>
-                    <custom type="com.nomagic.uml2.ext.magicdraw.actions.mdbasicactions.CallBehaviorAction" description="Call Behavior Action«SAF_OperationalProcessAction»" listAsElement="false" opposite="false" id="IDaction_1701948519885_234823_1">
-                        <stereotype id="_19_0_4_6d8019d_1629824443819_231386_336"/>
-                    </custom>
-                    <standard action="ADD_OPAQUE_ACTION"/>
-                </group>
+                <custom type="com.nomagic.uml2.ext.magicdraw.actions.mdbasicactions.CallBehaviorAction" description="Call Behavior Action«SAF_OperationalProcessAction»" listAsElement="false" opposite="false" id="IDaction_1701948519885_234823_1">
+                    <stereotype id="_19_0_4_6d8019d_1629824443819_231386_336"/>
+                </custom>
                 <standard action="ADD_ACTIVITY_PARAMETER_NODE"/>
                 <standard action="ADD_CONTROL_FLOW" description="Control Flow" shortcut="pressed F ">
                     <buttonicon type="small" size="16" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/controlflownode_dashed.png"></buttonicon>
                     <buttonicon type="large" size="16" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/controlflownode_dashed.svg"></buttonicon>
                 </standard>
                 <standard action="ADD_OBJECT_FLOW" shortcut="shift pressed F "/>
-                <standard action="ADD_SEND_SIGNAL_ACTION" shortcut="shift pressed S "/>
-                <group>
-                    <standard action="ADD_ACCEPT_EVENT_ACTION" shortcut="pressed E "/>
-                </group>
-                <standard action="ADD_ACCEPT_TIME_EVENT_ACTION" shortcut="pressed I "/>
                 <standard action="ADD_INITIAL_NODE" shortcut="pressed T "/>
                 <standard action="ADD_FINAL_NODE" shortcut="pressed D "/>
                 <standard action="ADD_FLOW_FINAL_NODE_" shortcut="pressed L "/>
@@ -341,13 +333,13 @@
     </toolbarConfiguration>
     <icon type="small" size="16" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/activitydiagram.png"></icon>
     <icon type="diagraming" size="-1" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/activitydiagram.svg"></icon>
-    <module name="UML_Standard_Profile.mdzip" location="C:\Program Files\magicdraw\md_baseline_prj_GenericStandardBaseline\profiles\UML_Standard_Profile.mdzip">
+    <module name="UML_Standard_Profile.mdzip" location="C:\tools\magicdraw\md_baseline_prj_GenericStandardBaseline\profiles\UML_Standard_Profile.mdzip">
         <root id="magicdraw_uml_standard_profile_v_0001"/>
     </module>
-    <module name="MD_customization_for_SysML.mdzip" location="C:\Program Files\magicdraw\md_baseline_prj_GenericStandardBaseline\profiles\MD_customization_for_SysML.mdzip">
+    <module name="MD_customization_for_SysML.mdzip" location="C:\tools\magicdraw\md_baseline_prj_GenericStandardBaseline\profiles\MD_customization_for_SysML.mdzip">
         <root id="_12_0EAPbeta_be00301_1156851270584_552173_1"/>
     </module>
-    <module name="SAF_Profile.mdzip" location="D:\saf\saf\SAF_Profile.mdzip">
+    <module name="SAF_Profile.mdzip" location="C:\tools\magicdraw\md_baseline_prj_GenericStandardBaseline\profiles\SAF_Profile.mdzip">
         <root id="_19_0_1_26f0132_1547201695683_137485_42117"/>
     </module>
     <manipulators>
@@ -360,7 +352,6 @@
             <target>ADD_FORK_NODE_HORIZONTAL</target>
             <target>ADD_FINAL_NODE</target>
             <target>ADD_FLOW_FINAL_NODE_</target>
-            <target>ADD_STRUCTURED_ACTIVITY_NODE</target>
         </path>
         <path action="ADD_OBJECT_FLOW">
             <target>IDaction_1701948519885_234823_1</target>
@@ -383,11 +374,12 @@
             <target>ADD_FORK_NODE_HORIZONTAL</target>
             <target>ADD_FINAL_NODE</target>
             <target>ADD_FLOW_FINAL_NODE_</target>
-            <target>ADD_STRUCTURED_ACTIVITY_NODE</target>
         </path>
         <path action="ADD_OBJECT_FLOW">
-            <target>IDaction_1701948519885_234823_1</target>
             <target>ADD_ACTIVITY_PARAMETER_NODE</target>
+            <target>ADD_FORK_NODE_HORIZONTAL</target>
+            <target>ADD_FLOW_FINAL_NODE_</target>
+            <target>ADD_FINAL_NODE</target>
         </path>
         <path action="ADD_NOTE_ANCHOR">
             <target>ADD_NOTE</target>
@@ -399,8 +391,6 @@
         <path action="ADD_CONTROL_FLOW">
             <target>IDaction_1701948519885_234823_1</target>
             <target>ADD_DECISION_NODE</target>
-            <target>ADD_MERGE_NODE</target>
-            <target>ADD_JOIN_NODE_HORIZONTAL</target>
             <target>ADD_FORK_NODE_HORIZONTAL</target>
             <target>ADD_FINAL_NODE</target>
             <target>ADD_FLOW_FINAL_NODE_</target>
@@ -422,13 +412,10 @@
             <target>ADD_FORK_NODE_HORIZONTAL</target>
             <target>ADD_FINAL_NODE</target>
             <target>ADD_FLOW_FINAL_NODE_</target>
-            <target>ADD_STRUCTURED_ACTIVITY_NODE</target>
         </path>
         <path action="ADD_OBJECT_FLOW">
-            <target>ADD_CENTRAL_BUFFER</target>
-            <target>ADD_DATASTORE</target>
+            <target>IDaction_1701948519885_234823_1</target>
             <target>ADD_ACTIVITY_PARAMETER_NODE</target>
-            <target>ADD_CALL_BEHAVIOR_ACTION</target>
         </path>
         <path action="ADD_NOTE_ANCHOR">
             <target>ADD_NOTE</target>
@@ -445,9 +432,10 @@
             <target>ADD_FORK_NODE_HORIZONTAL</target>
             <target>ADD_FINAL_NODE</target>
             <target>ADD_FLOW_FINAL_NODE_</target>
-            <target>ADD_STRUCTURED_ACTIVITY_NODE</target>
         </path>
         <path action="ADD_OBJECT_FLOW">
+            <target>ADD_FLOW_FINAL_NODE_</target>
+            <target>ADD_FINAL_NODE</target>
             <target>ADD_ACTIVITY_PARAMETER_NODE</target>
             <target>IDaction_1701948519885_234823_1</target>
         </path>
@@ -463,6 +451,9 @@
         <path action="ADD_OBJECT_FLOW">
             <target>IDaction_1701948519885_234823_1</target>
             <target>ADD_ACTIVITY_PARAMETER_NODE</target>
+            <target>ADD_FORK_NODE_HORIZONTAL</target>
+            <target>ADD_FLOW_FINAL_NODE_</target>
+            <target>ADD_FINAL_NODE</target>
         </path>
     </manipulators>
     <manipulators>
@@ -476,10 +467,19 @@
         <stereotype id="_19_0_4_6d8019d_1629824443819_231386_336" name="SAF_OperationalProcessAction"/>
         <path action="ADD_OBJECT_FLOW">
             <target>IDaction_1701948519885_234823_1</target>
+            <target>ADD_ACTIVITY_PARAMETER_NODE</target>
+            <target>ADD_DECISION_NODE</target>
+            <target>ADD_MERGE_NODE</target>
+            <target>ADD_FORK_NODE_HORIZONTAL</target>
+            <target>ADD_JOIN_NODE_HORIZONTAL</target>
+            <target>ADD_FLOW_FINAL_NODE_</target>
+            <target>ADD_FINAL_NODE</target>
         </path>
         <path action="ADD_CONTROL_FLOW">
-            <target>ADD_ACTIVITY_PARAMETER_NODE</target>
             <target>IDaction_1701948519885_234823_1</target>
+            <target>ADD_FORK_NODE_HORIZONTAL</target>
+            <target>ADD_FLOW_FINAL_NODE_</target>
+            <target>ADD_FINAL_NODE</target>
         </path>
     </manipulators>
     <manipulators>
