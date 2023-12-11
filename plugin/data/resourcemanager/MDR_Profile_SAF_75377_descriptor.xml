@@ -19,24 +19,32 @@
 	<installation>
 	
 		<file
-			from="data/defaults/data/diagrams/SAF%20Operational%20Context%20Diagram/descriptor.xml"
-			to="data/defaults/data/diagrams/SAF%20Operational%20Context%20Diagram/descriptor.xml"
+			from="data/defaults/data/diagrams/SAF Operational Context Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Operational Context Diagram/descriptor.xml"
 		/>
 		<file
-			from="data/defaults/data/diagrams/SAF%20Operational%20Performer%20Diagram/descriptor.xml"
-			to="data/defaults/data/diagrams/SAF%20Operational%20Performer%20Diagram/descriptor.xml"
+			from="data/defaults/data/diagrams/SAF Operational Performer Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Operational Performer Diagram/descriptor.xml"
 		/>
 		<file
-			from="data/defaults/data/diagrams/SAF%20Operational%20Story%20Diagram/descriptor.xml"
-			to="data/defaults/data/diagrams/SAF%20Operational%20Story%20Diagram/descriptor.xml"
+			from="data/defaults/data/diagrams/SAF Operational Story Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Operational Story Diagram/descriptor.xml"
 		/>
 		<file
-			from="data/defaults/data/diagrams/SAF%20Operational%20Process%20Diagram/descriptor.xml"
-			to="data/defaults/data/diagrams/SAF%20Operational%20Process%20Diagram/descriptor.xml"
+			from="data/defaults/data/diagrams/SAF Operational Process Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Operational Process Diagram/descriptor.xml"
 		/>
 		<file
-			from="data/defaults/data/diagrams/SAF%20Operational%20Capability%20Diagram/descriptor.xml"
-			to="data/defaults/data/diagrams/SAF%20Operational%20Capability%20Diagram/descriptor.xml"
+			from="data/defaults/data/diagrams/SAF Operational Capability Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Operational Capability Diagram/descriptor.xml"
+		/>
+		<file
+			from="data/defaults/data/diagrams/SAF Operational Domain Item Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Operational Domain Item Diagram/descriptor.xml"
+		/>
+		<file
+			from="data/defaults/data/diagrams/SAF Operational Domain Item Table/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Operational Domain Item Table/descriptor.xml"
 		/>
 		<file
 			from="profiles/SAF_Profile.mdzip"
@@ -47,8 +55,8 @@
 			to="profiles/SAF_SCM_Profile.mdzip"
 		/>	
 		<file 
-		    from="data/resourcemanager/MDR_Plugin_SAF_75377_descriptor.xml" 
-			to="data/resourcemanager/MDR_Plugin_SAF_75377_descriptor.xml"
+		    from="data/resourcemanager/MDR_Profile_SAF_75377_descriptor.xml" 
+			to="data/resourcemanager/MDR_Profile_SAF_75377_descriptor.xml"
 			/>
 	</installation>
 
