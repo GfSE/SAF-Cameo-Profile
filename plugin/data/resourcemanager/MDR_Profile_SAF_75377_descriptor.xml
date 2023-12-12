@@ -16,8 +16,7 @@
 		<minVersion internal="1900010" human="19.0 SP3" />
 	</requiredResource>
 
-	<installation>
-	
+	<installation>	
 		<file
 			from="data/defaults/data/diagrams/SAF Operational Context Diagram/descriptor.xml"
 			to="data/defaults/data/diagrams/SAF Operational Context Diagram/descriptor.xml"
@@ -54,10 +53,6 @@
 			from="profiles/SAF_SCM_Profile.mdzip"
 			to="profiles/SAF_SCM_Profile.mdzip"
 		/>	
-		<file 
-		    from="data/resourcemanager/MDR_Profile_SAF_75377_descriptor.xml" 
-			to="data/resourcemanager/MDR_Profile_SAF_75377_descriptor.xml"
-			/>
 	</installation>
 
 </resourceDescriptor>
