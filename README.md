@@ -1,6 +1,6 @@
 # 3DS Cameo Systems Modeler Repository
 
-This repository provides the current release of the **SAF Profile** intended to be used with Cameo Systems Modeler 2021x Refresh2. Please see the model file itself for licensing terms.
+This repository provides the current release of the **SAF Profile** intended to be used with Cameo Systems Modeler 2024x. Please see the model file itself for licensing terms.
 
 ## SAF Profile
 
