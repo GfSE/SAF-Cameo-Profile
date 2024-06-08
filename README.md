@@ -4,7 +4,9 @@ This repository provides the current release of the **SAF Profile** intended to 
 
 ## SAF Profile
 
-**[SAF_Profile.mdzip](plugin/profiles/SAF_Profile.mdzip)** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile contains the Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/), [List of Stereotypes](https://github.com/GfSE/SAF-Specification/blob/main/stereotypes.md).
+**[SAF_Profile.mdzip:](plugin/profiles/SAF_Profile.mdzip)** The mdzip file contains the SAF Profile with Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/). See this [List of Stereotypes](https://github.com/GfSE/SAF-Specification/blob/main/stereotypes.md).
+
+ **[plugin.zip](plugin/plugin.zip)** installs the SAF Profile and additional Diagram types for some Viewpoints. It is needed for opening the SAF FFDS Example Model. The plugin also provides the SCM Profile which is used develop viewpoints within SAF.
 
 
 ## Versions
