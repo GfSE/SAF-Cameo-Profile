@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<diagram version="9" type="SAF Operational Capability Diagram" baseType="Class Diagram" abbreviation="OpCap" category="SAF Diagrams">
+<diagram version="9" type="SAF Operational Capability Diagram" baseType="Class Diagram" abbreviation="SAF_O2_OCYD" category="SAF Diagrams">
+    <stereotype id="_19_0_3_26f0132_1601643834849_398612_8169"/>
     <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;UML_Standard_Profile.mdzip;SAF_Profile.mdzip</requiredPlugin>
     <helpID>https://github.com/GfSE/SAF-Specification/blob/main/viewpoints/Operational-Capability-Viewpoint.md</helpID>
     <toolbarConfiguration>

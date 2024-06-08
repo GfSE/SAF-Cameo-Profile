@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<diagram version="9" type="SAF Operational Domain Item Diagram" baseType="Class Diagram" abbreviation="OpDiDi" category="SAF Diagrams">
+<diagram version="9" type="SAF Operational Domain Item Diagram" baseType="Class Diagram" abbreviation="SAF_O2_ODIK" category="SAF Diagrams">
+    <stereotype id="_19_0_4_26f0132_1630062793069_290685_155"/>
     <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;UML_Standard_Profile.mdzip;MD_customization_for_SysML.mdzip</requiredPlugin>
     <helpID>https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/viewpoints/Operational-Domain-Item-Kind-Viewpoint.md</helpID>
     <toolbarConfiguration>

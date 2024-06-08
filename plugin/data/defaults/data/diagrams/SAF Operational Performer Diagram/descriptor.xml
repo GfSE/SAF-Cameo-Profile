@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<diagram version="9" type="SAF Operational Performer Diagram" baseType="Class Diagram" abbreviation="OpPer" category="SAF Diagrams">
+<diagram version="9" type="SAF Operational Performer Diagram" baseType="Class Diagram" abbreviation="SAF_O2_OPRF" category="SAF Diagrams">
+    <stereotype id="_19_0_3_26f0132_1601455842479_177976_826"/>
     <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;SAF_Profile.mdzip;UML_Standard_Profile.mdzip;MD_customization_for_SysML.mdzip</requiredPlugin>
     <helpID>https://github.com/GfSE/SAF-Specification/blob/main/viewpoints/Operational-Performer-Viewpoint.md</helpID>
     <toolbarConfiguration>

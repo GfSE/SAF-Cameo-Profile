@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<diagram version="9" type="SAF Operational Process Diagram" baseType="Activity Diagram" abbreviation="OpProcess" category="SAF Diagrams">
+<diagram version="9" type="SAF Operational Process Diagram" baseType="Activity Diagram" abbreviation="SAF_O3_OPRO" category="SAF Diagrams">
     <stereotype id="_19_0_3_26f0132_1600503062173_139730_1994"/>
     <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;UML_Standard_Profile.mdzip;MD_customization_for_SysML.mdzip;SAF_Profile.mdzip</requiredPlugin>
     <helpID>https://github.com/GfSE/SAF-Specification/blob/main/viewpoints/Operational-Process-Viewpoint.md</helpID>

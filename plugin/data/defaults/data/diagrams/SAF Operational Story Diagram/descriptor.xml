@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<diagram version="9" type="SAF Operational Story Diagram" baseType="Use Case Diagram" abbreviation="OpStory" category="SAF Diagrams">
+<diagram version="9" type="SAF Operational Story Diagram" baseType="Use Case Diagram" abbreviation="SAF_O1_OSTY" category="SAF Diagrams">
+    <stereotype id="_19_0_3_26f0132_1601645195786_604902_11134"/>
     <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;SAF_Profile.mdzip;UML_Standard_Profile.mdzip</requiredPlugin>
     <helpID>https://github.com/GfSE/SAF-Specification/blob/main/viewpoints/Operational-Story-Viewpoint.md</helpID>
     <toolbarConfiguration>
