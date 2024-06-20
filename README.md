@@ -2,6 +2,8 @@
 
 This repository provides the current release of the **SAF Profile** intended to be used with Cameo Systems Modeler 2024x. Please see the model file itself for licensing terms.
 
+If you need help, have a question or for general discussion, please head over to the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
+
 
 ## SAF Plugin (recommended)
  **[plugin.zip](plugin/plugin.zip)** installs the SAF Profile and additional Diagram types for some Viewpoints. It is needed for opening the SAF FFDS Example Model. The plugin also provides the SCM Profile which is used develop viewpoints within SAF.
@@ -12,6 +14,7 @@ This repository provides the current release of the **SAF Profile** intended to 
 
 ## SCM Profile
 **[SAF_SCM_Profile.mdzip:](plugin/profiles/SAF_SCM_Profile.mdzip)** The mdzip file contains the SCM, used to develop SAF viewpoints, e.g. to extend SAF.
+This development documentation indents to assist in extending or modifying SAF. If you want to extend SAF, please get in contact with the SAF developers at the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
 
 ## Versions
