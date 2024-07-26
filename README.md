@@ -6,24 +6,24 @@ If you need help, have a question or for general discussion, please head over to
 
 
 ## SAF Plugin (recommended)
- **[SAF_Plugin.zip](SAF_Plugin/SAF_Plugin.zip)** installs the SAF Profile, additional diagram types for some viewpoints, some project templates, and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. The plugin also provides the SCM Profile that is used to develop viewpoints in SAF.
+ **[SAF_Plugin.zip](SAF_Plugin/SAF_Plugin.zip)** installs the SAF Profile, additional diagram types for some viewpoints, additional project templates, and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. The plugin also provides the SCM Profile that is used to develop viewpoints in SAF.
 
-The SAF Plugin is installed using the Resource/Plugin Manager which can be started from the Help Menu in Cameo.
+The SAF Plugin is installed using the Resource/Plugin Manager which can be accessed via the help menu in Cameo.
 
 ## SAF Profile
-**[SAF_Profile.mdzip:](SAF_Plugin/profiles/SAF_Profile.mdzip)** The mdzip file contains the SAF Profile with Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/). See this [List of Stereotypes](https://github.com/GfSE/SAF-Specification/blob/main/stereotypes.md).
+**[SAF_Profile.mdzip:](SAF_Plugin/profiles/SAF_Profile.mdzip)** The mdzip file contains the SAF Profile with SAF Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/). See this [List of Stereotypes](https://github.com/GfSE/SAF-Specification/blob/main/stereotypes.md).
 
 ## SCM Profile
-**[SAF_SCM_Profile.mdzip:](SAF_Plugin/profiles/SAF_SCM_Profile.mdzip)** The mdzip file contains the SCM, used to develop SAF viewpoints, e.g. to extend SAF.
-This development documentation indents to assist in extending or modifying SAF. If you want to extend SAF, please get in contact with the SAF developers at the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
+**[SAF_SCM_Profile.mdzip:](SAF_Plugin/profiles/SAF_SCM_Profile.mdzip)** The mdzip file contains the SCM used to develop SAF Viewpoints, e.g., to extend SAF.
+This development documentation intends to help with the modification or extension of SAF. If you need help with extending SAF, please contact the SAF developers at the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
 ## SAF FFDS Example Model
 **[SAF_FFDS.mdzip:](SAF_Plugin/samples/SAF/SAF_FFDS.mdzip)** The mdzip file contains the example used in the SAF Specification. The model requires the SAF_Plugin to be installed. 
 
-*Note, that the Example model is in no way intended to be a complete model description of the a Fire Forest Detection System. The model's main purpose is to serve as an example for the application of SAF Viewpoints.*
+*Note, that the Example model is in no way intended to represent a complete model description of a Fire Forest Detection System. The model's main purpose is to serve as an example for the application of SAF Viewpoints.*
 
 ## Versions
-This is the main branch that reflects the current state of development and it is updated as required.
+This is the main branch that reflects the current state of development, and it is updated as required.
 
 The following releases are available, each of which is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Cameo-Profile/tree/Initial-Release)
