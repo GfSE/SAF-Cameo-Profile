@@ -2,7 +2,7 @@
 
 This repository provides the current release of the **SAF Profile** intended to be used with Cameo Systems Modeler 2024x refresh 1. Please see the model file itself for licensing terms.
 
-If you need help, have a question or for general discussion, please head over to the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
+If you need help, have a question or for general discussion, please visit [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
 
 ## SAF Plugin (recommended)
@@ -20,7 +20,7 @@ This development documentation intends to help with the modification or extensio
 ## SAF FFDS Example Model
 **[SAF_FFDS.mdzip:](SAF_Plugin/samples/SAF/SAF_FFDS.mdzip)** The mdzip file contains the example used in the SAF Specification. The model requires the SAF_Plugin to be installed. 
 
-*Note, that the Example model is in no way intended to represent a complete model description of a Fire Forest Detection System. The model's main purpose is to serve as an example for the application of SAF Viewpoints.*
+*Note, that the example model is in no way intended to represent a complete model description of a Fire Forest Detection System. The model's main purpose is to serve as an example for the application of SAF Viewpoints.*
 
 ## Versions
 This is the main branch that reflects the current state of development, and it is updated as required.
