@@ -6,7 +6,7 @@ If you need help, have a question or for general discussion, please head over to
 
 
 ## SAF Plugin (recommended)
- **[SAF_Plugin.zip](SAF_Plugin/plugin.zip)** installs the SAF Profile, additional Diagram types for some Viewpoints, some project templates and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. The plugin also provides the SCM Profile that is used to develop viewpoints in SAF.
+ **[SAF_Plugin.zip](SAF_Plugin/SAF_Plugin.zip)** installs the SAF Profile, additional Diagram types for some Viewpoints, some project templates and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. The plugin also provides the SCM Profile that is used to develop viewpoints in SAF.
 
 The SAF Plugin is installed using the Resource/Plugin Manager which can be started from the Help Menu in Cameo.
 
