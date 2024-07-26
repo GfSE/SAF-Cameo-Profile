@@ -6,8 +6,9 @@ If you need help, have a question or for general discussion, please head over to
 
 
 ## SAF Plugin (recommended)
- **[SAF_Plugin.zip](SAF_Plugin/plugin.zip)** installs the SAF Profile and additional Diagram types for some Viewpoints. It is required to open the SAF FFDS Example Model. The plugin also provides the SCM Profile that is used to develop viewpoints in SAF.
+ **[SAF_Plugin.zip](SAF_Plugin/plugin.zip)** installs the SAF Profile, additional Diagram types for some Viewpoints, some project templates and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. The plugin also provides the SCM Profile that is used to develop viewpoints in SAF.
 
+The SAF Plugin is installed using the Resource/Plugin Manager which can be started from the Help Menu in Cameo.
 
 ## SAF Profile
 **[SAF_Profile.mdzip:](SAF_Plugin/profiles/SAF_Profile.mdzip)** The mdzip file contains the SAF Profile with Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/). See this [List of Stereotypes](https://github.com/GfSE/SAF-Specification/blob/main/stereotypes.md).
@@ -16,6 +17,10 @@ If you need help, have a question or for general discussion, please head over to
 **[SAF_SCM_Profile.mdzip:](SAF_Plugin/profiles/SAF_SCM_Profile.mdzip)** The mdzip file contains the SCM, used to develop SAF viewpoints, e.g. to extend SAF.
 This development documentation indents to assist in extending or modifying SAF. If you want to extend SAF, please get in contact with the SAF developers at the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
+## SAF FFDS Example Model
+**[SAF_FFDS.mdzip:](SAF_Plugin/samples/SAF/SAF_FFDS.mdzip)** The mdzip file contains the example used in the SAF Specification. The model requires the SAF_Plugin to be installed. 
+
+*Note, that the Example model is in no way intended to be a full model of a System. The models main purpose is to serve as an example for the SAF Viewpoints.*
 
 ## Versions
 This is the main branch that reflects the current state of development and it is updated as required.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom_template>
+    <icon>SAF Blank.png</icon>
+    <iconLabel>SAF Blank Project</iconLabel>
+    <tooltip>Create a new SAF Blank project</tooltip>
+    <banner_title>Create a new SAF Blank project</banner_title>
+    <banner_description>Create a blank SAF project. Specify a project name, select a location to store the project, and click OK.
+    </banner_description>
+    <category_id>System Architecture Framework (SAF)</category_id>
+    <banner_icon>SAF_Banner.png</banner_icon>
+</custom_template>

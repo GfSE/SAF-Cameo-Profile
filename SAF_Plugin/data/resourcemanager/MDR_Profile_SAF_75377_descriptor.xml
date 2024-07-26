@@ -66,6 +66,18 @@
 			to="samples/SAF/Library.mdzip"
 		/>	
 		<file
+			from="templates/SAF Blank/SAF Blank.xml"
+			to="templates/SAF Blank/SAF Blank.xml"
+		/>	
+		<file
+			from="templates/SAF Blank/SAF_Banner.png"
+			to="templates/SAF Blank/SAF_Banner.png"
+		/>	
+		<file
+			from="templates/SAF Blank/SAF Blank.png"
+			to="templates/SAF Blank/SAF Blank.png"
+		/>	
+		<file
 			from="templates/SAF Blank/SAF Blank.mdzip"
 			to="templates/SAF Blank/SAF Blank.mdzip"
 		/>	
@@ -77,6 +89,32 @@
 			from="templates/SAF Blank/SAF Blank.html"
 			to="templates/SAF Blank/SAF Blank.html"
 		/>	
+
+		<file
+			from="templates/SAF Predefined Structure/SAF Predefined Structure.xml"
+			to="templates/SAF Predefined Structure/SAF Predefined Structure.xml"
+		/>	
+		<file
+			from="templates/SAF Predefined Structure/SAF_Banner.png"
+			to="templates/SAF Predefined Structure/SAF_Banner.png"
+		/>	
+		<file
+			from="templates/SAF Predefined Structure/SAF Predefined Structure.png"
+			to="templates/SAF Predefined Structure/SAF Predefined Structure.png"
+		/>	
+		<file
+			from="templates/SAF Predefined Structure/SAF Predefined Structure.mdzip"
+			to="templates/SAF Predefined Structure/SAF Predefined Structure.mdzip"
+		/>	
+		<file
+			from="templates/SAF Predefined Structure/description.html"
+			to="templates/SAF Predefined Structure/description.html"
+		/>	
+		<file
+			from="templates/SAF Predefined Structure/SAF Predefined Structure.html"
+			to="templates/SAF Predefined Structure/SAF Predefined Structure.html"
+		/>	
+
 	</installation>
 
 </resourceDescriptor>
