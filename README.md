@@ -6,7 +6,7 @@ If you need help, have a question or for general discussion, please head over to
 
 
 ## SAF Plugin (recommended)
- **[SAF_Plugin.zip](SAF_Plugin/SAF_Plugin.zip)** installs the SAF Profile, additional Diagram types for some Viewpoints, some project templates and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. The plugin also provides the SCM Profile that is used to develop viewpoints in SAF.
+ **[SAF_Plugin.zip](SAF_Plugin/SAF_Plugin.zip)** installs the SAF Profile, additional diagram types for some viewpoints, some project templates, and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. The plugin also provides the SCM Profile that is used to develop viewpoints in SAF.
 
 The SAF Plugin is installed using the Resource/Plugin Manager which can be started from the Help Menu in Cameo.
 
@@ -20,7 +20,7 @@ This development documentation indents to assist in extending or modifying SAF. 
 ## SAF FFDS Example Model
 **[SAF_FFDS.mdzip:](SAF_Plugin/samples/SAF/SAF_FFDS.mdzip)** The mdzip file contains the example used in the SAF Specification. The model requires the SAF_Plugin to be installed. 
 
-*Note, that the Example model is in no way intended to be a full model of a System. The models main purpose is to serve as an example for the SAF Viewpoints.*
+*Note, that the Example model is in no way intended to be a complete model description of the a Fire Forest Detection System. The model's main purpose is to serve as an example for the application of SAF Viewpoints.*
 
 ## Versions
 This is the main branch that reflects the current state of development and it is updated as required.
