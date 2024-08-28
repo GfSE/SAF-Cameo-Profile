@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <diagram version="9" type="SAF Concept Diagram" baseType="Class Diagram" abbreviation="COTD" category="SAF Development">
+    <stereotype id="_2021x_2_8710274_1702027432699_857546_20465"/>
     <toolbarConfiguration>
         <baseCategory id="COMMON_ELEMENTS_STATIC" parentCategoryID="COMMON_ELEMENTS_STATIC" expandedByDefault="true"/>
         <category name="SAF Concept Diagram" id="action_category_1719747754232_861525_0" expandedByDefault="true">
@@ -838,13 +839,15 @@
                         </PropertyVisitorAcceptor>
                     </style>
                 </custom>
+                <standard action="ADD_GENERALIZATION" shortcut="pressed G "/>
+                <standard action="ADD_GENERALIZATION_OPPOSITE" shortcut="shift pressed G "/>
             </actions>
         </category>
     </toolbarConfiguration>
-    <module name="UML_Standard_Profile.mdzip" location="C:\tools\Magic_Systems_of_Systems_Architect_2024x_no_install\profiles\UML_Standard_Profile.mdzip">
+    <module name="UML_Standard_Profile.mdzip" location="C:\tools\Magic_Systems_of_Systems_Architect_2024x_Refresh1_no_install\profiles\UML_Standard_Profile.mdzip">
         <root id="magicdraw_uml_standard_profile_v_0001"/>
     </module>
-    <module name="SAF_SCM_Profile.mdzip" location="C:\tools\Magic_Systems_of_Systems_Architect_2024x_no_install\profiles\SAF_SCM_Profile.mdzip">
+    <module name="SAF_SCM_Profile.mdzip" location="C:\tools\Magic_Systems_of_Systems_Architect_2024x_Refresh1_no_install\profiles\SAF_SCM_Profile.mdzip">
         <root id="_19_0_2_26f0132_1567751448404_483623_53664"/>
     </module>
     <manipulators>
@@ -899,5 +902,7 @@
         <path action="IDaction_1719748000453_778625_2">
             <target>IDaction_1719747843323_317544_0</target>
         </path>
+        <path action="ADD_GENERALIZATION"/>
+        <path action="ADD_GENERALIZATION_OPPOSITE"/>
     </manipulators>
 </diagram>
