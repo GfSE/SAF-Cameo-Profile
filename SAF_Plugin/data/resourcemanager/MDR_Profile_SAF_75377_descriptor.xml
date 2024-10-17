@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<resourceDescriptor critical="false" date="24-07-31" description="SAF Profile 1.0,&#xA;Provider Name: mac." group="mac Resource" homePage="" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF" product="SAF" restartMagicdraw="true" type="Profile">
+<resourceDescriptor critical="false" date="24-10-17" description="SAF Profile 1.0,&#xA;Provider Name: mac." group="mac Resource" homePage="" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF" product="SAF" restartMagicdraw="true" type="Profile">
     <version human="1.0" internal="100010" resource="1000100"/>
-    <provider email="" homePage="https://github.com/GfSE/SAF-Specification" name="A.Haarer"/>
+    <provider email="" homePage="https://saf.gfse.org" name="A.Haarer"/>
     <edition>Reader</edition>
     <edition>Community</edition>
     <edition>Standard</edition>
@@ -72,6 +72,10 @@
 		<file
 			from="samples/SAF/Library.mdzip"
 			to="samples/SAF/Library.mdzip"
+		/>	
+		<file
+			from="samples/SAF/SAF_Library.mdzip"
+			to="samples/SAF/SAF_Library.mdzip"
 		/>	
 		<file
 			from="templates/SAF Blank/SAF Blank.xml"
