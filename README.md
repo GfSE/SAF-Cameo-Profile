@@ -11,11 +11,11 @@ If you need help, have a question or for general discussion, please visit [SAF d
 The SAF Plugin is installed using the Resource/Plugin Manager which can be accessed via the help menu in Cameo.
 
 ## SAF Profile
-**[SAF_Profile.mdzip:](SAF_Plugin/profiles/SAF_Profile.mdzip)** The mdzip file contains the SAF Profile with SAF Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/). See this [List of Stereotypes](https://github.com/GfSE/SAF-Specification/blob/main/stereotypes.md).
+**[SAF_Profile.mdzip:](SAF_Plugin/profiles/SAF_Profile.mdzip)** The mdzip file contains the SAF Profile with SAF Stereotypes according to the [SAF-Specification](https://saf.gfse.org). See this [List of Stereotypes](https://saf.gfse.org/userdoc/stereotypes.html).
 
 ## SCM Profile
 **[SAF_SCM_Profile.mdzip:](SAF_Plugin/profiles/SAF_SCM_Profile.mdzip)** The mdzip file contains the SCM Profile used to develop SAF Viewpoints, e.g., to extend SAF.
-This [development documentation](https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/saf-dev-guideline.md) intends to help with the modification or extension of SAF. If you need help with extending SAF, please contact the SAF developers at the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
+This [development documentation](https://saf.gfse.org/devdoc/devdoc.html) intends to help with the modification or extension of SAF. If you need help with extending SAF, please contact the SAF developers at the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
 ## SAF FFDS Example Model
 **[SAF_FFDS.mdzip:](SAF_Plugin/samples/SAF/SAF_FFDS.mdzip)** The mdzip file contains the example used in the SAF Specification. The model requires the SAF_Plugin to be installed. 
