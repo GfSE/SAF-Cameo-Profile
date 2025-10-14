@@ -18,6 +18,18 @@
 
 	<installation>	
 		<file
+			from="data/defaults/data/diagrams/SAF EA Traceability Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF EA Traceability Diagram/descriptor.xml"
+		/>
+		<file
+			from="data/defaults/data/diagrams/SAF EA Traceability Matrix/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF EA Traceability Matrix/descriptor.xml"
+		/>
+		<file
+			from="data/defaults/data/diagrams/SAF EA Traceability Table/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF EA Traceability Table/descriptor.xml"
+		/>
+		<file
 			from="data/defaults/data/diagrams/SAF Operational Context Definition Diagram/descriptor.xml"
 			to="data/defaults/data/diagrams/SAF Operational Context Definition Diagram/descriptor.xml"
 		/>
