@@ -4,6 +4,8 @@ SHELL = sh
 CP="C:\Program Files\Git\usr\bin\cp.exe"
 LS="C:\Program Files\Git\usr\bin\ls.exe"
 RM="C:\Program Files\Git\usr\bin\rm.exe"
+MKDIR="C:\Program Files\Git\usr\bin\mkdir.exe"
+BASENAME=
 ZIP="C:\Program Files\7-Zip\7z.exe"
 
 #CP="cp"
@@ -13,6 +15,7 @@ ZIP="C:\Program Files\7-Zip\7z.exe"
 
 
 SAF_SOURCE=../saf/
+MD_DIAG_DESC_SOURCE=C:/Users/mac/AppData/Local/.magic.systems.of.systems.architect/2024x/data/diagrams
 
 MODELS= $(SAF_SOURCE)/SAF_Profile.mdzip $(SAF_SOURCE)/SAF_SCM_Profile.mdzip $(SAF_SOURCE)/SAF_UAFTracing_Profile.mdzip
 SAMPLES= $(SAF_SOURCE)/SAF_FFDS.mdzip $(SAF_SOURCE)/SAF_Library.mdzip $(SAF_SOURCE)/Library.mdzip $(SAF_SOURCE)/SAF_FFDS_NAF.mdzip
@@ -56,3 +59,9 @@ SAF_Plugin/samples/SAF/SAF_Library.mdzip:  $(SAF_SOURCE)/SAF_Library.mdzip
 	$(CP) $< $@
 
 
+diagramdescriptors:
+	for dir in $(MD_DIAG_DESC_SOURCE)/SAF* ; do \
+		echo "Copying diagram descriptors from $$dir" ; \
+		$(CP) -r "$$dir" SAF_Plugin/data/defaults/data/diagrams/ ; \
+		$(RM)  SAF_Plugin/data/defaults/data/diagrams/*/files.info ; \
+	done
