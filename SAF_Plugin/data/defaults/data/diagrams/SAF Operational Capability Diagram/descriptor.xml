@@ -40,12 +40,12 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>visibility</propertyID>
-                                    <value>public</value>
-                                    <choice xmi:value="public^private^protected^package"/>
-                                    <index xmi:value="0"/>
-                                </mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>visibility</propertyID>
+    <value>public</value>
+    <choice xmi:value="public^private^protected^package"/>
+    <index xmi:value="0"/>
+</mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -73,157 +73,157 @@
                     <style>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-                                <mdElement elementClass="ColorProperty">
-                                    <propertyID>FILL_COLOR</propertyID>
-                                    <value xmi:value="-52"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>USE_FILL_COLOR</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="ColorProperty">
-                                    <propertyID>PEN_COLOR</propertyID>
-                                    <value xmi:value="-12434878"/>
-                                </mdElement>
-                                <mdElement elementClass="ColorProperty">
-                                    <propertyID>TEXT_COLOR</propertyID>
-                                    <value xmi:value="-16777216"/>
-                                </mdElement>
-                                <mdElement elementClass="NumberProperty">
-                                    <propertyID>LINE_WIDTH</propertyID>
-                                    <value xmi:value="1.0"/>
-                                </mdElement>
-                                <mdElement elementClass="FontProperty">
-                                    <propertyID>FONT</propertyID>
-                                    <fontName>Arial</fontName>
-                                    <size xmi:value="11"/>
-                                    <style xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_NUMBER_TAG_NAME</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>ELEMENT_NUMBER_DISPLAY_MODE</propertyID>
-                                    <value>ELEMENT_NUMBER_DISPLAY_MODE_NO_DISPLAY</value>
-                                    <choice xmi:value="ELEMENT_NUMBER_DISPLAY_MODE_ABOVE^ELEMENT_NUMBER_DISPLAY_MODE_BEFORE^ELEMENT_NUMBER_DISPLAY_MODE_NO_DISPLAY"/>
-                                    <index xmi:value="2"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>LINK_LINE_STYLE</propertyID>
-                                    <value>RECTILINEAR</value>
-                                    <choice xmi:value="RECTILINEAR^OBLIQUE^BEZIER"/>
-                                    <index xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>IS_ROUNDED</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>CONSTRAINT_TEXT_MODE</propertyID>
-                                    <value>EXPRESSION_MODE</value>
-                                    <choice xmi:value="NAME_MODE^EXPRESSION_MODE^NAME_EXPRESSION_MODE"/>
-                                    <index xmi:value="1"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>SUSPEND_SHAPE_AUTO_RESIZE</propertyID>
-                                    <value>SUSPEND_SHAPE_AUTO_RESIZE_SAME_AS_DIAGRAM</value>
-                                    <choice xmi:value="SUSPEND_SHAPE_AUTO_RESIZE_SAME_AS_DIAGRAM^SUSPEND_SHAPE_AUTO_RESIZE_TRUE^SUSPEND_SHAPE_AUTO_RESIZE_FALSE"/>
-                                    <index xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>SUSPEND_LABEL_AUTO_DISPLAY</propertyID>
-                                    <value>SUSPEND_LABEL_AUTO_DISPLAY_SAME_AS_DIAGRAM</value>
-                                    <choice xmi:value="SUSPEND_LABEL_AUTO_DISPLAY_SAME_AS_DIAGRAM^SUSPEND_LABEL_AUTO_DISPLAY_TRUE^SUSPEND_LABEL_AUTO_DISPLAY_FALSE"/>
-                                    <index xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>LABEL_ORIENTATION</propertyID>
-                                    <value>LABEL_ORIENTATION_HORIZONTAL</value>
-                                    <choice xmi:value="LABEL_ORIENTATION_HORIZONTAL^LABEL_ORIENTATION_VERTICAL^LABEL_ORIENTATION_AUTOMATIC"/>
-                                    <index xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="ColorProperty">
-                                    <propertyID>STEREOTYPE_COLOR</propertyID>
-                                    <value xmi:value="-16777216"/>
-                                </mdElement>
-                                <mdElement elementClass="FontProperty">
-                                    <propertyID>STEREOTYPE_FONT</propertyID>
-                                    <fontName>Arial</fontName>
-                                    <size xmi:value="11"/>
-                                    <style xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>WRAP_WORDS</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_NAME</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
-                                    <value>STEREOTYPE_DISPLAY_MODE_TEXT</value>
-                                    <choice xmi:value="STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES"/>
-                                    <index xmi:value="1"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>DSL_STEREOTYPE_DISPLAY_MODE</propertyID>
-                                    <value>DSL_STEREOTYPE_DISPLAY_MODE_ALL</value>
-                                    <choice xmi:value="DSL_STEREOTYPE_DISPLAY_MODE_ALL^DSL_STEREOTYPE_DISPLAY_MODE_LAST^DSL_STEREOTYPE_DISPLAY_MODE_NONE"/>
-                                    <index xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_TAGGED_VALUES</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_ELEMENT_PROPERTIES</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_ICONS_IN_COMPARTMENTS</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_ELEMENT_TYPE_IN_COMPARTMENTS</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_DERIVED_SIGN</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_CONVEYED_A</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_CONVEYED_B</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_CONSTRAINTS</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_ASSOCIATION_DIRECTION_ICON</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_ID_FOR_CONVEYED_ITEM</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_ID_OF_INFORMATION_FLOW</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_NAME_OF_INFORMATION_FLOW</propertyID>
-                                </mdElement>
+<mdElement elementClass="ColorProperty">
+    <propertyID>FILL_COLOR</propertyID>
+    <value xmi:value="-52"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>USE_FILL_COLOR</propertyID>
+</mdElement>
+<mdElement elementClass="ColorProperty">
+    <propertyID>PEN_COLOR</propertyID>
+    <value xmi:value="-12434878"/>
+</mdElement>
+<mdElement elementClass="ColorProperty">
+    <propertyID>TEXT_COLOR</propertyID>
+    <value xmi:value="-16777216"/>
+</mdElement>
+<mdElement elementClass="NumberProperty">
+    <propertyID>LINE_WIDTH</propertyID>
+    <value xmi:value="1.0"/>
+</mdElement>
+<mdElement elementClass="FontProperty">
+    <propertyID>FONT</propertyID>
+    <fontName>Arial</fontName>
+    <size xmi:value="11"/>
+    <style xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_NUMBER_TAG_NAME</propertyID>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>ELEMENT_NUMBER_DISPLAY_MODE</propertyID>
+    <value>ELEMENT_NUMBER_DISPLAY_MODE_NO_DISPLAY</value>
+    <choice xmi:value="ELEMENT_NUMBER_DISPLAY_MODE_ABOVE^ELEMENT_NUMBER_DISPLAY_MODE_BEFORE^ELEMENT_NUMBER_DISPLAY_MODE_NO_DISPLAY"/>
+    <index xmi:value="2"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>LINK_LINE_STYLE</propertyID>
+    <value>RECTILINEAR</value>
+    <choice xmi:value="RECTILINEAR^OBLIQUE^BEZIER"/>
+    <index xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>IS_ROUNDED</propertyID>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>CONSTRAINT_TEXT_MODE</propertyID>
+    <value>EXPRESSION_MODE</value>
+    <choice xmi:value="NAME_MODE^EXPRESSION_MODE^NAME_EXPRESSION_MODE"/>
+    <index xmi:value="1"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>SUSPEND_SHAPE_AUTO_RESIZE</propertyID>
+    <value>SUSPEND_SHAPE_AUTO_RESIZE_SAME_AS_DIAGRAM</value>
+    <choice xmi:value="SUSPEND_SHAPE_AUTO_RESIZE_SAME_AS_DIAGRAM^SUSPEND_SHAPE_AUTO_RESIZE_TRUE^SUSPEND_SHAPE_AUTO_RESIZE_FALSE"/>
+    <index xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>SUSPEND_LABEL_AUTO_DISPLAY</propertyID>
+    <value>SUSPEND_LABEL_AUTO_DISPLAY_SAME_AS_DIAGRAM</value>
+    <choice xmi:value="SUSPEND_LABEL_AUTO_DISPLAY_SAME_AS_DIAGRAM^SUSPEND_LABEL_AUTO_DISPLAY_TRUE^SUSPEND_LABEL_AUTO_DISPLAY_FALSE"/>
+    <index xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>LABEL_ORIENTATION</propertyID>
+    <value>LABEL_ORIENTATION_HORIZONTAL</value>
+    <choice xmi:value="LABEL_ORIENTATION_HORIZONTAL^LABEL_ORIENTATION_VERTICAL^LABEL_ORIENTATION_AUTOMATIC"/>
+    <index xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="ColorProperty">
+    <propertyID>STEREOTYPE_COLOR</propertyID>
+    <value xmi:value="-16777216"/>
+</mdElement>
+<mdElement elementClass="FontProperty">
+    <propertyID>STEREOTYPE_FONT</propertyID>
+    <fontName>Arial</fontName>
+    <size xmi:value="11"/>
+    <style xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>WRAP_WORDS</propertyID>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_NAME</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+    <value>STEREOTYPE_DISPLAY_MODE_TEXT</value>
+    <choice xmi:value="STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES"/>
+    <index xmi:value="1"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>DSL_STEREOTYPE_DISPLAY_MODE</propertyID>
+    <value>DSL_STEREOTYPE_DISPLAY_MODE_ALL</value>
+    <choice xmi:value="DSL_STEREOTYPE_DISPLAY_MODE_ALL^DSL_STEREOTYPE_DISPLAY_MODE_LAST^DSL_STEREOTYPE_DISPLAY_MODE_NONE"/>
+    <index xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_TAGGED_VALUES</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_ELEMENT_PROPERTIES</propertyID>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_ICONS_IN_COMPARTMENTS</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_ELEMENT_TYPE_IN_COMPARTMENTS</propertyID>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_DERIVED_SIGN</propertyID>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_CONVEYED_A</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_CONVEYED_B</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_CONSTRAINTS</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_ASSOCIATION_DIRECTION_ICON</propertyID>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_ID_FOR_CONVEYED_ITEM</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_ID_OF_INFORMATION_FLOW</propertyID>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_NAME_OF_INFORMATION_FLOW</propertyID>
+</mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </style>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>END_A.aggregation</propertyID>
-                                    <propertyGroup>END_A</propertyGroup>
-                                    <value>composite</value>
-                                    <choice xmi:value="none^shared^composite"/>
-                                    <index xmi:value="2"/>
-                                </mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>END_A.aggregation</propertyID>
+    <propertyGroup>END_A</propertyGroup>
+    <value>composite</value>
+    <choice xmi:value="none^shared^composite"/>
+    <index xmi:value="2"/>
+</mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -235,131 +235,131 @@
                     <style>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-                                <mdElement elementClass="ColorProperty">
-                                    <propertyID>FILL_COLOR</propertyID>
-                                    <value xmi:value="-52"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>USE_FILL_COLOR</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="ColorProperty">
-                                    <propertyID>PEN_COLOR</propertyID>
-                                    <value xmi:value="-12434878"/>
-                                </mdElement>
-                                <mdElement elementClass="ColorProperty">
-                                    <propertyID>TEXT_COLOR</propertyID>
-                                    <value xmi:value="-16777216"/>
-                                </mdElement>
-                                <mdElement elementClass="NumberProperty">
-                                    <propertyID>LINE_WIDTH</propertyID>
-                                    <value xmi:value="1.0"/>
-                                </mdElement>
-                                <mdElement elementClass="FontProperty">
-                                    <propertyID>FONT</propertyID>
-                                    <fontName>Arial</fontName>
-                                    <size xmi:value="11"/>
-                                    <style xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_NUMBER_TAG_NAME</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>ELEMENT_NUMBER_DISPLAY_MODE</propertyID>
-                                    <value>ELEMENT_NUMBER_DISPLAY_MODE_NO_DISPLAY</value>
-                                    <choice xmi:value="ELEMENT_NUMBER_DISPLAY_MODE_ABOVE^ELEMENT_NUMBER_DISPLAY_MODE_BEFORE^ELEMENT_NUMBER_DISPLAY_MODE_NO_DISPLAY"/>
-                                    <index xmi:value="2"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>LINK_LINE_STYLE</propertyID>
-                                    <value>OBLIQUE</value>
-                                    <choice xmi:value="RECTILINEAR^OBLIQUE^BEZIER"/>
-                                    <index xmi:value="1"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>IS_ROUNDED</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>CONSTRAINT_TEXT_MODE</propertyID>
-                                    <value>EXPRESSION_MODE</value>
-                                    <choice xmi:value="NAME_MODE^EXPRESSION_MODE^NAME_EXPRESSION_MODE"/>
-                                    <index xmi:value="1"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>SUSPEND_SHAPE_AUTO_RESIZE</propertyID>
-                                    <value>SUSPEND_SHAPE_AUTO_RESIZE_SAME_AS_DIAGRAM</value>
-                                    <choice xmi:value="SUSPEND_SHAPE_AUTO_RESIZE_SAME_AS_DIAGRAM^SUSPEND_SHAPE_AUTO_RESIZE_TRUE^SUSPEND_SHAPE_AUTO_RESIZE_FALSE"/>
-                                    <index xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>SUSPEND_LABEL_AUTO_DISPLAY</propertyID>
-                                    <value>SUSPEND_LABEL_AUTO_DISPLAY_SAME_AS_DIAGRAM</value>
-                                    <choice xmi:value="SUSPEND_LABEL_AUTO_DISPLAY_SAME_AS_DIAGRAM^SUSPEND_LABEL_AUTO_DISPLAY_TRUE^SUSPEND_LABEL_AUTO_DISPLAY_FALSE"/>
-                                    <index xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>LABEL_ORIENTATION</propertyID>
-                                    <value>LABEL_ORIENTATION_HORIZONTAL</value>
-                                    <choice xmi:value="LABEL_ORIENTATION_HORIZONTAL^LABEL_ORIENTATION_VERTICAL^LABEL_ORIENTATION_AUTOMATIC"/>
-                                    <index xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="ColorProperty">
-                                    <propertyID>STEREOTYPE_COLOR</propertyID>
-                                    <value xmi:value="-16777216"/>
-                                </mdElement>
-                                <mdElement elementClass="FontProperty">
-                                    <propertyID>STEREOTYPE_FONT</propertyID>
-                                    <fontName>Arial</fontName>
-                                    <size xmi:value="11"/>
-                                    <style xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>WRAP_WORDS</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_NAME</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
-                                    <value>STEREOTYPE_DISPLAY_MODE_TEXT</value>
-                                    <choice xmi:value="STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES"/>
-                                    <index xmi:value="1"/>
-                                </mdElement>
-                                <mdElement elementClass="ChoiceProperty">
-                                    <propertyID>DSL_STEREOTYPE_DISPLAY_MODE</propertyID>
-                                    <value>DSL_STEREOTYPE_DISPLAY_MODE_ALL</value>
-                                    <choice xmi:value="DSL_STEREOTYPE_DISPLAY_MODE_ALL^DSL_STEREOTYPE_DISPLAY_MODE_LAST^DSL_STEREOTYPE_DISPLAY_MODE_NONE"/>
-                                    <index xmi:value="0"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_TAGGED_VALUES</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_ELEMENT_PROPERTIES</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_ICONS_IN_COMPARTMENTS</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_ELEMENT_TYPE_IN_COMPARTMENTS</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_DERIVED_SIGN</propertyID>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_CONVEYED_A</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_CONVEYED_B</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
-                                <mdElement elementClass="BooleanProperty">
-                                    <propertyID>SHOW_CONSTRAINTS</propertyID>
-                                    <value xmi:value="true"/>
-                                </mdElement>
+<mdElement elementClass="ColorProperty">
+    <propertyID>FILL_COLOR</propertyID>
+    <value xmi:value="-52"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>USE_FILL_COLOR</propertyID>
+</mdElement>
+<mdElement elementClass="ColorProperty">
+    <propertyID>PEN_COLOR</propertyID>
+    <value xmi:value="-12434878"/>
+</mdElement>
+<mdElement elementClass="ColorProperty">
+    <propertyID>TEXT_COLOR</propertyID>
+    <value xmi:value="-16777216"/>
+</mdElement>
+<mdElement elementClass="NumberProperty">
+    <propertyID>LINE_WIDTH</propertyID>
+    <value xmi:value="1.0"/>
+</mdElement>
+<mdElement elementClass="FontProperty">
+    <propertyID>FONT</propertyID>
+    <fontName>Arial</fontName>
+    <size xmi:value="11"/>
+    <style xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_NUMBER_TAG_NAME</propertyID>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>ELEMENT_NUMBER_DISPLAY_MODE</propertyID>
+    <value>ELEMENT_NUMBER_DISPLAY_MODE_NO_DISPLAY</value>
+    <choice xmi:value="ELEMENT_NUMBER_DISPLAY_MODE_ABOVE^ELEMENT_NUMBER_DISPLAY_MODE_BEFORE^ELEMENT_NUMBER_DISPLAY_MODE_NO_DISPLAY"/>
+    <index xmi:value="2"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>LINK_LINE_STYLE</propertyID>
+    <value>OBLIQUE</value>
+    <choice xmi:value="RECTILINEAR^OBLIQUE^BEZIER"/>
+    <index xmi:value="1"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>IS_ROUNDED</propertyID>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>CONSTRAINT_TEXT_MODE</propertyID>
+    <value>EXPRESSION_MODE</value>
+    <choice xmi:value="NAME_MODE^EXPRESSION_MODE^NAME_EXPRESSION_MODE"/>
+    <index xmi:value="1"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>SUSPEND_SHAPE_AUTO_RESIZE</propertyID>
+    <value>SUSPEND_SHAPE_AUTO_RESIZE_SAME_AS_DIAGRAM</value>
+    <choice xmi:value="SUSPEND_SHAPE_AUTO_RESIZE_SAME_AS_DIAGRAM^SUSPEND_SHAPE_AUTO_RESIZE_TRUE^SUSPEND_SHAPE_AUTO_RESIZE_FALSE"/>
+    <index xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>SUSPEND_LABEL_AUTO_DISPLAY</propertyID>
+    <value>SUSPEND_LABEL_AUTO_DISPLAY_SAME_AS_DIAGRAM</value>
+    <choice xmi:value="SUSPEND_LABEL_AUTO_DISPLAY_SAME_AS_DIAGRAM^SUSPEND_LABEL_AUTO_DISPLAY_TRUE^SUSPEND_LABEL_AUTO_DISPLAY_FALSE"/>
+    <index xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>LABEL_ORIENTATION</propertyID>
+    <value>LABEL_ORIENTATION_HORIZONTAL</value>
+    <choice xmi:value="LABEL_ORIENTATION_HORIZONTAL^LABEL_ORIENTATION_VERTICAL^LABEL_ORIENTATION_AUTOMATIC"/>
+    <index xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="ColorProperty">
+    <propertyID>STEREOTYPE_COLOR</propertyID>
+    <value xmi:value="-16777216"/>
+</mdElement>
+<mdElement elementClass="FontProperty">
+    <propertyID>STEREOTYPE_FONT</propertyID>
+    <fontName>Arial</fontName>
+    <size xmi:value="11"/>
+    <style xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>WRAP_WORDS</propertyID>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_NAME</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+    <value>STEREOTYPE_DISPLAY_MODE_TEXT</value>
+    <choice xmi:value="STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES"/>
+    <index xmi:value="1"/>
+</mdElement>
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>DSL_STEREOTYPE_DISPLAY_MODE</propertyID>
+    <value>DSL_STEREOTYPE_DISPLAY_MODE_ALL</value>
+    <choice xmi:value="DSL_STEREOTYPE_DISPLAY_MODE_ALL^DSL_STEREOTYPE_DISPLAY_MODE_LAST^DSL_STEREOTYPE_DISPLAY_MODE_NONE"/>
+    <index xmi:value="0"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_TAGGED_VALUES</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_ELEMENT_PROPERTIES</propertyID>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_ICONS_IN_COMPARTMENTS</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_ELEMENT_TYPE_IN_COMPARTMENTS</propertyID>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_DERIVED_SIGN</propertyID>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_CONVEYED_A</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_CONVEYED_B</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
+<mdElement elementClass="BooleanProperty">
+    <propertyID>SHOW_CONSTRAINTS</propertyID>
+    <value xmi:value="true"/>
+</mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </style>

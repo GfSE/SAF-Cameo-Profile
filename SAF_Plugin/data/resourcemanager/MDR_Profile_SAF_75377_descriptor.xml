@@ -50,10 +50,6 @@
 			to="data/defaults/data/diagrams/SAF Physical Internal Exchange Table/descriptor.xml"		
 		/>
 		<file
-			from="data/defaults/data/diagrams/SAF Physical Internal Exchange Table/descriptor.xml"
-			to="data/defaults/data/diagrams/SAF Physical Internal Exchange Table/descriptor.xml"		
-		/>
-		<file
 			from="data/defaults/data/diagrams/SAF Physical Exchange Type Definition Diagram/descriptor.xml"
 			to="data/defaults/data/diagrams/SAF Physical Exchange Type Definition Diagram/descriptor.xml"		
 		/>
