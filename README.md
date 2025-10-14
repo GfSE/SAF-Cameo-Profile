@@ -1,6 +1,6 @@
 # 3DS Cameo Systems Modeler Resources for SAF users
 
-This repository provides the current release of the **SAF Profile** intended to be used with Cameo Systems Modeler 2024x refresh 1. Please see the model file itself for licensing terms.
+This repository provides the current version of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2024x refresh 3. Please see the model file itself for licensing terms.
 
 If you need help, have a question or for general discussion, please visit [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
@@ -10,7 +10,7 @@ If you need help, have a question or for general discussion, please visit [SAF d
 
 This plugin is for users of SAF wanting to create system models with SAF.
 
-The SAF Plugin is installed using the Resource/Plugin Manager which can be accessed via the help menu in Cameo.
+The SAF Plugin is installed using the Resource/Plugin Manager which can be accessed via the help menu in the modeling tool.
 
 # 3DS Cameo Systems Modeler Resources for SAF developers
 The following files are provided for those who want to extend the SAF.
@@ -27,9 +27,12 @@ For development within the SAF Working group, only the Dev Plugin is necessary, 
 This [development documentation](https://saf.gfse.org/devdoc/devdoc.html) intends to help with the modification or extension of SAF. If you need help with extending SAF, please contact the SAF developers at the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
 ## SAF FFDS Example Model
-**[SAF_FFDS.mdzip:](SAF_Plugin/samples/SAF/SAF_FFDS.mdzip)** The mdzip file contains the example used in the SAF Specification. It is included in the SAF Plugin.
+**[SAF_FFDS.mdzip:](SAF_Plugin/samples/SAF/SAF_FFDS.mdzip)** The mdzip file contains the example used in the SAF Specification. It is included in the SAF Plugin. Note, that it has a dependency to the NAF Profile, but this is only to demonstrate traceability.
 
 *Note, that the example model is in no way intended to represent a complete model description of a Fire Forest Detection System. The model's main purpose is to serve as an example for the application of SAF Viewpoints.*
+
+## SAF FFDS NAF Example Model
+**[SAF_FFDS_NAF.mdzip:](SAF_Plugin/samples/SAF/SAF_FFDS_NAF.mdzip)** The mdzip file contains some NAF model elements as needed to demonstrate traceability in the SAF Specification. It is included in the SAF Plugin.
 
 ## SAF Dev Plugin
 **[SAF_DevPlugin.zip](SAF_Plugin/SAF_DevPlugin.zip)** installs only the Diagram Types. Its main use is for development of the SAF Profile, SAF Specification and so on. This is, because when developing SAF the user plugin should not be installed.
@@ -37,9 +40,10 @@ This [development documentation](https://saf.gfse.org/devdoc/devdoc.html) intend
 The SAF Dev Plugin is installed using the Resource/Plugin Manager which can be accessed via the help menu in Cameo.
 Do not install both plugins !
 
-## Versions
+## Releases
 This is the main branch that reflects the current state of development, and it is updated as required.
 
 The following releases are available, each of which is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Cameo-Profile/tree/Initial-Release)
 * [TdSE2023](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2023)
+* [TdSE2024](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2024)
