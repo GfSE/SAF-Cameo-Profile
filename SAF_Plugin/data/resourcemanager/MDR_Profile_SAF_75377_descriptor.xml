@@ -18,12 +18,12 @@
 
 	<installation>	
 		<file
-			from="data/defaults/data/diagrams/SAF Operational Context Diagram/descriptor.xml"
-			to="data/defaults/data/diagrams/SAF Operational Context Diagram/descriptor.xml"
+			from="data/defaults/data/diagrams/SAF Operational Context Definition Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Operational Context Definition Diagram/descriptor.xml"
 		/>
 		<file
-			from="data/defaults/data/diagrams/SAF Operational Performer Diagram/descriptor.xml"
-			to="data/defaults/data/diagrams/SAF Operational Performer Diagram/descriptor.xml"
+			from="data/defaults/data/diagrams/SAF Operational Performer Definition Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Operational Performer Definition Diagram/descriptor.xml"
 		/>
 		<file
 			from="data/defaults/data/diagrams/SAF Operational Story Diagram/descriptor.xml"
@@ -34,12 +34,12 @@
 			to="data/defaults/data/diagrams/SAF Operational Process Diagram/descriptor.xml"
 		/>
 		<file
-			from="data/defaults/data/diagrams/SAF Operational Capability Diagram/descriptor.xml"
-			to="data/defaults/data/diagrams/SAF Operational Capability Diagram/descriptor.xml"
+			from="data/defaults/data/diagrams/SAF Operational Capability Definition Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Operational Capability Definition Diagram/descriptor.xml"
 		/>
 		<file
-			from="data/defaults/data/diagrams/SAF Operational Domain Item Diagram/descriptor.xml"
-			to="data/defaults/data/diagrams/SAF Operational Domain Item Diagram/descriptor.xml"
+			from="data/defaults/data/diagrams/SAF Operational Domain Item Kind Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Operational Domain Item Kind Diagram/descriptor.xml"
 		/>
 		<file
 			from="data/defaults/data/diagrams/SAF Operational Domain Item Table/descriptor.xml"
@@ -52,6 +52,10 @@
 		<file
 			from="data/defaults/data/diagrams/SAF Physical Exchange Type Definition Diagram/descriptor.xml"
 			to="data/defaults/data/diagrams/SAF Physical Exchange Type Definition Diagram/descriptor.xml"		
+		/>
+		<file
+			from="data/defaults/data/diagrams/SAF Physical Interface Definition Diagram/descriptor.xml"
+			to="data/defaults/data/diagrams/SAF Physical Interface Definition Diagram/descriptor.xml"		
 		/>
 		<file
 			from="data/defaults/data/diagrams/SAF Physical Logical Mapping Matrix/descriptor.xml"
