@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<<<<<<< HEAD
 <resourceDescriptor critical="false" date="24-11-18" description="SAF Profile 1.1 main,&#xA;Provider Name: mac." group="mac Resource" homePage="" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF" product="SAF" restartMagicdraw="true" type="Profile">
+=======
+<resourceDescriptor critical="false" date="25-09-11" description="SAF Profile 1.1 main,&#xA;Provider Name: mac." group="mac Resource" homePage="" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF" product="SAF" restartMagicdraw="true" type="Profile">
+>>>>>>> 921b689a39c93d1b51ad4cbd49872314712a45dd
     <version human="1.1" internal="100011" resource="1000110"/>
     <provider email="" homePage="https://saf.gfse.org" name="A.Haarer"/>
     <edition>Reader</edition>
@@ -66,8 +70,16 @@
 			to="profiles/SAF_SCM_Profile.mdzip"
 		/>	
 		<file
+			from="profiles/SAF_UAFTracing_Profile.mdzip"
+			to="profiles/SAF_UAFTracing_Profile.mdzip"
+		/>
+		<file
 			from="samples/SAF/SAF_FFDS.mdzip"
 			to="samples/SAF/SAF_FFDS.mdzip"
+		/>	
+		<file
+			from="samples/SAF/SAF_FFDS_NAF.mdzip"
+			to="samples/SAF/SAF_FFDS_NAF.mdzip"
 		/>	
 		<file
 			from="samples/SAF/Library.mdzip"
