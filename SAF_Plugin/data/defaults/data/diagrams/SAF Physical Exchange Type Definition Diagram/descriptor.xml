@@ -39,12 +39,12 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>public</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="0"/>
-</mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>public</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="0"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -76,25 +76,25 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isActive</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isAbstract</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isLeaf</propertyID>
-</mdElement>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>public</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="0"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isActive</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isAbstract</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isLeaf</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>public</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="0"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -110,25 +110,25 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isActive</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isAbstract</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isLeaf</propertyID>
-</mdElement>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>public</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="0"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isActive</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isAbstract</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isLeaf</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>public</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="0"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -138,27 +138,27 @@
                         <stereotype id="_12_1_8740266_1172578094265_388539_1575"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -166,27 +166,27 @@
                         <stereotype id="_12_1_8740266_1172578094265_898135_1579"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -194,27 +194,27 @@
                         <stereotype id="_12_1_8740266_1173094714531_37548_260"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -222,27 +222,27 @@
                         <stereotype id="_12_1_8740266_1172578094265_375361_1577"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -250,27 +250,27 @@
                         <stereotype id="_12_1_8740266_1172578094265_310701_1581"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -280,24 +280,24 @@
                         <stereotype id="_11_5EAPbeta_be00301_1147430239267_179145_1189"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -307,20 +307,20 @@
                         <buttonicon type="small" size="16" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/dimensionnode.png"></buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="ElementListProperty">
-        <propertyID>classifier</propertyID>
-        <displayableTypes xmi:value=""/>
-        <selectableTypes xmi:value="Activity^Actor^Artifact^Association^AssociationClass^Class^Collaboration^CommunicationPath^Component^DataType^DeploymentSpecification^Device^Enumeration^ExecutionEnvironment^Extension^FunctionBehavior^InformationItem^Interaction^Interface^Node^OpaqueBehavior^PrimitiveType^ProtocolStateMachine^Signal^StateMachine^Stereotype^UseCase"/>
-        <containment xmi:value="false"/>
-        <ordered xmi:value="true"/>
-        <value>_16_5_1_12c903cb_1245416800625_456261_4784</value>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="ElementListProperty">
+                                        <propertyID>classifier</propertyID>
+                                        <displayableTypes xmi:value=""/>
+                                        <selectableTypes xmi:value="Activity^Actor^Artifact^Association^AssociationClass^Class^Collaboration^CommunicationPath^Component^DataType^DeploymentSpecification^Device^Enumeration^ExecutionEnvironment^Extension^FunctionBehavior^InformationItem^Interaction^Interface^Node^OpaqueBehavior^PrimitiveType^ProtocolStateMachine^Signal^StateMachine^Stereotype^UseCase"/>
+                                        <containment xmi:value="false"/>
+                                        <ordered xmi:value="true"/>
+                                        <value>_16_5_1_12c903cb_1245416800625_456261_4784</value>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -328,20 +328,20 @@
                         <stereotype id="_11_5EAPbeta_be00301_1147430329106_6539_1367"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="ElementListProperty">
-        <propertyID>classifier</propertyID>
-        <displayableTypes xmi:value=""/>
-        <selectableTypes xmi:value="Activity^Actor^Artifact^Association^AssociationClass^Class^Collaboration^CommunicationPath^Component^DataType^DeploymentSpecification^Device^Enumeration^ExecutionEnvironment^Extension^FunctionBehavior^InformationItem^Interaction^Interface^Node^OpaqueBehavior^PrimitiveType^ProtocolStateMachine^Signal^StateMachine^Stereotype^UseCase"/>
-        <containment xmi:value="false"/>
-        <ordered xmi:value="true"/>
-        <value>_16_5_1_12c903cb_1245417652468_149854_5164</value>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="ElementListProperty">
+                                        <propertyID>classifier</propertyID>
+                                        <displayableTypes xmi:value=""/>
+                                        <selectableTypes xmi:value="Activity^Actor^Artifact^Association^AssociationClass^Class^Collaboration^CommunicationPath^Component^DataType^DeploymentSpecification^Device^Enumeration^ExecutionEnvironment^Extension^FunctionBehavior^InformationItem^Interaction^Interface^Node^OpaqueBehavior^PrimitiveType^ProtocolStateMachine^Signal^StateMachine^Stereotype^UseCase"/>
+                                        <containment xmi:value="false"/>
+                                        <ordered xmi:value="true"/>
+                                        <value>_16_5_1_12c903cb_1245417652468_149854_5164</value>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -384,154 +384,154 @@
                         <buttonicon type="small" size="16" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/associationblock.png"></buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <name>AssociationClass</name>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isDerived</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <value/>
-        <multiline xmi:value="true"/>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>END_A.aggregation</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-        <value>none</value>
-        <choice xmi:value="none^shared^composite"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_A.isDerived</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_A.isDerivedUnion</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_A.isLeaf</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_A.isOrdered</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_A.isReadOnly</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_A.isStatic</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_A.isUnique</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-        <value xmi:value="true"/>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>END_A.visibility</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-        <value>private</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="1"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>END_A.documentation</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-        <value/>
-        <multiline xmi:value="true"/>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>END_A.multiplicity</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-        <value>1</value>
-        <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
-        <index xmi:value="3"/>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_A.navigable</propertyID>
-        <propertyGroup>END_A</propertyGroup>
-        <value xmi:value="true"/>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>END_B.aggregation</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-        <value>none</value>
-        <choice xmi:value="none^shared^composite"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_B.isDerived</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_B.isDerivedUnion</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_B.isLeaf</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_B.isOrdered</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_B.isReadOnly</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_B.isStatic</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_B.isUnique</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-        <value xmi:value="true"/>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>END_B.visibility</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-        <value>private</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="1"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>END_B.documentation</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-        <value/>
-        <multiline xmi:value="true"/>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>END_B.multiplicity</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-        <value>1</value>
-        <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
-        <index xmi:value="3"/>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>END_B.navigable</propertyID>
-        <propertyGroup>END_B</propertyGroup>
-        <value xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <name>AssociationClass</name>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isDerived</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <value/>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>END_A.aggregation</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                        <value>none</value>
+                                        <choice xmi:value="none^shared^composite"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_A.isDerived</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_A.isDerivedUnion</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_A.isLeaf</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_A.isOrdered</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_A.isReadOnly</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_A.isStatic</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_A.isUnique</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                        <value xmi:value="true"/>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>END_A.visibility</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                        <value>private</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="1"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>END_A.documentation</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                        <value/>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>END_A.multiplicity</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                        <value>1</value>
+                                        <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
+                                        <index xmi:value="3"/>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_A.navigable</propertyID>
+                                        <propertyGroup>END_A</propertyGroup>
+                                        <value xmi:value="true"/>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>END_B.aggregation</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                        <value>none</value>
+                                        <choice xmi:value="none^shared^composite"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_B.isDerived</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_B.isDerivedUnion</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_B.isLeaf</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_B.isOrdered</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_B.isReadOnly</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_B.isStatic</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_B.isUnique</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                        <value xmi:value="true"/>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>END_B.visibility</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                        <value>private</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="1"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>END_B.documentation</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                        <value/>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>END_B.multiplicity</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                        <value>1</value>
+                                        <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
+                                        <index xmi:value="3"/>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>END_B.navigable</propertyID>
+                                        <propertyGroup>END_B</propertyGroup>
+                                        <value xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -566,16 +566,16 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>public</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="0"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>public</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="0"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -591,51 +591,51 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<name>Property</name>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>aggregation</propertyID>
-    <value>composite</value>
-    <choice xmi:value="none^shared^composite"/>
-    <index xmi:value="2"/>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isDerived</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isDerivedUnion</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isLeaf</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isOrdered</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isReadOnly</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isStatic</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isUnique</propertyID>
-    <value xmi:value="true"/>
-</mdElement>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>private</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="1"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>multiplicity</propertyID>
-    <value/>
-    <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
-    <index xmi:value="-1"/>
-</mdElement>
+                                <name>Property</name>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>aggregation</propertyID>
+                                    <value>composite</value>
+                                    <choice xmi:value="none^shared^composite"/>
+                                    <index xmi:value="2"/>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isDerived</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isDerivedUnion</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isLeaf</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isOrdered</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isReadOnly</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isStatic</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isUnique</propertyID>
+                                    <value xmi:value="true"/>
+                                </mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>private</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="1"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>multiplicity</propertyID>
+                                    <value/>
+                                    <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
+                                    <index xmi:value="-1"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -645,51 +645,51 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<name>Property</name>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>aggregation</propertyID>
-    <value>composite</value>
-    <choice xmi:value="none^shared^composite"/>
-    <index xmi:value="2"/>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isDerived</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isDerivedUnion</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isLeaf</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isOrdered</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isReadOnly</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isStatic</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isUnique</propertyID>
-    <value xmi:value="true"/>
-</mdElement>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>private</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="1"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>multiplicity</propertyID>
-    <value/>
-    <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
-    <index xmi:value="-1"/>
-</mdElement>
+                                <name>Property</name>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>aggregation</propertyID>
+                                    <value>composite</value>
+                                    <choice xmi:value="none^shared^composite"/>
+                                    <index xmi:value="2"/>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isDerived</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isDerivedUnion</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isLeaf</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isOrdered</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isReadOnly</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isStatic</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isUnique</propertyID>
+                                    <value xmi:value="true"/>
+                                </mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>private</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="1"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>multiplicity</propertyID>
+                                    <value/>
+                                    <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
+                                    <index xmi:value="-1"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -699,51 +699,51 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<name>Property</name>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>aggregation</propertyID>
-    <value>none</value>
-    <choice xmi:value="none^shared^composite"/>
-    <index xmi:value="0"/>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isDerived</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isDerivedUnion</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isLeaf</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isOrdered</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isReadOnly</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isStatic</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isUnique</propertyID>
-    <value xmi:value="true"/>
-</mdElement>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>private</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="1"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>multiplicity</propertyID>
-    <value/>
-    <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
-    <index xmi:value="-1"/>
-</mdElement>
+                                <name>Property</name>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>aggregation</propertyID>
+                                    <value>none</value>
+                                    <choice xmi:value="none^shared^composite"/>
+                                    <index xmi:value="0"/>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isDerived</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isDerivedUnion</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isLeaf</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isOrdered</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isReadOnly</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isStatic</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isUnique</propertyID>
+                                    <value xmi:value="true"/>
+                                </mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>private</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="1"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>multiplicity</propertyID>
+                                    <value/>
+                                    <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
+                                    <index xmi:value="-1"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -753,51 +753,51 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<name>Property</name>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>aggregation</propertyID>
-    <value>composite</value>
-    <choice xmi:value="none^shared^composite"/>
-    <index xmi:value="2"/>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isDerived</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isDerivedUnion</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isLeaf</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isOrdered</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isReadOnly</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isStatic</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isUnique</propertyID>
-    <value xmi:value="true"/>
-</mdElement>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>private</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="1"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>multiplicity</propertyID>
-    <value/>
-    <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
-    <index xmi:value="-1"/>
-</mdElement>
+                                <name>Property</name>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>aggregation</propertyID>
+                                    <value>composite</value>
+                                    <choice xmi:value="none^shared^composite"/>
+                                    <index xmi:value="2"/>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isDerived</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isDerivedUnion</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isLeaf</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isOrdered</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isReadOnly</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isStatic</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isUnique</propertyID>
+                                    <value xmi:value="true"/>
+                                </mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>private</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="1"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>multiplicity</propertyID>
+                                    <value/>
+                                    <choice xmi:value="0^0..1^0..*^1^1..*^*"/>
+                                    <index xmi:value="-1"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -810,13 +810,13 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="ElementListProperty">
-    <propertyID>end</propertyID>
-    <displayableTypes xmi:value=""/>
-    <selectableTypes xmi:value="ConnectorEnd"/>
-    <containment xmi:value="false"/>
-    <ordered xmi:value="true"/>
-</mdElement>
+                                <mdElement elementClass="ElementListProperty">
+                                    <propertyID>end</propertyID>
+                                    <displayableTypes xmi:value=""/>
+                                    <selectableTypes xmi:value="ConnectorEnd"/>
+                                    <containment xmi:value="false"/>
+                                    <ordered xmi:value="true"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -860,25 +860,25 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isActive</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isAbstract</propertyID>
-</mdElement>
-<mdElement elementClass="BooleanProperty">
-    <propertyID>isLeaf</propertyID>
-</mdElement>
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>public</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="0"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isActive</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isAbstract</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="BooleanProperty">
+                                    <propertyID>isLeaf</propertyID>
+                                </mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>public</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="0"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -888,27 +888,27 @@
                         <stereotype id="_12_1_8740266_1172576734593_228534_190"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -916,27 +916,27 @@
                         <stereotype id="_12_1_8740266_1172577924546_705207_930"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -944,27 +944,27 @@
                         <stereotype id="_12_1_8740266_1172576899359_902879_864"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -972,27 +972,27 @@
                         <stereotype id="_12_1_8740266_1172576734609_530688_194"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -1000,27 +1000,27 @@
                         <stereotype id="_12_1_8740266_1172576734609_387880_196"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -1028,27 +1028,27 @@
                         <stereotype id="_12_1_8740266_1172576734609_725391_198"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -1056,27 +1056,27 @@
                         <stereotype id="_12_1_8740266_1172576734609_380772_200"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -1084,27 +1084,27 @@
                         <stereotype id="_12_1_8740266_1172576734609_234637_202"/>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
-<mdElement elementClass="PropertyManager">
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isAbstract</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isActive</propertyID>
-    </mdElement>
-    <mdElement elementClass="BooleanProperty">
-        <propertyID>isLeaf</propertyID>
-    </mdElement>
-    <mdElement elementClass="ChoiceProperty">
-        <propertyID>visibility</propertyID>
-        <value>public</value>
-        <choice xmi:value="public^private^protected^package"/>
-        <index xmi:value="0"/>
-    </mdElement>
-    <mdElement elementClass="StringProperty">
-        <propertyID>documentation</propertyID>
-        <multiline xmi:value="true"/>
-    </mdElement>
-</mdElement>
+                                <mdElement elementClass="PropertyManager">
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isAbstract</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isActive</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="BooleanProperty">
+                                        <propertyID>isLeaf</propertyID>
+                                    </mdElement>
+                                    <mdElement elementClass="ChoiceProperty">
+                                        <propertyID>visibility</propertyID>
+                                        <value>public</value>
+                                        <choice xmi:value="public^private^protected^package"/>
+                                        <index xmi:value="0"/>
+                                    </mdElement>
+                                    <mdElement elementClass="StringProperty">
+                                        <propertyID>documentation</propertyID>
+                                        <multiline xmi:value="true"/>
+                                    </mdElement>
+                                </mdElement>
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
@@ -1114,16 +1114,16 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>public</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="0"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>public</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="0"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -1133,16 +1133,16 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>public</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="0"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>public</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="0"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -1152,16 +1152,16 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>public</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="0"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>public</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="0"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -1173,10 +1173,10 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -1186,16 +1186,16 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="ChoiceProperty">
-    <propertyID>visibility</propertyID>
-    <value>public</value>
-    <choice xmi:value="public^private^protected^package"/>
-    <index xmi:value="0"/>
-</mdElement>
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
+                                <mdElement elementClass="ChoiceProperty">
+                                    <propertyID>visibility</propertyID>
+                                    <value>public</value>
+                                    <choice xmi:value="public^private^protected^package"/>
+                                    <index xmi:value="0"/>
+                                </mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
@@ -1207,10 +1207,10 @@
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
                             <mdElement elementClass="PropertyManager">
-<mdElement elementClass="StringProperty">
-    <propertyID>documentation</propertyID>
-    <multiline xmi:value="true"/>
-</mdElement>
+                                <mdElement elementClass="StringProperty">
+                                    <propertyID>documentation</propertyID>
+                                    <multiline xmi:value="true"/>
+                                </mdElement>
                             </mdElement>
                         </PropertyVisitorAcceptor>
                     </defaults>
