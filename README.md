@@ -1,6 +1,6 @@
 # 3DS Cameo Systems Modeler Resources for SAF users
 
-This repository provides the current version of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2024x refresh 3. Please see the model file itself for licensing terms.
+This repository provides the TdSE2025 release of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2024x refresh 3. Please see the model file itself for licensing terms.
 
 If you need help, have a question or for general discussion, please visit [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
@@ -41,9 +41,10 @@ The SAF Dev Plugin is installed using the Resource/Plugin Manager which can be a
 Do not install both plugins !
 
 ## Releases
-This is the main branch that reflects the current state of development, and it is updated as required.
+This is the TdSE2025 release. For the current state of development head over to the [main branch](https://github.com/GfSE/SAF-Cameo-Profile)
 
 The following releases are available, each of which is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Cameo-Profile/tree/Initial-Release)
 * [TdSE2023](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2023)
 * [TdSE2024](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2024)
+* [TdSE2025](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2025)

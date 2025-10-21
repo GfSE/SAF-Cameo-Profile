@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<resourceDescriptor critical="false" date="24-11-18" description="SAF Profile 1.1 main,&#xA;Provider Name: mac." group="mac Resource" homePage="" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF" product="SAF" restartMagicdraw="true" type="Profile">
-    <version human="1.1" internal="100011" resource="1000110"/>
-    <provider email="" homePage="https://saf.gfse.org" name="A.Haarer"/>
+<resourceDescriptor critical="false" date="25-10-21" description="SAF Profile 1.2 TdSE2025,&#xA;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF" product="SAF" restartMagicdraw="true" type="Profile">
+    <version human="1.2" internal="100011" resource="1000110"/>
+    <provider email="saf@gfse.org" homePage="https://saf.gfse.org/version/TdSE2025" name="GfSE SAF Working Group"/>
     <edition>Reader</edition>
     <edition>Community</edition>
     <edition>Standard</edition>
