@@ -600,9 +600,27 @@
                 <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Class«SAF_Refuter»" listAsElement="false" opposite="false" id="IDaction_1761152387165_393946_6">
                     <stereotype id="_2021x_2_6d8019d_1688225179612_961895_24265"/>
                 </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_EvidenceArgumentReinforcement»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
+                    <stereotype id="_2021x_2_6d8019d_1674232165474_404920_23262"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ClaimantClaimMaking»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
+                    <stereotype id="_2021x_2_6d8019d_1674232165478_345466_23268"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ClaimAboutSubjectMaking»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
+                    <stereotype id="_2021x_2_6d8019d_1674232165481_295568_23274"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_CounterClaimClaimableItemMaking»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
+                    <stereotype id="_2021x_2_6d8019d_1687619081355_443463_25050"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ClaimClaimableItemSupport»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
+                    <stereotype id="_2021x_2_6d8019d_1687619081355_443463_25050"/>
+                </custom>
                 <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ArgumentClaimSupport»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
                     <stereotype id="_2021x_2_6d8019d_1687623430525_974383_25431"/>
                 </custom>
+
+
+
             </actions>
         </category>
     </toolbarConfiguration>

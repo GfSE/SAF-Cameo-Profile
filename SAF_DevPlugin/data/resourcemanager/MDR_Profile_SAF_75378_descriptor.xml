@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceDescriptor critical="false" date="25-10-22" description="SAF Dev Plugin 0.2 TdSE2025,&#10;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="" id="75378" mdVersionMax="higher" mdVersionMin="19.0" name="SAF Dev" product="SAF Dev" restartMagicdraw="true" type="Profile">
+  <version human="0.2" internal="100011" resource="1000110" />
+  <provider email="saf@gfse.org" homePage="https://saf.gfse.org/version/TdSE2025" name="GfSE SAF Working Group" />
+		
+  <edition>Reader</edition>
+		
+  <edition>Community</edition>
+		
+  <edition>Standard</edition>
+		
+  <edition>Professional Java</edition>
+		
+  <edition>Professional C++</edition>
+		
+  <edition>Professional C#</edition>
+		
+  <edition>Professional</edition>
+		
+  <edition>Architect</edition>
+		
+  <edition>Enterprise</edition>
+  <requiredResource id="1440" name="SysML">
+    <minVersion internal="1900010" human="19.0 SP3" />
+  </requiredResource>
+  <installation>
+    <file from="profiles/SAF_SCM_Profile.mdzip" to="profiles/SAF_SCM_Profile.mdzip" />
+  </installation>
+</resourceDescriptor>
