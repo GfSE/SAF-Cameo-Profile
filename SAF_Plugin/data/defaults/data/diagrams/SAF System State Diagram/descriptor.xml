@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<diagram version="9" type="SAF System State Diagram" baseType="State Machine Diagram" abbreviation="SAF_F3_SSTA" category="SAF Diagrams">
+    <stereotype id="_19_0_4_6d8019d_1627582668863_723808_2445"/>
+    <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;SAF_Profile.mdzip;UML_Standard_Profile.mdzip;MD_customization_for_SysML.mdzip</requiredPlugin>
+    <helpID>https://saf.gfse.org/userdoc/Functional%20Domain/System%20State%20Viewpoint.html</helpID>
+    <toolbarConfiguration>
+        <category name="Common" id="COMMON_ELEMENTS_STATIC" expandedByDefault="false">
+            <icon type="small" size="16" filename="mdp://resource/com/nomagic/magicdraw/icons/packagenode.png"></icon>
+            <icon type="large" size="16" filename="mdp://resource/com/nomagic/magicdraw/icons/packagenode.svg"></icon>
+            <actions>
+                <group>
+                    <standard action="ADD_NOTE" shortcut="pressed N "/>
+                    <standard action="ADD_NOTE_ANCHOR" shortcut="pressed H "/>
+                </group>
+                <standard action="ADD_COMMENT"/>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Comment" description="Problem" listAsElement="false" opposite="false" id="IDaction_1161258471734_623304_0">
+                    <stereotype id="_11_5EAPbeta_be00301_1147421421037_25607_638"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Comment" description="Rationale" listAsElement="false" opposite="false" id="IDaction_1161258490265_865153_0">
+                    <stereotype id="_11_5EAPbeta_be00301_1147421401018_777370_546"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Comment" description="Element Group" listAsElement="false" opposite="false" id="IDaction_1392204622179_642598_0">
+                    <stereotype id="_17_0_5beta_17530432_1382588727729_600191_12925"/>
+                </custom>
+                <group>
+                    <standard action="CONSTRAINT_ACTION"/>
+                    <standard action="DURATION_CONSTRAINT_ACTION"/>
+                    <standard action="TIME_CONSTRAINT_ACTION"/>
+                </group>
+                <group>
+                    <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Abstraction" description="Abstraction" shortcut="pressed T " listAsElement="false" opposite="false" id="IDaction_1336037660788_456573_0"/>
+                </group>
+                <standard action="ADD_DEPENDENCY" shortcut="shift pressed D "/>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Abstraction" description="Allocate" listAsElement="false" opposite="false" id="IDaction_1161258505703_142954_0">
+                    <stereotype id="_11_5EAPbeta_be00301_1147866646230_488749_1541"/>
+                    <defaults>
+                        <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+                            <mdElement elementClass="PropertyManager">
+<mdElement elementClass="ChoiceProperty">
+    <propertyID>visibility</propertyID>
+    <value>public</value>
+    <choice xmi:value="public^private^protected^package"/>
+    <index xmi:value="0"/>
+</mdElement>
+                            </mdElement>
+                        </PropertyVisitorAcceptor>
+                    </defaults>
+                </custom>
+                <standard action="ADD_DIAGRAM_OVERVIEW"/>
+                <standard action="ADD_DIAGRAM_LEGEND"/>
+                <standard action="ADD_TEXT_BOX" shortcut="pressed X "/>
+                <group>
+                    <standard action="ADD_SEPARATOR" shortcut="pressed W "/>
+                    <standard action="ADD_SEPARATOR_VERTICAL"/>
+                    <standard action="ADD_RECTANGULAR_SHAPE" shortcut="shift pressed Q "/>
+                </group>
+            </actions>
+        </category>
+        <baseCategory id="STATE_DIAGRAM_ELEMENTS" parentCategoryID="STATE_DIAGRAM_ELEMENTS" expandedByDefault="false"/>
+        <category name="SAF System State Diagram" id="action_category_1761151340239_343848_5" expandedByDefault="true">
+            <actions>
+                <custom type="com.nomagic.uml2.ext.magicdraw.statemachines.mdbehaviorstatemachines.State" description="State«SAF_SystemState»" listAsElement="false" opposite="false" id="IDaction_1761151546767_615596_0">
+                    <stereotype id="_2024x_2_26f0132_1751013382405_4997_3245"/>
+                </custom>
+                <group>
+                    <standard action="ADD_COMPOSITE_STATE" shortcut="shift pressed C "/>
+                    <standard action="ADD_SUBMACHINE_STATE" shortcut="pressed M "/>
+                    <standard action="ADD_ORTHOGONAL_STATE" shortcut="pressed C "/>
+                </group>
+                <standard action="ADD_INITIAL_PSEUDO_STATE" shortcut="pressed I "/>
+                <standard action="ADD_FINAL_STATE" shortcut="pressed F "/>
+                <standard action="ADD_TERMINATE_PSEUDO_STATE" shortcut="pressed R "/>
+                <standard action="ADD_ENTRY_PSEUDO_STATE" shortcut="pressed Y "/>
+                <standard action="ADD_EXIT_PSEUDO_STATE" shortcut="pressed U "/>
+                <standard action="ADD_CONNECTION_POINT_REFERENCE" shortcut="pressed Z "/>
+                <group>
+                    <standard action="ADD_DEEP_HISTORY_STATE" shortcut="pressed P "/>
+                    <standard action="ADD_SHALLOW_HISTORY_STATE" shortcut="shift pressed R "/>
+                </group>
+                <standard action="ADD_JUNCTION_POINT" shortcut="pressed J "/>
+                <standard action="ADD_CHOICE_PSEUDO_STATE" shortcut="pressed O "/>
+                <group>
+                    <standard action="ADD_FORK_PSEUDO_STATE_HORIZONTAL" shortcut="pressed F "/>
+                    <standard action="ADD_FORK_PSEUDO_STATE_VERTICAL" shortcut="pressed F "/>
+                </group>
+                <group>
+                    <standard action="ADD_JOIN_PSEUDO_STATE_HORIZONTAL" shortcut="pressed D "/>
+                    <standard action="ADD_JOIN_PSEUDO_STATE_VERTICAL" shortcut="pressed G "/>
+                </group>
+                <standard action="ADD_TRANSITION_TO_SELF" shortcut="pressed E "/>
+                <standard action="ADD_TRANSITION" shortcut="pressed T "/>
+            </actions>
+        </category>
+    </toolbarConfiguration>
+    <icon type="small" size="16" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/statemachine.png"></icon>
+    <icon type="diagraming" size="-1" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/statemachine.svg"></icon>
+    <module name="SAF_Profile.mdzip" location="C:\tools\msoa_r3\profiles\SAF_Profile.mdzip">
+        <root id="_19_0_1_26f0132_1547201695683_137485_42117"/>
+        <root id="_2024x_2_26f0132_1740124582131_612889_4676"/>
+    </module>
+    <module name="UML_Standard_Profile.mdzip" location="C:\tools\msoa_r3\profiles\UML_Standard_Profile.mdzip">
+        <root id="magicdraw_uml_standard_profile_v_0001"/>
+    </module>
+    <module name="MD_customization_for_SysML.mdzip" location="C:\tools\msoa_r3\profiles\MD_customization_for_SysML.mdzip">
+        <root id="_12_0EAPbeta_be00301_1156851270584_552173_1"/>
+    </module>
+    <elementstyle name="Diagram">
+        <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+            <mdElement elementClass="PropertyManager">
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_ABBREVIATED_DIAGRAM_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_DIAGRAM_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_PARAMETERS</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_CONTEXT_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_FRAME_OWNER</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                </mdElement>
+            </mdElement>
+        </PropertyVisitorAcceptor>
+    </elementstyle>
+    <manipulators>
+        <stereotype id="_12_1_8740266_1172576734593_228534_190" name="Extended Requirement"/>
+        <path action="ADD_NOTE_ANCHOR">
+            <target>ADD_NOTE</target>
+            <target>ADD_COMMENT</target>
+        </path>
+    </manipulators>
+    <manipulators>
+        <stereotype id="_12_1_8740266_1172576734609_725391_198" name="Performance Requirement"/>
+        <path action="ADD_NOTE_ANCHOR">
+            <target>ADD_NOTE</target>
+            <target>ADD_COMMENT</target>
+        </path>
+    </manipulators>
+    <manipulators>
+        <stereotype id="_12_1_8740266_1172576734609_530688_194" name="Functional Requirement"/>
+        <path action="ADD_NOTE_ANCHOR">
+            <target>ADD_NOTE</target>
+            <target>ADD_COMMENT</target>
+        </path>
+    </manipulators>
+    <manipulators>
+        <stereotype id="_12_1_8740266_1172576734609_380772_200" name="Physical Requirement"/>
+        <path action="ADD_NOTE_ANCHOR">
+            <target>ADD_NOTE</target>
+            <target>ADD_COMMENT</target>
+        </path>
+    </manipulators>
+    <manipulators>
+        <stereotype id="_12_1_8740266_1172576734609_387880_196" name="Interface Requirement"/>
+        <path action="ADD_NOTE_ANCHOR">
+            <target>ADD_NOTE</target>
+            <target>ADD_COMMENT</target>
+        </path>
+    </manipulators>
+    <manipulators>
+        <stereotype id="_2024x_2_26f0132_1751013382405_4997_3245" name="SAF_ System State"/>
+        <path action="ADD_TRANSITION">
+            <target>IDaction_1761151546767_615596_0</target>
+        </path>
+    </manipulators>
+    <manipulators>
+        <stereotype id="_12_1_8740266_1172577924546_705207_930" name="Business Requirement"/>
+        <path action="ADD_NOTE_ANCHOR">
+            <target>ADD_NOTE</target>
+            <target>ADD_COMMENT</target>
+        </path>
+    </manipulators>
+    <manipulators>
+        <stereotype id="_12_1_8740266_1172576899359_902879_864" name="Usability Requirement"/>
+        <path action="ADD_NOTE_ANCHOR">
+            <target>ADD_NOTE</target>
+            <target>ADD_COMMENT</target>
+        </path>
+    </manipulators>
+    <manipulators>
+        <stereotype id="_11_5EAPbeta_be00301_1147873190330_159934_2220" name="Requirement"/>
+        <path action="ADD_NOTE_ANCHOR">
+            <target>ADD_NOTE</target>
+            <target>ADD_COMMENT</target>
+        </path>
+    </manipulators>
+    <manipulators>
+        <stereotype id="_12_1_8740266_1172576734609_234637_202" name="Design Constraint"/>
+        <path action="ADD_NOTE_ANCHOR">
+            <target>ADD_NOTE</target>
+            <target>ADD_COMMENT</target>
+        </path>
+    </manipulators>
+</diagram>
