@@ -3,6 +3,7 @@
 
 import groovy.xml.MarkupBuilder
 import groovy.io.FileType
+import groovy.xml.XmlSlurper
 import java.util.zip.ZipOutputStream
 import java.util.zip.ZipEntry
 import java.io.FileOutputStream
@@ -124,6 +125,26 @@ if (pluginDir.exists() && pluginDir.isDirectory()) {
                 def relPath = f.canonicalPath.replace('\\','/').replaceFirst("^" + pluginDir.canonicalPath.replace('\\','/') + "/?", '')
                 // skip adding the zip into itself if outDir == pluginDir parent
                 if (relPath == zipFile.name) return
+
+                // If this is a descriptor.xml, only include when category == "SAF Diagram"
+                if (relPath.tokenize('/')[-1] == 'descriptor.xml') {
+                    def includeDescriptor = false
+                    try {
+                        def root = new XmlSlurper().parse(f)
+                        // find a <diagram> element anywhere in the document and read its category attribute
+                        def diagramNode = root.'**'.find { it.name() == 'diagram' }
+                        def categoryAttr = diagramNode ? diagramNode.@category?.toString() : null
+                        includeDescriptor = (categoryAttr == 'SAF Diagrams')
+                    } catch (Exception parseEx) {
+                        println "Skipping ${relPath}: failed to parse descriptor XML (${parseEx.message})"
+                        includeDescriptor = false
+                    }
+                    if (!includeDescriptor) {
+                        println "Skipping descriptor (not 'SAF Diagrams'): ${relPath}"
+                        return
+                    }
+                }
+
                 ZipEntry entry = new ZipEntry(relPath)
                 zos.putNextEntry(entry)
                 f.withInputStream { is ->

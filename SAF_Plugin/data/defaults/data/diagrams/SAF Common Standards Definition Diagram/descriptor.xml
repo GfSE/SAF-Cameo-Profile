@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <diagram version="9" type="SAF Common Standards Definition Diagram" baseType="Class Diagram" abbreviation="SAF_C2_CSTD" category="SAF Diagrams">
     <stereotype id="_2021x_2_8710274_1700817327515_843725_50585"/>
-    <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;UML_Standard_Profile.mdzip;MD_customization_for_SysML.mdzip</requiredPlugin>
+    <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;UML_Standard_Profile.mdzip;SAF_Profile.mdzip;MD_customization_for_SysML.mdzip</requiredPlugin>
     <helpID>https://saf.gfse.org/userdoc/Common%20Domain/Common%20Standards%20Definition%20Viewpoint.html</helpID>
     <toolbarConfiguration>
         <category name="Common" id="COMMON_ELEMENTS_STATIC" expandedByDefault="false">
@@ -579,20 +579,33 @@
         </category>
         <category name="SAF Common Standards Definition Diagram" id="action_category_1761148225390_137706_1" expandedByDefault="true">
             <actions>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Package" description="Package«SAF_Standard»,«SAF_StandardChapter»" listAsElement="false" opposite="false" id="IDaction_1761148249820_125398_2">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Package" description="Package«SAF_Standard»" listAsElement="false" opposite="false" id="IDaction_1761161642984_848814_0">
                     <stereotype id="_2021x_2_8710274_1700810557668_637315_48235"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Package" description="Package«SAF_StandardChapter»" listAsElement="false" opposite="false" id="IDaction_1761161695532_680199_1">
                     <stereotype id="_2024x_1_26f0132_1730537023123_451623_16921"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Class«SAF_StandardCategory»,«SAF_StandardizationOrganization»" listAsElement="false" opposite="false" id="IDaction_1761148298352_103280_3">
-                    <stereotype id="_2021x_2_8710274_1700819040067_20402_51257"/>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Class«SAF_StandardizationOrganization»" listAsElement="false" opposite="false" id="IDaction_1761161956986_860284_8">
                     <stereotype id="_2021x_2_8710274_1700812596870_49325_49849"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_IssuedBy»,«SAF_StandardCategoryAssignment»,«SAF_StandardDependingOn»,«SAF_StandardSuperseding»,«SAF_ConformsStandard»" listAsElement="false" opposite="false" id="IDaction_1761148360437_869218_4">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Class«SAF_StandardCategory»" listAsElement="false" opposite="false" id="IDaction_1761161977498_421974_9">
+                    <stereotype id="_2021x_2_8710274_1700819040067_20402_51257"/>
+                </custom>
+                <standard action="ADD_CONTAINMENT_LINK" shortcut="shift pressed C "/>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_IssuedBy»" listAsElement="false" opposite="false" id="IDaction_1761161726895_10088_2">
                     <stereotype id="_2024x_1_26f0132_1729185567557_816733_16281"/>
-                    <stereotype id="_2021x_2_8710274_1701360709869_194778_91148"/>
-                    <stereotype id="_2024x_1_26f0132_1730146316549_832482_16733"/>
-                    <stereotype id="_2021x_2_8710274_1700817699465_496750_50736"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ConformsStandard»" listAsElement="false" opposite="false" id="IDaction_1761161783356_153395_3">
                     <stereotype id="_2024x_1_26f0132_1729185092432_155560_16027"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_StandardDependingOn»" listAsElement="false" opposite="false" id="IDaction_1761161803054_207575_4">
+                    <stereotype id="_2024x_1_26f0132_1730146316549_832482_16733"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_StandardSuperseding»" listAsElement="false" opposite="false" id="IDaction_1761161842982_270239_6">
+                    <stereotype id="_2021x_2_8710274_1700817699465_496750_50736"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_StandardCategoryAssignment»" listAsElement="false" opposite="false" id="IDaction_1761161876827_314467_7">
+                    <stereotype id="_2021x_2_8710274_1701360709869_194778_91148"/>
                 </custom>
             </actions>
         </category>
@@ -602,12 +615,12 @@
     <module name="UML_Standard_Profile.mdzip" location="C:\tools\msoa_r3\profiles\UML_Standard_Profile.mdzip">
         <root id="magicdraw_uml_standard_profile_v_0001"/>
     </module>
-    <module name="MD_customization_for_SysML.mdzip" location="C:\tools\msoa_r3\profiles\MD_customization_for_SysML.mdzip">
-        <root id="_12_0EAPbeta_be00301_1156851270584_552173_1"/>
-    </module>
     <module name="SAF_Profile.mdzip" location="C:\tools\msoa_r3\profiles\SAF_Profile.mdzip">
         <root id="_19_0_1_26f0132_1547201695683_137485_42117"/>
         <root id="_2024x_2_26f0132_1740124582131_612889_4676"/>
+    </module>
+    <module name="MD_customization_for_SysML.mdzip" location="C:\tools\msoa_r3\profiles\MD_customization_for_SysML.mdzip">
+        <root id="_12_0EAPbeta_be00301_1156851270584_552173_1"/>
     </module>
     <elementstyle name="Class">
         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">

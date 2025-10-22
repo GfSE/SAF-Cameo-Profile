@@ -89,7 +89,6 @@
                 <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Association" description="Association«SAF_OperationalStakeholderRepresentation»" listAsElement="false" opposite="false" id="IDaction_1700433266578_287454_1">
                     <stereotype id="_19_0_3_6d8019d_1600597534207_157849_655"/>
                 </custom>
-                <standard action="ADD_LINK" shortcut="shift pressed L "/>
                 <standard action="ADD_DIRECTED_COMPOSITION"/>
                 <standard action="ADD_GENERALIZATION" shortcut="pressed G "/>
             </actions>
