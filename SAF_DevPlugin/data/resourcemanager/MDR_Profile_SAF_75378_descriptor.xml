@@ -24,6 +24,7 @@
     <minVersion internal="1900010" human="19.0 SP3" />
   </requiredResource>
   <installation>
+    <file from="data/defaults/data/diagrams/SAF Concept Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Concept Diagram/descriptor.xml" />
     <file from="profiles/SAF_SCM_Profile.mdzip" to="profiles/SAF_SCM_Profile.mdzip" />
   </installation>
 </resourceDescriptor>

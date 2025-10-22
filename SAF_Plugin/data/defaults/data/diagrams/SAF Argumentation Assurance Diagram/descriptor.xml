@@ -603,22 +603,22 @@
                 <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_EvidenceArgumentReinforcement»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
                     <stereotype id="_2021x_2_6d8019d_1674232165474_404920_23262"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ClaimantClaimMaking»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ClaimantClaimMaking»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_8">
                     <stereotype id="_2021x_2_6d8019d_1674232165478_345466_23268"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ClaimAboutSubjectMaking»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ClaimAboutSubjectMaking»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_9">
                     <stereotype id="_2021x_2_6d8019d_1674232165481_295568_23274"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_CounterClaimClaimableItemMaking»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_CounterClaimClaimableItemMaking»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44490_1">
+                    <stereotype id="_2021x_2_6d8019d_1674232165483_312955_23278"/>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ClaimClaimableItemSupport»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44490_2">
                     <stereotype id="_2021x_2_6d8019d_1687619081355_443463_25050"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ClaimClaimableItemSupport»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
-                    <stereotype id="_2021x_2_6d8019d_1687619081355_443463_25050"/>
-                </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ArgumentClaimSupport»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44489_7">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ArgumentClaimSupport»" listAsElement="false" opposite="false" id="IDaction_1761152410590_44490_3">
                     <stereotype id="_2021x_2_6d8019d_1687623430525_974383_25431"/>
                 </custom>
-
+https://saf.gfse.org/userdoc/stereotypes.html#
 
 
             </actions>

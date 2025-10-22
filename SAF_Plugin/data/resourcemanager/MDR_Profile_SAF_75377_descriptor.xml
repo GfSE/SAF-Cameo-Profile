@@ -48,7 +48,6 @@
     <file from="data/defaults/data/diagrams/SAF System Context Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Context Definition Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF System State Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System State Diagram/descriptor.xml" />
     <file from="profiles/SAF_Profile.mdzip" to="profiles/SAF_Profile.mdzip" />
-    <file from="profiles/SAF_SCM_Profile.mdzip" to="profiles/SAF_SCM_Profile.mdzip" />
     <file from="profiles/SAF_UAFTracing_Profile.mdzip" to="profiles/SAF_UAFTracing_Profile.mdzip" />
     <file from="samples/SAF/Library.mdzip" to="samples/SAF/Library.mdzip" />
     <file from="samples/SAF/SAF_FFDS.mdzip" to="samples/SAF/SAF_FFDS.mdzip" />
