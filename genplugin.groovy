@@ -14,8 +14,8 @@ def OUTPUT_FILENAME = 'SAF_Plugin/data/resourcemanager/MDR_Profile_SAF_75377_des
 // resourceDescriptor attributes
 def RESOURCE_ATTRS = [
 	critical       : 'false',
-	date           : '25-10-26',
-	description    : "SAF Profile 1.2 TdSE2025,\nProvider Name: GfSE SAF Working Group",
+	date           : '25-11-04',
+	description    : "SAF Profile TdSE2025,\nProvider Name: GfSE SAF Working Group",
 	group          : 'mac Resource',
 	homePage       : 'https://saf.gfse.org/version/TdSE2025',
 	id             : '75377',
@@ -28,7 +28,7 @@ def RESOURCE_ATTRS = [
 ]
 
 // version and provider
-def VERSION = [human: '1.2', internal: '100011', resource: '1000110']
+def VERSION = [human: 'TdSE2025', internal: '100011', resource: '1000110']
 def PROVIDER = [email: 'saf@gfse.org', homePage: 'https://saf.gfse.org/version/TdSE2025', name: 'GfSE SAF Working Group']
 
 // requiredResource

@@ -35,7 +35,9 @@ This [development documentation](https://saf.gfse.org/devdoc/devdoc.html) intend
 **[SAF_FFDS_NAF.mdzip:](SAF_Plugin/samples/SAF/SAF_FFDS_NAF.mdzip)** The mdzip file contains some NAF model elements as needed to demonstrate traceability in the SAF Specification. It is included in the SAF Plugin.
 
 ## SAF Dev Plugin
-**[SAF_DevPlugin.zip](SAF_DevPlugin.zip)** installs only the Diagram Types. Its main use is for development of the SAF Profile, SAF Specification and so on. This is, because when developing SAF the user plugin should not be installed.
+**[SAF_DevPlugin.zip](SAF_DevPlugin.zip)** installs the Diagram Types and the SCM Profile. 
+
+Its main use is for developers of the SAF, and may be used by advanced users to extend SAF.
 
 The SAF Dev Plugin is installed using the Resource/Plugin Manager which can be accessed via the help menu in Cameo.
 
