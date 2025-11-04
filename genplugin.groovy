@@ -15,9 +15,9 @@ def OUTPUT_FILENAME = 'SAF_Plugin/data/resourcemanager/MDR_Profile_SAF_75377_des
 def RESOURCE_ATTRS = [
 	critical       : 'false',
 	date           : '25-11-04',
-	description    : "SAF Profile TdSE2025,\nProvider Name: GfSE SAF Working Group",
+	description    : "SAF Profile main,\nProvider Name: GfSE SAF Working Group",
 	group          : 'mac Resource',
-	homePage       : 'https://saf.gfse.org/version/TdSE2025',
+	homePage       : 'https://saf.gfse.org',
 	id             : '75377',
 	mdVersionMax   : 'higher',
 	mdVersionMin   : '19.0',
@@ -28,8 +28,8 @@ def RESOURCE_ATTRS = [
 ]
 
 // version and provider
-def VERSION = [human: 'TdSE2025', internal: '100011', resource: '1000110']
-def PROVIDER = [email: 'saf@gfse.org', homePage: 'https://saf.gfse.org/version/TdSE2025', name: 'GfSE SAF Working Group']
+def VERSION = [human: 'main', internal: '100011', resource: '1000110']
+def PROVIDER = [email: 'saf@gfse.org', homePage: 'https://saf.gfse.org', name: 'GfSE SAF Working Group']
 
 // requiredResource
 def REQUIRED = [id: '1440', name: 'SysML', minVersion: [internal: '1900010', human: '19.0 SP3']]
