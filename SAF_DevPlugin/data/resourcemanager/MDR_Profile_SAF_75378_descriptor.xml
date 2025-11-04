@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<resourceDescriptor critical="false" date="25-10-22" description="SAF Dev Plugin 0.2 TdSE2025,&#10;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="" id="75378" mdVersionMax="higher" mdVersionMin="19.0" name="SAF Dev" product="SAF Dev" restartMagicdraw="true" type="Profile">
-  <version human="0.2" internal="100011" resource="1000110" />
+<resourceDescriptor critical="false" date="25-11-04" description="SAF Dev Profile 1.2 TdSE2025,&#10;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="https://saf.gfse.org/version/TdSE2025" id="75378" mdVersionMax="higher" mdVersionMin="19.0" name="SAF Dev Profile" product="SAF Dev Profile" restartMagicdraw="true" type="Profile">
+  <version human="1.2" internal="100011" resource="1000110" />
   <provider email="saf@gfse.org" homePage="https://saf.gfse.org/version/TdSE2025" name="GfSE SAF Working Group" />
 		
   <edition>Reader</edition>
