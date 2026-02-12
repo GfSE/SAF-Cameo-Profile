@@ -16,13 +16,13 @@ jobs:
       - name: Set up Java/Groovy
         uses: actions/setup-java@v3
         with:
-          java-version: '11'
+          java-version: '17'
           distribution: 'temurin'
       
       - name: Install Groovy
         run: |
           sudo apt-get update
-          sudo apt-get install -y groovy
+          sudo apt-get install -y groovy4
       
       - name: Build SAF Dev Plugin
         run: groovy gendevplugin.groovy
