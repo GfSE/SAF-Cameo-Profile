@@ -28,11 +28,14 @@ jobs:
         with:
           groovy-version: '4.0.21'
       
-      - name: Build Plugins
-        run: |
-          groovy gendevplugin.groovy
-          groovy genplugin.groovy
       
+      - name: Build Plugins with Version
+        run: |
+          # Falls kein Tag da ist, nutze 'latest' als Fallback
+          VERSION="${{ github.ref_name || 'latest' }}"
+          groovy -DpluginVersion=$VERSION gendevplugin.groovy
+          groovy -DpluginVersion=$VERSION genplugin.groovy
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:

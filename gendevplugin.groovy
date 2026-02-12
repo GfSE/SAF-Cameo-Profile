@@ -28,7 +28,11 @@ def RESOURCE_ATTRS = [
 ]
 
 // version and provider
-def VERSION = [human: 'main', internal: '100011', resource: '1000110']
+// Sucht nach -DpluginVersion=... beim Aufruf, sonst 'main'
+def versionLabel = System.getProperty("pluginVersion") ?: 'main'
+
+def VERSION = [human: versionLabel, internal: '100011', resource: '1000110']
+
 def PROVIDER = [email: 'saf@gfse.org', homePage: 'https://saf.gfse.org', name: 'GfSE SAF Working Group']
 
 // requiredResource
