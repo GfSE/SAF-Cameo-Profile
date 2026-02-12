@@ -13,18 +13,18 @@ def OUTPUT_FILENAME = 'SAF_Plugin/data/resourcemanager/MDR_Profile_SAF_75377_des
 
 // resourceDescriptor attributes
 def RESOURCE_ATTRS = [
-	critical       : 'false',
-	date           : '25-11-04',
-	description    : "SAF Profile main,\nProvider Name: GfSE SAF Working Group",
-	group          : 'mac Resource',
-	homePage       : 'https://saf.gfse.org',
-	id             : '75377',
-	mdVersionMax   : 'higher',
-	mdVersionMin   : '19.0',
-	name           : 'SAF Profile',
-	product        : 'SAF Profile',
-	restartMagicdraw: 'true',
-	type           : 'Profile'
+    critical       : 'false',
+    date           : new Date().format('yy-MM-dd'),
+    description    : "SAF Profile main,\nProvider Name: GfSE SAF Working Group",
+    group          : 'mac Resource',
+    homePage       : 'https://saf.gfse.org',
+    id             : '75377',
+    mdVersionMax   : 'higher',
+    mdVersionMin   : '19.0',
+    name           : 'SAF Profile',
+    product        : 'SAF Profile',
+    restartMagicdraw: 'true',
+    type           : 'Profile'
 ]
 
 // version and provider
@@ -36,15 +36,15 @@ def REQUIRED = [id: '1440', name: 'SysML', minVersion: [internal: '1900010', hum
 
 // editions list
 def EDITIONS = [
-	'Reader',
-	'Community',
-	'Standard',
-	'Professional Java',
-	'Professional C++',
-	'Professional C#',
-	'Professional',
-	'Architect',
-	'Enterprise'
+    'Reader',
+    'Community',
+    'Standard',
+    'Professional Java',
+    'Professional C++',
+    'Professional C#',
+    'Professional',
+    'Architect',
+    'Enterprise'
 ]
 
 // installation file list (each entry used for both from and to)
@@ -68,7 +68,10 @@ INSTALL_SCAN_DIRS.each { dirPath ->
             def full = f.canonicalPath.replace('\\','/')
             // produce path relative to BASE_SCAN_ROOT so the XML entries do not include the prefix
             def rel = full.replaceFirst("^${baseCanon}/?", '')
-            INSTALLATION_FILES << rel
+            // skip .bak files
+            if (!rel.endsWith('.bak')) {
+                INSTALLATION_FILES << rel
+            }
         }
     }
 }
@@ -125,6 +128,8 @@ if (pluginDir.exists() && pluginDir.isDirectory()) {
                 def relPath = f.canonicalPath.replace('\\','/').replaceFirst("^" + pluginDir.canonicalPath.replace('\\','/') + "/?", '')
                 // skip adding the zip into itself if outDir == pluginDir parent
                 if (relPath == zipFile.name) return
+                // skip .bak files
+                if (relPath.endsWith('.bak')) return
 
                 // If this is a descriptor.xml, only include when category == "SAF Diagram"
                 if (relPath.tokenize('/')[-1] == 'descriptor.xml') {
@@ -134,7 +139,8 @@ if (pluginDir.exists() && pluginDir.isDirectory()) {
                         // find a <diagram> element anywhere in the document and read its category attribute
                         def diagramNode = root.'**'.find { it.name() == 'diagram' }
                         def categoryAttr = diagramNode ? diagramNode.@category?.toString() : null
-                        includeDescriptor = (categoryAttr == 'SAF Diagrams')
+                        // Accept "SAF Diagrams" or "SAF <x>D Diagrams" where <x> is C, O, F, L, or P
+                        includeDescriptor = (categoryAttr == 'SAF Diagrams' || categoryAttr =~ /^SAF [COFLP]D Diagrams$/)
                     } catch (Exception parseEx) {
                         println "Skipping ${relPath}: failed to parse descriptor XML (${parseEx.message})"
                         includeDescriptor = false

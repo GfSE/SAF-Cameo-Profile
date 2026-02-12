@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<diagram version="9" type="SAF System State Diagram" baseType="State Machine Diagram" abbreviation="SAF_F3_SSTA" category="SAF Diagrams">
+<diagram version="9" type="SAF System State Diagram" baseType="State Machine Diagram" abbreviation="SAF_F3_SSTA" category="SAF FD Diagrams">
     <stereotype id="_19_0_4_6d8019d_1627582668863_723808_2445"/>
     <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;SAF_Profile.mdzip;UML_Standard_Profile.mdzip;MD_customization_for_SysML.mdzip</requiredPlugin>
     <helpID>https://saf.gfse.org/userdoc/Functional%20Domain/System%20State%20Viewpoint.html</helpID>

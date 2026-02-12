@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<diagram version="9" type="SAF Physical Interface Definition Diagram" baseType="Class Diagram" abbreviation="SAF_P5_PIFD" category="SAF Diagrams">
+<diagram version="9" type="SAF Physical Interface Definition Diagram" baseType="Class Diagram" abbreviation="SAF_P5_PIFD" category="SAF PD Diagrams">
     <stereotype id="_2021x_2_8710274_1695208632632_218609_27418"/>
     <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;MD_customization_for_SysML.mdzip;SAF_Profile.mdzip;UML_Standard_Profile.mdzip</requiredPlugin>
     <helpID>https://saf.gfse.org/userdoc/Physical%20Domain/Physical%20Interface%20Definition%20Viewpoint.html</helpID>

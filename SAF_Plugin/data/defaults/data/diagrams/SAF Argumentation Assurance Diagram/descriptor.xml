@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<diagram version="9" type="SAF Argumentation Assurance Diagram" baseType="Class Diagram" abbreviation="SAF_C2_ARAS" category="SAF Diagrams">
+<diagram version="9" type="SAF Argumentation Assurance Diagram" baseType="Class Diagram" abbreviation="SAF_C2_ARAS" category="SAF CD Diagrams">
     <stereotype id="_2021x_2_6d8019d_1674232165479_968036_23271"/>
     <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;UML_Standard_Profile.mdzip;MD_customization_for_SysML.mdzip;SAF_Profile.mdzip</requiredPlugin>
     <helpID>https://saf.gfse.org/userdoc/Common%20Domain/Argumentation%20Assurance%20Viewpoint.html</helpID>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<diagram version="9" type="SAF Operational Context Definition Diagram" baseType="Class Diagram" abbreviation="SAF_O1_OCXD" category="SAF Diagrams">
+<diagram version="9" type="SAF Operational Context Definition Diagram" baseType="Class Diagram" abbreviation="SAF_O1_OCXD" category="SAF OD Diagrams">
     <stereotype id="_19_0_1_26f0132_1548401929328_77241_42963"/>
     <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;SAF_Profile.mdzip;UML_Standard_Profile.mdzip;MD_customization_for_SysML.mdzip</requiredPlugin>
     <helpID>https://saf.gfse.org/userdoc/Operational%20Domain/Operational%20Context%20Definition%20Viewpoint.html</helpID>

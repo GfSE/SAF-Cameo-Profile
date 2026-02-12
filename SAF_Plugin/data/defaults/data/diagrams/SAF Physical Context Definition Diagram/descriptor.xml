@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<diagram version="9" type="SAF Physical Context Definition Diagram" baseType="Class Diagram" abbreviation="SAF_P1_PCXD" category="SAF Diagrams">
+<diagram version="9" type="SAF Physical Context Definition Diagram" baseType="Class Diagram" abbreviation="SAF_P1_PCXD" category="SAF PD Diagrams">
     <stereotype id="_2021x_2_6d8019d_1674914191877_627483_25391"/>
     <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;MD_customization_for_SysML.mdzip;SAF_Profile.mdzip;UML_Standard_Profile.mdzip</requiredPlugin>
     <helpID>saf.gfse.org/userdoc/Physical Domain/Physical Context Definition Viewpoint.html</helpID>
