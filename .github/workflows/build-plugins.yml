@@ -21,8 +21,9 @@ jobs:
       
       - name: Install Groovy
         run: |
-          sudo apt-get update
-          sudo apt-get install -y groovy4
+          curl -s "https://get.sdkman.io" | bash
+          source "$HOME/.sdkman/bin/sdkman-init.sh"
+          sdk install groovy 4.0.21
       
       - name: Build SAF Dev Plugin
         run: groovy gendevplugin.groovy
