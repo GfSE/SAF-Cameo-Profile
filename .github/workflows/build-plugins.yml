@@ -26,11 +26,11 @@ jobs:
           sdk install groovy 4.0.21
       
       - name: Build SAF Dev Plugin
-        run: groovy gendevplugin.groovy
+        run: bash -ic "groovy gendevplugin.groovy"
         working-directory: ${{ github.workspace }}
       
       - name: Build SAF Plugin
-        run: groovy genplugin.groovy
+        run: bash -ic "groovy genplugin.groovy"
         working-directory: ${{ github.workspace }}
       
       - name: Upload artifacts
