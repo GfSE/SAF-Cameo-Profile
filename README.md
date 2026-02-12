@@ -4,9 +4,10 @@ This repository provides the current state of development of the **SAF Profile**
 
 If you need help, have a question or for general discussion, please visit [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
+If there is an issue with one of the SAF Plugins for Cameo Systems Modeler, please [create an issue in this repository](https://github.com/GfSE/SAF-Cameo-Profile/issues/new/choose).
 
 ## SAF Plugin (recommended for model users)
-**[SAF_Plugin.zip](SAF_Plugin.zip)** installs the SAF Profile, additional diagram types for some viewpoints, additional project templates, and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. 
+**SAF_Plugin.zip** installs the SAF Profile, additional diagram types for some viewpoints, additional project templates, and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. 
 
 This plugin is for users of SAF wanting to create system models with SAF.
 
@@ -16,8 +17,6 @@ The SAF Plugin is installed using the Resource/Plugin Manager which can be acces
 The following files are provided for those who want to extend the SAF.
 Especially for modification of the SAF Profile it is not recommended to install the SAF Plugin. The following files should be installed separately. 
 This, because the plugin installation location provides an additional path to the profile which can confuse, which of the profile files is used in the end. 
-
-For development within the SAF Working group, only the Dev Plugin is necessary, because all other resources are provided by the TWC.
 
 ## SAF Profile
 **[SAF_Profile.mdzip:](SAF_Plugin/profiles/SAF_Profile.mdzip)** The mdzip file contains the SAF Profile with SAF Stereotypes according to the [SAF-Specification](https://saf.gfse.org). See this [List of Stereotypes](https://saf.gfse.org/userdoc/stereotypes.html).
@@ -43,6 +42,9 @@ The SAF Dev Plugin is installed using the Resource/Plugin Manager which can be a
 
 ## Releases
 This is the main branch reflecting the current state of development.
+We recently (Frebruary 2026) switched to automated builds, from now all snapshots are available from the Releases Page.
+
+**Please download from the [Releases Page of the Repository](https://github.com/GfSE/SAF-Cameo-Profile/releases)**
 
 The following releases are available, each of which is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Cameo-Profile/tree/Initial-Release)
