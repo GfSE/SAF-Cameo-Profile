@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<resourceDescriptor critical="false" date="26-02-12" description="SAF Profile main,&#10;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="https://saf.gfse.org" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF Profile" product="SAF Profile" restartMagicdraw="true" type="Profile">
-  <version human="main" internal="100011" resource="1000110" />
+<resourceDescriptor critical="false" date="26-02-22" description="SAF Profile main,&#10;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="https://saf.gfse.org" id="75377" mdVersionMax="higher" mdVersionMin="2026x" name="SAF Profile" product="SAF Profile" restartMagicdraw="true" type="Profile">
+  <version human="cameo2026x-2026-02-22" internal="100011" resource="1000110" />
   <provider email="saf@gfse.org" homePage="https://saf.gfse.org" name="GfSE SAF Working Group" />
 		
   <edition>Reader</edition>
@@ -20,8 +20,8 @@
   <edition>Architect</edition>
 		
   <edition>Enterprise</edition>
-  <requiredResource id="1440" name="SysML">
-    <minVersion internal="1900010" human="19.0 SP3" />
+  <requiredResource id="1440" name="SysML v1">
+    <minVersion internal="202600000" human="2026x" />
   </requiredResource>
   <installation>
     <file from="data/defaults/data/diagrams/SAF Argumentation Assurance Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Argumentation Assurance Diagram/descriptor.xml" />
