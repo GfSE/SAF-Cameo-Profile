@@ -2,6 +2,8 @@
 
 This repository provides the current state of development of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2024x refresh 3. Please see the model file itself for licensing terms.
 
+We're also  working on a plugin for the 2026x versions, see the [Releases Page of the Repository](https://github.com/GfSE/SAF-Cameo-Profile/releases).
+
 If you need help, have a question or for general discussion, please visit [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
 If there is an issue with one of the SAF Plugins for Cameo Systems Modeler, please [create an issue in this repository](https://github.com/GfSE/SAF-Cameo-Profile/issues/new/choose).
