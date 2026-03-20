@@ -1,6 +1,6 @@
 # 3DS Cameo Systems Modeler Resources for SAF users
 
-This repository provides the current state of development of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2024x refresh 3. Please see the model file itself for licensing terms.
+This repository provides the current state of development of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2026x . Please see the model file itself for licensing terms.
 
 If you need help, have a question or for general discussion, please visit [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
