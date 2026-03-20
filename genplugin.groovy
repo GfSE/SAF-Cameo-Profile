@@ -15,7 +15,7 @@ def OUTPUT_FILENAME = 'SAF_Plugin/data/resourcemanager/MDR_Profile_SAF_75377_des
 def RESOURCE_ATTRS = [
     critical       : 'false',
     date           : new Date().format('yy-MM-dd'),
-    description    : "SAF Profile main,\nProvider Name: GfSE SAF Working Group",
+    description    : "SAF Profile refactor,\nProvider Name: GfSE SAF Working Group",
     group          : 'mac Resource',
     homePage       : 'https://saf.gfse.org',
     id             : '75377',
