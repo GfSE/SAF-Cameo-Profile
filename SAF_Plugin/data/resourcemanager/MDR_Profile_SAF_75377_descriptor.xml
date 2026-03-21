@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<resourceDescriptor critical="false" date="26-03-20" description="SAF Profile main,&#10;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="https://saf.gfse.org" id="75377" mdVersionMax="higher" mdVersionMin="2026x" name="SAF Profile" product="SAF Profile" restartMagicdraw="true" type="Profile">
-  <version human="cameo2026x_refactor-2026-03-20" internal="100011" resource="1000110" />
+<resourceDescriptor critical="false" date="26-03-21" description="SAF Profile refactor,&#10;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="https://saf.gfse.org" id="75377" mdVersionMax="higher" mdVersionMin="2026x" name="SAF Profile" product="SAF Profile" restartMagicdraw="true" type="Profile">
+  <version human="cameo2026x_refactor-2026-03-21" internal="100011" resource="1000110" />
   <provider email="saf@gfse.org" homePage="https://saf.gfse.org" name="GfSE SAF Working Group" />
 		
   <edition>Reader</edition>
