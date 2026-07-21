@@ -1,8 +1,8 @@
 # 3DS Cameo Systems Modeler Resources for SAF users
 
-This repository provides the current state of grid refactoring development [tracking the refactoring branch of the spec] of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2026x . Please see the model file itself for licensing terms.
+This repository provides the current state of development [tracking the main branch of the spec] of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2026x . Please see the model file itself for licensing terms.
 
-We're also  working on a plugin for the 2026x versions, see the [Releases Page of the Repository](https://github.com/GfSE/SAF-Cameo-Profile/releases).
+For We're also working on a plugin for the 2026x versions, see the [Releases Page of the Repository](https://github.com/GfSE/SAF-Cameo-Profile/releases).
 
 If you need help, have a question or for general discussion, please visit [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
@@ -44,11 +44,17 @@ The SAF Dev Plugin is installed using the Resource/Plugin Manager which can be a
 
 ## Releases
 This is the main branch reflecting the current state of development.
-We recently (Frebruary 2026) switched to automated builds, from now all snapshots are available from the Releases Page.
+Since Frebruary 2026 we switched to automated builds, from now all snapshots are available from the Releases Page.
 
 **Please download from the [Releases Page of the Repository](https://github.com/GfSE/SAF-Cameo-Profile/releases)**
 
-The following releases are available, each of which is kept in a separate branch:
+The releases follow the schema v<cameoversion>-<releasedate>.
+e.g. vcameo2026x-2026-02-22 is a release for cameo2026x from Feb 22th in 2026
+
+https://github.com/GfSE/SAF-Cameo-Profile/releases#release-vcameo2026x-2026-02-26 is the last release 
+before the refactoring of the SAF grid
+
+The following older releases are available, each of which is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Cameo-Profile/tree/Initial-Release)
 * [TdSE2023](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2023)
 * [TdSE2024](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2024)
