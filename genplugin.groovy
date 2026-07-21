@@ -143,7 +143,7 @@ if (pluginDir.exists() && pluginDir.isDirectory()) {
                         def diagramNode = root.'**'.find { it.name() == 'diagram' }
                         def categoryAttr = diagramNode ? diagramNode.@category?.toString() : null
                         // Accept "SAF Diagrams" or "SAF <x>D Diagrams" where <x> is C, O, F, L, or P
-                        includeDescriptor = (categoryAttr == 'SAF Diagrams' || categoryAttr =~ /^SAF [COFLP]D Diagrams$/)
+                        includeDescriptor = (categoryAttr == 'SAF Diagrams' || categoryAttr =~ /^SAF [ACOP]D Diagrams$/)
                     } catch (Exception parseEx) {
                         println "Skipping ${relPath}: failed to parse descriptor XML (${parseEx.message})"
                         includeDescriptor = false
