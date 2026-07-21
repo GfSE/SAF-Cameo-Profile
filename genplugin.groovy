@@ -15,12 +15,12 @@ def OUTPUT_FILENAME = 'SAF_Plugin/data/resourcemanager/MDR_Profile_SAF_75377_des
 def RESOURCE_ATTRS = [
     critical       : 'false',
     date           : new Date().format('yy-MM-dd'),
-    description    : "SAF Profile main,\nProvider Name: GfSE SAF Working Group",
+    description    : "SAF Profile refactor,\nProvider Name: GfSE SAF Working Group",
     group          : 'mac Resource',
     homePage       : 'https://saf.gfse.org',
     id             : '75377',
     mdVersionMax   : 'higher',
-    mdVersionMin   : '19.0',
+    mdVersionMin   : '2026x',
     name           : 'SAF Profile',
     product        : 'SAF Profile',
     restartMagicdraw: 'true',
@@ -35,7 +35,7 @@ def VERSION = [human: versionLabel, internal: '100011', resource: '1000110']
 def PROVIDER = [email: 'saf@gfse.org', homePage: 'https://saf.gfse.org', name: 'GfSE SAF Working Group']
 
 // requiredResource
-def REQUIRED = [id: '1440', name: 'SysML', minVersion: [internal: '1900010', human: '19.0 SP3']]
+def REQUIRED = [id: '1440', name: 'SysML v1', minVersion: [internal: '202600000', human: '2026x']]
 
 // editions list
 def EDITIONS = [
