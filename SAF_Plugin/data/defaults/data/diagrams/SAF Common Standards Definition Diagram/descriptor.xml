@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<diagram version="9" type="SAF Common Standards Definition Diagram" baseType="Class Diagram" abbreviation="SAF_C2_CSTD" category="SAF CD Diagrams">
+<diagram version="9" type="SAF Common Standards Definition Diagram" baseType="Class Diagram" abbreviation="SAF_A2_CSTD" category="SAF AM Diagrams">
     <stereotype id="_2021x_2_8710274_1700817327515_843725_50585"/>
     <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;UML_Standard_Profile.mdzip;SAF_Profile.mdzip;MD_customization_for_SysML.mdzip</requiredPlugin>
     <helpID>https://saf.gfse.org/userdoc/Common%20Domain/Common%20Standards%20Definition%20Viewpoint.html</helpID>
