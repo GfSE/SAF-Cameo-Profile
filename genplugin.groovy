@@ -11,21 +11,6 @@ import java.io.FileOutputStream
 // --- Constants / Header content ---
 def OUTPUT_FILENAME = 'SAF_Plugin/data/resourcemanager/MDR_Profile_SAF_75377_descriptor.xml'
 
-// resourceDescriptor attributes
-def RESOURCE_ATTRS = [
-    critical       : 'false',
-    date           : new Date().format('yy-MM-dd'),
-    description    : "SAF Profile main,\nProvider Name: GfSE SAF Working Group",
-    group          : 'mac Resource',
-    homePage       : 'https://saf.gfse.org',
-    id             : '75377',
-    mdVersionMax   : 'higher',
-    mdVersionMin   : '19.0',
-    name           : 'SAF Profile',
-    product        : 'SAF Profile',
-    restartMagicdraw: 'true',
-    type           : 'Profile'
-]
 
 // version and provider
 // Sucht nach -DpluginVersion=... beim Aufruf, sonst 'main'
@@ -49,6 +34,23 @@ def EDITIONS = [
     'Architect',
     'Enterprise'
 ]
+
+// resourceDescriptor attributes
+def RESOURCE_ATTRS = [
+    critical       : 'false',
+    date           : new Date().format('yy-MM-dd'),
+    description    : "SAF Profile " + versionLabel + ",\nProvider Name: GfSE SAF Working Group",
+    group          : 'mac Resource',
+    homePage       : 'https://saf.gfse.org',
+    id             : '75377',
+    mdVersionMax   : 'higher',
+    mdVersionMin   : '19.0',
+    name           : 'SAF Profile',
+    product        : 'SAF Profile',
+    restartMagicdraw: 'true',
+    type           : 'Profile'
+]
+
 
 // installation file list (each entry used for both from and to)
 // scan directories are inside the SAF_Plugin folder; strip that prefix for XML output
