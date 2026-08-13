@@ -2,10 +2,7 @@ name: Build Plugin Zips
 
 on:
   push:
-    branches: [main, master]
-    tags: ["v*"]    
-  pull_request:
-    branches: [main, master]
+    tags: ["v*"]
 
 permissions:
   contents: write
@@ -52,4 +49,3 @@ jobs:
             SAF_DevPlugin.zip
             SAF_Plugin.zip
           generate_release_notes: true
-
