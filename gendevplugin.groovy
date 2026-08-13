@@ -11,21 +11,7 @@ import java.io.FileOutputStream
 // --- Constants / Header content ---
 def OUTPUT_FILENAME = 'SAF_DevPlugin/data/resourcemanager/MDR_Profile_SAF_75378_descriptor.xml'
 
-// resourceDescriptor attributes
-def RESOURCE_ATTRS = [
-    critical       : 'false',
-    date           : new Date().format('yy-MM-dd'),
-    description    : "SAF Dev Profile main,\nProvider Name: GfSE SAF Working Group",
-    group          : 'mac Resource',
-    homePage       : 'https://saf.gfse.org',
-    id             : '75378',
-    mdVersionMax   : 'higher',
-    mdVersionMin   : '2026x',
-    name           : 'SAF Dev Profile',
-    product        : 'SAF Dev Profile',
-    restartMagicdraw: 'true',
-    type           : 'Profile'
-]
+
 
 // version and provider
 // Sucht nach -DpluginVersion=... beim Aufruf, sonst 'main'
@@ -36,7 +22,7 @@ def VERSION = [human: versionLabel, internal: '100011', resource: '1000110']
 def PROVIDER = [email: 'saf@gfse.org', homePage: 'https://saf.gfse.org', name: 'GfSE SAF Working Group']
 
 // requiredResource
-def REQUIRED = [id: '1440', name: 'SysML v1', minVersion: [internal: '202600000', human: '2026x']]
+def REQUIRED = [id: '1440', name: 'SysML', minVersion: [internal: '1900010', human: '19.0 SP3']]
 
 // editions list
 def EDITIONS = [
@@ -49,6 +35,22 @@ def EDITIONS = [
     'Professional',
     'Architect',
     'Enterprise'
+]
+
+// resourceDescriptor attributes
+def RESOURCE_ATTRS = [
+    critical       : 'false',
+    date           : new Date().format('yy-MM-dd'),
+    description    : "SAF Dev Profile " + versionLabel + ",\nProvider Name: GfSE SAF Working Group",
+    group          : 'mac Resource',
+    homePage       : 'https://saf.gfse.org',
+    id             : '75378',
+    mdVersionMax   : 'higher',
+    mdVersionMin   : '19.0',
+    name           : 'SAF Dev Profile',
+    product        : 'SAF Dev Profile',
+    restartMagicdraw: 'true',
+    type           : 'Profile'
 ]
 
 // installation file list (each entry used for both from and to)

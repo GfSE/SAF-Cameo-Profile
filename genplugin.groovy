@@ -11,21 +11,6 @@ import java.io.FileOutputStream
 // --- Constants / Header content ---
 def OUTPUT_FILENAME = 'SAF_Plugin/data/resourcemanager/MDR_Profile_SAF_75377_descriptor.xml'
 
-// resourceDescriptor attributes
-def RESOURCE_ATTRS = [
-    critical       : 'false',
-    date           : new Date().format('yy-MM-dd'),
-    description    : "SAF Profile refactor,\nProvider Name: GfSE SAF Working Group",
-    group          : 'mac Resource',
-    homePage       : 'https://saf.gfse.org',
-    id             : '75377',
-    mdVersionMax   : 'higher',
-    mdVersionMin   : '2026x',
-    name           : 'SAF Profile',
-    product        : 'SAF Profile',
-    restartMagicdraw: 'true',
-    type           : 'Profile'
-]
 
 // version and provider
 // Sucht nach -DpluginVersion=... beim Aufruf, sonst 'main'
@@ -35,7 +20,7 @@ def VERSION = [human: versionLabel, internal: '100011', resource: '1000110']
 def PROVIDER = [email: 'saf@gfse.org', homePage: 'https://saf.gfse.org', name: 'GfSE SAF Working Group']
 
 // requiredResource
-def REQUIRED = [id: '1440', name: 'SysML v1', minVersion: [internal: '202600000', human: '2026x']]
+def REQUIRED = [id: '1440', name: 'SysML', minVersion: [internal: '1900010', human: '19.0 SP3']]
 
 // editions list
 def EDITIONS = [
@@ -49,6 +34,23 @@ def EDITIONS = [
     'Architect',
     'Enterprise'
 ]
+
+// resourceDescriptor attributes
+def RESOURCE_ATTRS = [
+    critical       : 'false',
+    date           : new Date().format('yy-MM-dd'),
+    description    : "SAF Profile " + versionLabel + ",\nProvider Name: GfSE SAF Working Group",
+    group          : 'mac Resource',
+    homePage       : 'https://saf.gfse.org',
+    id             : '75377',
+    mdVersionMax   : 'higher',
+    mdVersionMin   : '19.0',
+    name           : 'SAF Profile',
+    product        : 'SAF Profile',
+    restartMagicdraw: 'true',
+    type           : 'Profile'
+]
+
 
 // installation file list (each entry used for both from and to)
 // scan directories are inside the SAF_Plugin folder; strip that prefix for XML output
@@ -142,8 +144,8 @@ if (pluginDir.exists() && pluginDir.isDirectory()) {
                         // find a <diagram> element anywhere in the document and read its category attribute
                         def diagramNode = root.'**'.find { it.name() == 'diagram' }
                         def categoryAttr = diagramNode ? diagramNode.@category?.toString() : null
-                        // Accept "SAF Diagrams" or "SAF <x>D Diagrams" where <x> is A, C, O, or P, or "SAF AM Diagrams"
-                        includeDescriptor = (categoryAttr == 'SAF Diagrams' || categoryAttr =~ /^SAF (A[CM]|[CDOP]D) Diagrams$/)
+                        // Accept "SAF Diagrams" or "SAF <x>D Diagrams" where <x> is C, O, F, L, or P
+                        includeDescriptor = (categoryAttr == 'SAF Diagrams' || categoryAttr =~ /^SAF [COFLP]D Diagrams$/)
                     } catch (Exception parseEx) {
                         println "Skipping ${relPath}: failed to parse descriptor XML (${parseEx.message})"
                         includeDescriptor = false
