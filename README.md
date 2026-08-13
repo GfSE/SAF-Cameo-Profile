@@ -1,8 +1,12 @@
 # 3DS Cameo Systems Modeler Resources for SAF users
 
-This repository provides the current state of development of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2024x refresh 3. Please see the model file itself for licensing terms.
+This repository provides the  **SAF Profile** prior to the refactoring of the SAF Grid. 
 
-We're also  working on a plugin for the 2026x versions, see the [Releases Page of the Repository](https://github.com/GfSE/SAF-Cameo-Profile/releases).
+It is conform to the [PreRefactor2026 branch of the SAF Specification](https://saf.gfse.org/version/PreRefactor2026/) 
+
+It is intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2026x. Please see the model file itself for licensing terms.
+
+For Download see the [Releases Page of the Repository](https://github.com/GfSE/SAF-Cameo-Profile/releases), please download one of the releases named *PreRefactor2026* if you prefer to use the SAF prior to refactoring.
 
 If you need help, have a question or for general discussion, please visit [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
@@ -21,11 +25,11 @@ Especially for modification of the SAF Profile it is not recommended to install 
 This, because the plugin installation location provides an additional path to the profile which can confuse, which of the profile files is used in the end. 
 
 ## SAF Profile
-**[SAF_Profile.mdzip:](SAF_Plugin/profiles/SAF_Profile.mdzip)** The mdzip file contains the SAF Profile with SAF Stereotypes according to the [SAF-Specification](https://saf.gfse.org). See this [List of Stereotypes](https://saf.gfse.org/userdoc/stereotypes.html).
+**[SAF_Profile.mdzip:](SAF_Plugin/profiles/SAF_Profile.mdzip)** The mdzip file contains the SAF Profile with SAF Stereotypes according to the [SAF-Specification](https://saf.gfse.org/version/PreRefactor2026/). See this [List of Stereotypes](https://saf.gfse.org/version/PreRefactor2026/userdoc/stereotypes.html).
 
 ## SCM Profile
 **[SAF_SCM_Profile.mdzip:](SAF_DevPlugin/profiles/SAF_SCM_Profile.mdzip)** The mdzip file contains the SCM Profile used to develop SAF Viewpoints.
-This [development documentation](https://saf.gfse.org/devdoc/devdoc.html) intends to help with the modification or extension of SAF. If you need help with extending SAF, please contact the SAF developers at the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
+This [development documentation](https://saf.gfse.org/version/PreRefactor2026/devdoc/devdoc.html) intends to help with the modification or extension of SAF. If you need help with extending SAF, please contact the SAF developers at the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
 ## SAF FFDS Example Model
 **[SAF_FFDS.mdzip:](SAF_Plugin/samples/SAF/SAF_FFDS.mdzip)** The mdzip file contains the example used in the SAF Specification. It is included in the SAF Plugin. Note, that it has a dependency to the NAF Profile, but this is only to demonstrate traceability.
@@ -48,8 +52,3 @@ We recently (Frebruary 2026) switched to automated builds, from now all snapshot
 
 **Please download from the [Releases Page of the Repository](https://github.com/GfSE/SAF-Cameo-Profile/releases)**
 
-The following releases are available, each of which is kept in a separate branch:
-* [Initial Release](https://github.com/GfSE/SAF-Cameo-Profile/tree/Initial-Release)
-* [TdSE2023](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2023)
-* [TdSE2024](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2024)
-* [TdSE2025](https://github.com/GfSE/SAF-Cameo-Profile/tree/TdSE2025)
