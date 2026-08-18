@@ -1,3 +1,6 @@
+## 2026-08-18
+* fix validation rule SysUseCaseElementAssociation (WUCASSCTX): look up SAF_ConceptualSystem / SAF_ConceptualUser / SAF_ConceptualEnvironment instead of the renamed SAF_LogicalExternalSystem / SAF_LogicalUser / SAF_LogicalEnvironment (the rule fired on every System UseCase association); error message says "Conceptual" (#8)
+
 ## 2026-03-20
 * rename SAF_LogcicalElement to SAF_ConceptualSystem
 * rename SAF_LogcicalSOI to SAF_LogicalSOI_deprecated
