@@ -94,6 +94,35 @@
     <module name="UML_Standard_Profile.mdzip" location="C:\tools\msoa_r3\profiles\UML_Standard_Profile.mdzip">
         <root id="magicdraw_uml_standard_profile_v_0001"/>
     </module>
+    <elementstyle name="Diagram">
+        <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+            <mdElement elementClass="PropertyManager">
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_ABBREVIATED_DIAGRAM_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_DIAGRAM_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_PARAMETERS</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_CONTEXT_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_FRAME_OWNER</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                </mdElement>
+            </mdElement>
+        </PropertyVisitorAcceptor>
+    </elementstyle>
     <elementstyle name="Class">
         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
             <mdElement elementClass="PropertyManager">
