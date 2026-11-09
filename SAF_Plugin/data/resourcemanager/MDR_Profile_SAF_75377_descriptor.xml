@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<resourceDescriptor critical="false" date="26-09-04" description="SAF Profile cameo2026x-main-2026-09-04,&#10;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="https://saf.gfse.org" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF Profile" product="SAF Profile" restartMagicdraw="true" type="Profile">
-  <version human="cameo2026x-main-2026-09-04" internal="100011" resource="1000110" />
+<resourceDescriptor critical="false" date="26-11-09" description="SAF Profile cameo2026x-main-2026-11-09,&#10;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="https://saf.gfse.org" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF Profile" product="SAF Profile" restartMagicdraw="true" type="Profile">
+  <version human="cameo2026x-main-2026-11-09" internal="100011" resource="1000110" />
   <provider email="saf@gfse.org" homePage="https://saf.gfse.org" name="GfSE SAF Working Group" />
 		
   <edition>Reader</edition>
@@ -33,8 +33,9 @@
     <file from="data/defaults/data/diagrams/SAF Grid Overview Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Grid Overview Table/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Operational Capability Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Capability Definition Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Operational Context Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Context Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Domain Item Kind Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Domain Item Kind Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Domain Item Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Domain Item Table/descriptor.xml" />
+    <file from="data/defaults/data/diagrams/SAF Operational Context Exchange Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Context Exchange Diagram/descriptor.xml" />
+    <file from="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Diagram/descriptor.xml" />
+    <file from="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Table/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Operational Performer Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Performer Definition Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Operational Performer Definition Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Performer Definition Table/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Operational Process Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Process Diagram/descriptor.xml" />
@@ -44,8 +45,17 @@
     <file from="data/defaults/data/diagrams/SAF Physical Interface Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Interface Definition Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Physical Internal Exchange Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Internal Exchange Table/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Physical Logical Mapping Matrix/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Logical Mapping Matrix/descriptor.xml" />
+    <file from="data/defaults/data/diagrams/SAF Physical Structure Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Structure Definition Diagram/descriptor.xml" />
+    <file from="data/defaults/data/diagrams/SAF Stakeholder Identification Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Stakeholder Identification Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF System Context Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Context Definition Diagram/descriptor.xml" />
+    <file from="data/defaults/data/diagrams/SAF System Context Exchange Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Context Exchange Diagram/descriptor.xml" />
+    <file from="data/defaults/data/diagrams/SAF System Functional Refinement Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Functional Refinement Diagram/descriptor.xml" />
+    <file from="data/defaults/data/diagrams/SAF System Internal Exchange Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Internal Exchange Diagram/descriptor.xml" />
+    <file from="data/defaults/data/diagrams/SAF System Process Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Process Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF System State Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System State Diagram/descriptor.xml" />
+    <file from="data/defaults/data/diagrams/SAF System Structure Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Structure Definition Diagram/descriptor.xml" />
+    <file from="data/defaults/data/diagrams/SAF System Use Case Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Use Case Diagram/descriptor.xml" />
+    <file from="data/defaults/data/perspectives/SAF Modeler.umd" to="data/defaults/data/perspectives/SAF Modeler.umd" />
     <file from="profiles/SAF_Profile.mdzip" to="profiles/SAF_Profile.mdzip" />
     <file from="profiles/SAF_UAFTracing_Profile.mdzip" to="profiles/SAF_UAFTracing_Profile.mdzip" />
     <file from="samples/SAF/Library.mdzip" to="samples/SAF/Library.mdzip" />

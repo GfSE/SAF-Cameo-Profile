@@ -61,7 +61,7 @@
                 </group>
             </actions>
         </category>
-        <category name="SAF Operational Performer Diagram" id="action_category_1156164534125_948326_0" expandedByDefault="true">
+        <category name="SAF Operational Performer Definition Diagram" id="action_category_1156164534125_948326_0" expandedByDefault="true">
             <icon type="small" size="16" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/blockdefinitiondiagram.png"></icon>
             <icon type="large" size="16" filename="mdp://resource/com/nomagic/magicdraw/sysml/icons/diagrams/blockdefinitiondiagram.svg"></icon>
             <actions>
@@ -86,7 +86,7 @@
                 <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Stakeholder" listAsElement="false" opposite="false" id="IDaction_1700433191273_360177_0">
                     <stereotype id="_19_0_2_26f0132_1565094689606_808099_51895"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Association" description="Association«SAF_OperationalStakeholderRepresentation»" listAsElement="false" opposite="false" id="IDaction_1700433266578_287454_1">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Association" description="Stakeholder Representing" listAsElement="false" opposite="false" id="IDaction_1700433266578_287454_1">
                     <stereotype id="_19_0_3_6d8019d_1600597534207_157849_655"/>
                 </custom>
                 <standard action="ADD_DIRECTED_COMPOSITION"/>
@@ -103,6 +103,35 @@
     <module name="UML_Standard_Profile.mdzip" location="C:\tools\msoa_r3\profiles\UML_Standard_Profile.mdzip">
         <root id="magicdraw_uml_standard_profile_v_0001"/>
     </module>
+    <elementstyle name="Diagram">
+        <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+            <mdElement elementClass="PropertyManager">
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_ABBREVIATED_DIAGRAM_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_DIAGRAM_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_PARAMETERS</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_CONTEXT_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_FRAME_OWNER</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                </mdElement>
+            </mdElement>
+        </PropertyVisitorAcceptor>
+    </elementstyle>
     <manipulators>
         <element>com.nomagic.uml2.ext.magicdraw.auxiliaryconstructs.mdinformationflows.InformationItem</element>
         <path action="ADD_DEPENDENCY">

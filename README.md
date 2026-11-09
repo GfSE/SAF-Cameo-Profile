@@ -9,11 +9,59 @@ If you need help, have a question or for general discussion, please visit [SAF d
 If there is an issue with one of the SAF Plugins for Cameo Systems Modeler, please [create an issue in this repository](https://github.com/GfSE/SAF-Cameo-Profile/issues/new/choose).
 
 ## SAF Plugin (recommended for model users)
-**SAF_Plugin.zip** installs the SAF Profile, additional diagram types for some viewpoints, additional project templates, and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. 
+**SAF_Plugin.zip** installs the SAF Profile, additional diagram types for some viewpoints, the **SAF Modeler** perspective, additional project templates, and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. 
 
 This plugin is for users of SAF wanting to create system models with SAF.
 
 The SAF Plugin is installed using the Resource/Plugin Manager which can be accessed via the help menu in the modeling tool.
+
+### Custom Diagram Types
+
+The plugin adds 31 custom diagram types to the New Diagram menu — one per SAF viewpoint (23 diagrams plus 8 table and matrix types):
+
+**Conceptual domain**
+- SAF System Context Definition Diagram
+- SAF System Context Exchange Diagram
+- SAF System Functional Refinement Diagram
+- SAF System Internal Exchange Diagram
+- SAF System Process Diagram
+- SAF System State Diagram
+- SAF System Structure Definition Diagram
+- SAF System Use Case Diagram
+
+**Operational domain**
+- SAF Operational Capability Definition Diagram
+- SAF Operational Context Definition Diagram
+- SAF Operational Context Exchange Diagram
+- SAF Operational Exchange Type Definition Diagram (+ Table)
+- SAF Operational Performer Definition Diagram (+ Table)
+- SAF Operational Process Diagram
+- SAF Operational Story Diagram
+- SAF Stakeholder Identification Diagram
+
+**Physical domain**
+- SAF Physical Context Definition Diagram
+- SAF Physical Exchange Type Definition Diagram
+- SAF Physical Interface Definition Diagram
+- SAF Physical Structure Definition Diagram
+- SAF Physical Internal Exchange Table
+- SAF Physical Logical Mapping Matrix
+
+**Assurance / management**
+- SAF Argumentation Assurance Diagram
+- SAF Common Standards Definition Diagram
+- SAF EA Traceability Diagram (+ Matrix, + Table)
+- SAF Common Terms Definition Table
+- SAF Grid Overview Table
+
+### What's new in this snapshot (2026-11-09)
+
+- New **SAF Modeler** perspective: organizes the diagram toolbars by SAF viewpoint (grouped per SAF domain), so the New Diagram dialog shows the SAF diagram types in SAF order. Switch to it via the perspective selector in Cameo.
+- The System Context Definition diagram gained a **Conceptual System** element button
+- Element buttons across all diagram types now show clean names (e.g. `Claim` instead of `Class«SAF_Claim»`); one button that applied the wrong element type was corrected
+- In each diagram, the element palette is now named exactly like the diagram type
+- Deprecated SAF concepts (Logical SOI, Logical External System) no longer appear in the element palettes
+- `Test Case Statemachine` buttons renamed to `Test Case State Machine` (4 diagram types)
 
 # 3DS Cameo Systems Modeler Resources for SAF developers
 The following files are provided for those who want to extend the SAF.

@@ -61,22 +61,22 @@
                 </group>
             </actions>
         </category>
-        <category name="Physical Interface Definition Diagram" id="action_category_1760445038205_721516_0" expandedByDefault="true">
+        <category name="SAF Physical Interface Definition Diagram" id="action_category_1760445038205_721516_0" expandedByDefault="true">
             <actions>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Class«SAF_PhysicalInterfaceDefinition»" listAsElement="false" opposite="false" id="IDaction_1760445062049_604221_0">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Physical Interface Definition" listAsElement="false" opposite="false" id="IDaction_1760445062049_604221_0">
                     <stereotype id="_2021x_2_8710274_1695210280486_572526_27622"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Class«SAF_PhysicalExchangeType»" listAsElement="false" opposite="false" id="IDaction_1760445197527_51970_2">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Physical Exchange Type" listAsElement="false" opposite="false" id="IDaction_1760445197527_51970_2">
                     <stereotype id="_2021x_2_8710274_1675099152786_518672_26637"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Property" description="Property«FlowProperty»" listAsElement="false" opposite="false" id="IDaction_1760445305799_720868_4">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Property" description="Flow Property" listAsElement="false" opposite="false" id="IDaction_1760445305799_720868_4">
                     <stereotype id="_11_5EAPbeta_be00301_1147436061009_177713_1911"/>
                     <stereotype id="_12_0_be00301_1164123483951_695645_2041"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.compositestructures.mdports.Port" description="Port«ProxyPort»" listAsElement="false" opposite="false" id="IDaction_1760445259003_703393_3">
+                <custom type="com.nomagic.uml2.ext.magicdraw.compositestructures.mdports.Port" description="Proxy Port" listAsElement="false" opposite="false" id="IDaction_1760445259003_703393_3">
                     <stereotype id="_17_0_3_17530432_1320213131032_5397_2410"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.compositestructures.mdinternalstructures.Connector" description="Connector«SAF_InterfaceLayerRelationship»" listAsElement="false" opposite="false" id="IDaction_1760445150250_829643_1">
+                <custom type="com.nomagic.uml2.ext.magicdraw.compositestructures.mdinternalstructures.Connector" description="Interface Layer Relationship" listAsElement="false" opposite="false" id="IDaction_1760445150250_829643_1">
                     <stereotype id="_2021x_2_8710274_1695985266083_110612_25287"/>
                 </custom>
             </actions>
@@ -94,6 +94,35 @@
     <module name="UML_Standard_Profile.mdzip" location="C:\tools\msoa_r3\profiles\UML_Standard_Profile.mdzip">
         <root id="magicdraw_uml_standard_profile_v_0001"/>
     </module>
+    <elementstyle name="Diagram">
+        <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+            <mdElement elementClass="PropertyManager">
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_ABBREVIATED_DIAGRAM_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_DIAGRAM_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_PARAMETERS</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_CONTEXT_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_FRAME_OWNER</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                </mdElement>
+            </mdElement>
+        </PropertyVisitorAcceptor>
+    </elementstyle>
     <elementstyle name="Class">
         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
             <mdElement elementClass="PropertyManager">

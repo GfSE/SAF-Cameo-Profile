@@ -579,32 +579,32 @@
         </category>
         <category name="SAF Common Standards Definition Diagram" id="action_category_1761148225390_137706_1" expandedByDefault="true">
             <actions>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Package" description="Package«SAF_Standard»" listAsElement="false" opposite="false" id="IDaction_1761161642984_848814_0">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Package" description="Standard" listAsElement="false" opposite="false" id="IDaction_1761161642984_848814_0">
                     <stereotype id="_2021x_2_8710274_1700810557668_637315_48235"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Package" description="Package«SAF_StandardChapter»" listAsElement="false" opposite="false" id="IDaction_1761161695532_680199_1">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Package" description="Standard Chapter" listAsElement="false" opposite="false" id="IDaction_1761161695532_680199_1">
                     <stereotype id="_2024x_1_26f0132_1730537023123_451623_16921"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Class«SAF_StandardizationOrganization»" listAsElement="false" opposite="false" id="IDaction_1761161956986_860284_8">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Standardization Organization" listAsElement="false" opposite="false" id="IDaction_1761161956986_860284_8">
                     <stereotype id="_2021x_2_8710274_1700812596870_49325_49849"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Class«SAF_StandardCategory»" listAsElement="false" opposite="false" id="IDaction_1761161977498_421974_9">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Standard Category" listAsElement="false" opposite="false" id="IDaction_1761161977498_421974_9">
                     <stereotype id="_2021x_2_8710274_1700819040067_20402_51257"/>
                 </custom>
                 <standard action="ADD_CONTAINMENT_LINK" shortcut="shift pressed C "/>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_IssuedBy»" listAsElement="false" opposite="false" id="IDaction_1761161726895_10088_2">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Issued By" listAsElement="false" opposite="false" id="IDaction_1761161726895_10088_2">
                     <stereotype id="_2024x_1_26f0132_1729185567557_816733_16281"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_ConformsStandard»" listAsElement="false" opposite="false" id="IDaction_1761161783356_153395_3">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Conforms Standard" listAsElement="false" opposite="false" id="IDaction_1761161783356_153395_3">
                     <stereotype id="_2024x_1_26f0132_1729185092432_155560_16027"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_StandardDependingOn»" listAsElement="false" opposite="false" id="IDaction_1761161803054_207575_4">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Standard Depending On" listAsElement="false" opposite="false" id="IDaction_1761161803054_207575_4">
                     <stereotype id="_2024x_1_26f0132_1730146316549_832482_16733"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_StandardSuperseding»" listAsElement="false" opposite="false" id="IDaction_1761161842982_270239_6">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Standard Superseding" listAsElement="false" opposite="false" id="IDaction_1761161842982_270239_6">
                     <stereotype id="_2021x_2_8710274_1700817699465_496750_50736"/>
                 </custom>
-                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Dependency«SAF_StandardCategoryAssignment»" listAsElement="false" opposite="false" id="IDaction_1761161876827_314467_7">
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Dependency" description="Standard Category Assignment" listAsElement="false" opposite="false" id="IDaction_1761161876827_314467_7">
                     <stereotype id="_2021x_2_8710274_1701360709869_194778_91148"/>
                 </custom>
             </actions>
@@ -622,6 +622,35 @@
     <module name="MD_customization_for_SysML.mdzip" location="C:\tools\msoa_r3\profiles\MD_customization_for_SysML.mdzip">
         <root id="_12_0EAPbeta_be00301_1156851270584_552173_1"/>
     </module>
+    <elementstyle name="Diagram">
+        <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+            <mdElement elementClass="PropertyManager">
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_ABBREVIATED_DIAGRAM_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_DIAGRAM_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_PARAMETERS</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_CONTEXT_TYPE</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                    <value xmi:value="true"/>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty">
+                    <propertyID>SHOW_FRAME_OWNER</propertyID>
+                    <propertyGroup>DIAGRAM_FRAME</propertyGroup>
+                </mdElement>
+            </mdElement>
+        </PropertyVisitorAcceptor>
+    </elementstyle>
     <elementstyle name="Class">
         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
             <mdElement elementClass="PropertyManager">
