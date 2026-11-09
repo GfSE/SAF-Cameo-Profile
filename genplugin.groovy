@@ -52,11 +52,30 @@ def RESOURCE_ATTRS = [
 ]
 
 
+// --- Build the SAF Model Rules plugin (jar + Groovy rules) ---
+// Compiled hermetically against the SDK stubs in SAF_RulesPlugin/stubs and
+// staged into SAF_Plugin/plugins/com.haarer.saf.rules/, so the scan below
+// picks it up for the manifest and the zip step includes it.
+def rulesBuildScript = new File('SAF_RulesPlugin/build-rules.sh')
+if (rulesBuildScript.exists()) {
+    println "Building SAF Model Rules (version ${versionLabel}) ..."
+    def rulesBuild = ['bash', 'SAF_RulesPlugin/build-rules.sh', versionLabel].execute()
+    def rulesOut = rulesBuild.text  // blocks until the build process exits (stderr merged)
+    def rulesExit = rulesBuild.waitFor()
+    println rulesOut
+    if (rulesExit != 0) {
+        throw new RuntimeException("SAF Model Rules build failed:\n${rulesOut}")
+    }
+} else {
+    println "SAF_RulesPlugin/build-rules.sh not found - skipping SAF Model Rules build"
+}
+
 // installation file list (each entry used for both from and to)
 // scan directories are inside the SAF_Plugin folder; strip that prefix for XML output
 def BASE_SCAN_ROOT = 'SAF_Plugin'
 def INSTALL_SCAN_DIRS = [
     'data/defaults',
+    'plugins',
     'profiles',
     'samples',
     'templates'

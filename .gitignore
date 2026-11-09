@@ -2,3 +2,5 @@
 SAF_DevPlugin.zip
 SAF_Plugin.zip
 *.info
+SAF_RulesPlugin/build/
+SAF_Plugin/plugins/

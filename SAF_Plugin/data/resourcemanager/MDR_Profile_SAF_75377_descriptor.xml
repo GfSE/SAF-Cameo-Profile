@@ -56,6 +56,12 @@
     <file from="data/defaults/data/diagrams/SAF System Structure Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Structure Definition Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF System Use Case Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Use Case Diagram/descriptor.xml" />
     <file from="data/defaults/data/perspectives/SAF Modeler.umd" to="data/defaults/data/perspectives/SAF Modeler.umd" />
+    <file from="plugins/com.haarer.saf.rules/cameo-saf-rules-cameo2026x-main-2026-11-09.jar" to="plugins/com.haarer.saf.rules/cameo-saf-rules-cameo2026x-main-2026-11-09.jar" />
+    <file from="plugins/com.haarer.saf.rules/plugin.xml" to="plugins/com.haarer.saf.rules/plugin.xml" />
+    <file from="plugins/com.haarer.saf.rules/rules/operational_context_role.groovy" to="plugins/com.haarer.saf.rules/rules/operational_context_role.groovy" />
+    <file from="plugins/com.haarer.saf.rules/rules/operational_process.groovy" to="plugins/com.haarer.saf.rules/rules/operational_process.groovy" />
+    <file from="plugins/com.haarer.saf.rules/rules/system_process.groovy" to="plugins/com.haarer.saf.rules/rules/system_process.groovy" />
+    <file from="plugins/com.haarer.saf.rules/rules/system_state.groovy" to="plugins/com.haarer.saf.rules/rules/system_state.groovy" />
     <file from="profiles/SAF_Profile.mdzip" to="profiles/SAF_Profile.mdzip" />
     <file from="profiles/SAF_UAFTracing_Profile.mdzip" to="profiles/SAF_UAFTracing_Profile.mdzip" />
     <file from="samples/SAF/Library.mdzip" to="samples/SAF/Library.mdzip" />

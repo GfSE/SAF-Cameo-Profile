@@ -1,3 +1,16 @@
+## 2026-11-09 (SAF Model Rules: R4 operational context role)
+* new rule R4 (`rules/operational_context_role.groovy`): a newly created part property (composite, non-derived) owned by a `SAF_OperationalContext` element — e.g. a part created in an Operational Context Exchange diagram -> the part gets the `SAF_OperationalContextRole` stereotype; idempotent, never overrides an existing role tag
+* stubs: added `Property` (isComposite/isDerived) and `Element.getOwner()` — signatures verified against the live kernel via introspection
+* SAF Predefined Structure template: the context role parts of "Family Home Context" (adult, child, storage, the magic machine) were plain non-composite reference properties — corrected to composite (part) semantics
+* rebuilt SAF_Plugin.zip (git-ignored build artifact); resource descriptor now lists the fourth rule
+
+## 2026-11-09 (SAF Model Rules integration)
+* integrated the SAF Model Rules plugin (com.haarer.saf.rules) into the SAF Plugin: it is now built and shipped inside SAF_Plugin.zip and installs to `plugins/com.haarer.saf.rules/` together with the profile
+* new `SAF_RulesPlugin/` source directory: Java core (`src/`), compile-time Cameo SDK stubs (`stubs/`), Groovy rules (`rules/`), `plugin.xml` template, and `build-rules.sh`
+* `build-rules.sh`: hermetic build (no Cameo install needed) — compiles stubs + Java core with `javac --release 17` against the Groovy 5.0.0 jar (Maven Central, cached in git-ignored `build/`), packages `cameo-saf-rules-<version>.jar`, syntax-checks the Groovy rules, stages jar + expanded `plugin.xml` + `rules/` into `SAF_Plugin/plugins/com.haarer.saf.rules/` (git-ignored build output)
+* `genplugin.groovy`: runs `build-rules.sh` first (version label passed through) and adds `plugins/` to the manifest scan dirs — the jar, plugin.xml, and rule sources are listed in the resource descriptor and included in the zip
+* rules auto-apply SAF stereotypes while modeling (Operational Process / System Process diagrams -> `SAF_OperationalProcess` / `SAF_SystemProcess` on their Activity; States in a System State machine -> `SAF_SystemState`); idempotent, hot-reloaded from `rules/` at runtime, requires the Automaton plugin
+
 ## 2026-11-09 (post-port review fixes)
 * palette-button audit across all 31 diagram templates (544 buttons): 67 button descriptions carried raw stereotype names (`Class«SAF_Claim»`, `SAF_ConceptualContext`, `SAF Physical System`, stray `»`, trailing spaces) — renamed to clean labels (`Claim`, `Conceptual Context`, `Physical System`, ...), camelCase split; the two `*_deprecated` buttons were removed afterwards (see below)
 * OPRF `Association«SAF_OperationalStakeholderRepresentation»` button: desc name does not exist in the profile (live stereotype is SAF_StakeholderRepresenting) — renamed to `Stakeholder Representing`

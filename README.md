@@ -9,11 +9,24 @@ If you need help, have a question or for general discussion, please visit [SAF d
 If there is an issue with one of the SAF Plugins for Cameo Systems Modeler, please [create an issue in this repository](https://github.com/GfSE/SAF-Cameo-Profile/issues/new/choose).
 
 ## SAF Plugin (recommended for model users)
-**SAF_Plugin.zip** installs the SAF Profile, additional diagram types for some viewpoints, the **SAF Modeler** perspective, additional project templates, and the FFDS Example Model. The plugin is required to open the SAF FFDS Example Model. 
+**SAF_Plugin.zip** installs the SAF Profile, additional diagram types for some viewpoints, the **SAF Modeler** perspective, additional project templates, the FFDS Example Model, and the **SAF Model Rules** plugin (see below). The plugin is required to open the SAF FFDS Example Model. 
 
 This plugin is for users of SAF wanting to create system models with SAF.
 
 The SAF Plugin is installed using the Resource/Plugin Manager which can be accessed via the help menu in the modeling tool.
+
+### SAF Model Rules
+
+The SAF Plugin now also installs the **SAF Model Rules** plugin (`plugins/com.haarer.saf.rules/`), which keeps models in shape while you build them: it watches what you create and applies the matching SAF stereotype automatically — no manual tagging, never overriding anything you did deliberately.
+
+Current rules:
+
+- **R1**: an Operational Process diagram (subject is an Activity) -> the Activity gets the `SAF_OperationalProcess` stereotype
+- **R2**: a new State inside a state machine that owns a System State diagram -> the State gets the `SAF_SystemState` stereotype
+- **R3**: a System Process diagram (subject is an Activity) -> the Activity gets the `SAF_SystemProcess` stereotype
+- **R4**: a new part property of an Operational Context element (e.g. created in an Operational Context Exchange diagram) -> the part gets the `SAF_OperationalContextRole` stereotype
+
+The rules are Groovy scripts loaded at runtime (hot reload, ~2 s poll); the Java core is compiled into `cameo-saf-rules-<version>.jar`. The rules plugin requires the **Automaton** plugin (bundled with Cameo). Verify it loaded: the GUI log shows `SAF Model Rules: Started`.
 
 ### Custom Diagram Types
 
@@ -82,6 +95,21 @@ This [development documentation](https://saf.gfse.org/devdoc/devdoc.html) intend
 
 ## SAF FFDS NAF Example Model
 **[SAF_FFDS_NAF.mdzip:](SAF_Plugin/samples/SAF/SAF_FFDS_NAF.mdzip)** The mdzip file contains some NAF model elements as needed to demonstrate traceability in the SAF Specification. It is included in the SAF Plugin.
+
+## SAF Model Rules (source)
+**`SAF_RulesPlugin/`** contains the source of the SAF Model Rules plugin shipped inside the SAF Plugin:
+
+| Path | Purpose |
+| --- | --- |
+| `SAF_RulesPlugin/src/` | Java core (`SafRulesPlugin`, `ModelRulesListener`, `RuleScanner`, `RuleRegistry`, annotations, `RuleSupport`) |
+| `SAF_RulesPlugin/stubs/` | Minimal compile-time stubs of the Cameo SDK API (the build is hermetic — no Cameo installation needed) |
+| `SAF_RulesPlugin/rules/` | Groovy rules (hot-reloaded at runtime, syntax-checked at build time) |
+| `SAF_RulesPlugin/plugin.xml` | Plugin manifest template (`${version}`, `${automatonVersion}` expanded at build time) |
+| `SAF_RulesPlugin/build-rules.sh` | Builds the jar and stages jar + plugin.xml + rules into `SAF_Plugin/plugins/com.haarer.saf.rules/` |
+
+`genplugin.groovy` runs `build-rules.sh` automatically before generating the manifest and the zip, so the rules plugin is always built and deployed together with the SAF Plugin (also on GitHub, see `.github/workflows/build-plugins.yml`). To build it alone: `bash SAF_RulesPlugin/build-rules.sh <version>`.
+
+Rules are authored in `SAF_RulesPlugin/rules/*.groovy`: each rule declares its trigger with `@RuleTrigger` and an `apply(Project, Element)` action. Rules MUST be idempotent (never override an existing stereotype) and keep their `apply` light — they run inside the commit path.
 
 ## SAF Dev Plugin
 **[SAF_DevPlugin.zip](SAF_DevPlugin.zip)** installs the Diagram Types and the SCM Profile. 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+    id="com.haarer.saf.rules"
+    name="SAF Model Rules"
+    version="${version}"
+    provider-name="Alexander Haarer"
+    class="com.haarer.saf.rules.SafRulesPlugin">
+    <requires>
+        <api version="1.0"/>
+        <required-plugin id="AutomatonPlugin" name="Automaton" version="${automatonVersion}"/>
+    </requires>
+    <runtime>
+        <library name="cameo-saf-rules-${version}.jar"/>
+    </runtime>
+</plugin>
