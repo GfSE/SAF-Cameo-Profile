@@ -25,81 +25,44 @@
   </requiredResource>
   <installation>
     <file from="data/defaults/data/diagrams/SAF Argumentation Assurance Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Argumentation Assurance Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Argumentation Assurance Diagram/files.info" to="data/defaults/data/diagrams/SAF Argumentation Assurance Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Common Standards Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Common Standards Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Common Standards Definition Diagram/files.info" to="data/defaults/data/diagrams/SAF Common Standards Definition Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Common Terms Definition Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Common Terms Definition Table/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Common Terms Definition Table/files.info" to="data/defaults/data/diagrams/SAF Common Terms Definition Table/files.info" />
-    <file from="data/defaults/data/diagrams/SAF Concept Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Concept Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Concept Diagram/files.info" to="data/defaults/data/diagrams/SAF Concept Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF EA Traceability Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF EA Traceability Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF EA Traceability Diagram/files.info" to="data/defaults/data/diagrams/SAF EA Traceability Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF EA Traceability Matrix/descriptor.xml" to="data/defaults/data/diagrams/SAF EA Traceability Matrix/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF EA Traceability Matrix/files.info" to="data/defaults/data/diagrams/SAF EA Traceability Matrix/files.info" />
     <file from="data/defaults/data/diagrams/SAF EA Traceability Table/descriptor.xml" to="data/defaults/data/diagrams/SAF EA Traceability Table/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF EA Traceability Table/files.info" to="data/defaults/data/diagrams/SAF EA Traceability Table/files.info" />
     <file from="data/defaults/data/diagrams/SAF Grid Overview Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Grid Overview Table/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Grid Overview Table/files.info" to="data/defaults/data/diagrams/SAF Grid Overview Table/files.info" />
     <file from="data/defaults/data/diagrams/SAF Internal Exchange Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Internal Exchange Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Operational Capability Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Capability Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Capability Definition Diagram/files.info" to="data/defaults/data/diagrams/SAF Operational Capability Definition Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Operational Context Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Context Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Context Definition Diagram/files.info" to="data/defaults/data/diagrams/SAF Operational Context Definition Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Operational Context Exchange Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Context Exchange Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Context Exchange Diagram/files.info" to="data/defaults/data/diagrams/SAF Operational Context Exchange Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Operational Context Interaction Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Context Interaction Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Domain Item Kind Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Domain Item Kind Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Domain Item Kind Diagram/files.info" to="data/defaults/data/diagrams/SAF Operational Domain Item Kind Diagram/files.info" />
-    <file from="data/defaults/data/diagrams/SAF Operational Domain Item Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Domain Item Table/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Domain Item Table/files.info" to="data/defaults/data/diagrams/SAF Operational Domain Item Table/files.info" />
     <file from="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Diagram/files.info" to="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Table/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Table/files.info" to="data/defaults/data/diagrams/SAF Operational Exchange Type Definition Table/files.info" />
     <file from="data/defaults/data/diagrams/SAF Operational Performer Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Performer Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Performer Definition Diagram/files.info" to="data/defaults/data/diagrams/SAF Operational Performer Definition Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Operational Performer Definition Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Performer Definition Table/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Performer Definition Table/files.info" to="data/defaults/data/diagrams/SAF Operational Performer Definition Table/files.info" />
     <file from="data/defaults/data/diagrams/SAF Operational Process Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Process Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Process Diagram/files.info" to="data/defaults/data/diagrams/SAF Operational Process Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Operational Story Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Operational Story Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Operational Story Diagram/files.info" to="data/defaults/data/diagrams/SAF Operational Story Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Physical Context Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Context Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Physical Context Definition Diagram/files.info" to="data/defaults/data/diagrams/SAF Physical Context Definition Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Physical Context Exchange Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Context Exchange Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Physical Context Exchange Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Context Exchange Table/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Physical Context Interaction Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Context Interaction Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Physical Exchange Type Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Exchange Type Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Physical Exchange Type Definition Diagram/files.info" to="data/defaults/data/diagrams/SAF Physical Exchange Type Definition Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Physical Interface Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Interface Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Physical Interface Definition Diagram/files.info" to="data/defaults/data/diagrams/SAF Physical Interface Definition Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Physical Internal Exchange Table/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Internal Exchange Table/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Physical Internal Exchange Table/files.info" to="data/defaults/data/diagrams/SAF Physical Internal Exchange Table/files.info" />
     <file from="data/defaults/data/diagrams/SAF Physical Internal Interaction Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Internal Interaction Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF Physical Logical Mapping Matrix/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Logical Mapping Matrix/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Physical Logical Mapping Matrix/files.info" to="data/defaults/data/diagrams/SAF Physical Logical Mapping Matrix/files.info" />
     <file from="data/defaults/data/diagrams/SAF Physical Structure Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Physical Structure Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Physical Structure Definition Diagram/files.info" to="data/defaults/data/diagrams/SAF Physical Structure Definition Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF Stakeholder Identification Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF Stakeholder Identification Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF Stakeholder Identification Diagram/files.info" to="data/defaults/data/diagrams/SAF Stakeholder Identification Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF System Capability Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Capability Definition Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF System Context Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Context Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF System Context Definition Diagram/files.info" to="data/defaults/data/diagrams/SAF System Context Definition Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF System Context Exchange Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Context Exchange Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF System Context Exchange Diagram/files.info" to="data/defaults/data/diagrams/SAF System Context Exchange Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF System Functional Breakdown Structure Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Functional Breakdown Structure Diagram/descriptor.xml" />
     <file from="data/defaults/data/diagrams/SAF System Functional Refinement Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Functional Refinement Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF System Functional Refinement Diagram/files.info" to="data/defaults/data/diagrams/SAF System Functional Refinement Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF System Internal Exchange Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Internal Exchange Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF System Internal Exchange Diagram/files.info" to="data/defaults/data/diagrams/SAF System Internal Exchange Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF System Process Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Process Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF System Process Diagram/files.info" to="data/defaults/data/diagrams/SAF System Process Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF System State Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System State Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF System State Diagram/files.info" to="data/defaults/data/diagrams/SAF System State Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF System Structure Definition Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Structure Definition Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF System Structure Definition Diagram/files.info" to="data/defaults/data/diagrams/SAF System Structure Definition Diagram/files.info" />
     <file from="data/defaults/data/diagrams/SAF System Use Case Diagram/descriptor.xml" to="data/defaults/data/diagrams/SAF System Use Case Diagram/descriptor.xml" />
-    <file from="data/defaults/data/diagrams/SAF System Use Case Diagram/files.info" to="data/defaults/data/diagrams/SAF System Use Case Diagram/files.info" />
     <file from="data/defaults/data/perspectives/SAF Modeler.umd" to="data/defaults/data/perspectives/SAF Modeler.umd" />
     <file from="plugins/com.haarer.saf.rules/cameo-saf-rules-latest.jar" to="plugins/com.haarer.saf.rules/cameo-saf-rules-latest.jar" />
     <file from="plugins/com.haarer.saf.rules/plugin.xml" to="plugins/com.haarer.saf.rules/plugin.xml" />

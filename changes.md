@@ -2,8 +2,6 @@
 
 *   SAF Internal Exchange Diagram
 *   SAF Operational Context Interaction Diagram
-*   SAF Operational Domain Item Kind Diagram
-*   SAF Operational Domain Item Table
 *   SAF Physical Context Exchange Diagram
 *   SAF Physical Context Exchange Table
 *   SAF Physical Context Interaction Diagram
