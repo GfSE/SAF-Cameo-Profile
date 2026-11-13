@@ -1,3 +1,16 @@
+## 2026-11-13 Add more custom diagrams
+
+*   SAF Common Standards Definition Table
+*   SAF System Capability Definition Table
+*   SAF System Capability Mapping Table
+*   SAF System Function Mapping Matrix
+*   SAF System Requirement Traceability Matrix
+*   SAF System Context Interaction Diagram
+*   SAF System Internal Interaction Diagram
+*   SAF System Interface Definition Diagram
+*   SAF System Exchange Type Definition Diagram
+*   the three Table templates are `DiagramTable` views (no palette, custom columns only): A2_CSTD and C2_SCYD gain a Table variant, C8_SCYM gets its first dedicated view; C8_SFUM and C8_SRQT get their first dedicated views as `DependencyMatrix` templates (no palette); C4_SCXI and C4_SITI are sequence diagrams shipping the stock `Common` palette only; C2_SETD and C5_SIFD get their first dedicated diagrams with a full SAF palette section
+
 ## 2026-11-13 (SAF Profile Support documentation)
 
 *   new `docs/profile-support.md`: user documentation of what the profile ships - the 52 user-facing SAF viewpoints ordered by domain with degree of support (UI integration / stereotypes present / unsupported) and remarks, the automation rules of the SAF Model Rules plugin (R1-R4, each with what it does when triggered), and the profile validation rules (13 rules, all warnings)

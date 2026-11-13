@@ -17,34 +17,34 @@ Degree of support:
 | Domain | Viewpoint | VP_ID | Support | Remarks |
 | --- | --- | --- | --- | --- |
 | Architecture Management | Argumentation Assurance Viewpoint | `A2_ARAS` | UI integration | spec maturity: released |
-| Architecture Management | Common Standards Definition Viewpoint | `A2_CSTD` | UI integration | spec maturity: released |
+| Architecture Management | Common Standards Definition Viewpoint | `A2_CSTD` | UI integration | spec maturity: released; 2 diagram types |
 | Architecture Management | Grid Definition Viewpoint | `A2_GRID` | UI integration | spec maturity: under construction |
 | Architecture Management | Common Terms Definition Viewpoint | `A2_TRMD` | UI integration | spec maturity: released |
 | Architecture Management | EA Traceability Viewpoint | `A8_EATR` | UI integration | spec maturity: released; 3 diagram types |
 | Conceptual | System Context Definition Viewpoint | `C1_SCXD` | UI integration | spec maturity: released |
 | Conceptual | System Context Exchange Viewpoint | `C1_SCXE` | UI integration | spec maturity: released |
 | Conceptual | System Use Case Viewpoint | `C1_SUCD` | UI integration | spec maturity: released |
-| Conceptual | System Capability Definition Viewpoint | `C2_SCYD` | UI integration | spec maturity: released |
-| Conceptual | System Exchange Type Definition Viewpoint | `C2_SETD` | Stereotypes present | spec maturity: released |
+| Conceptual | System Capability Definition Viewpoint | `C2_SCYD` | UI integration | spec maturity: released; 2 diagram types |
+| Conceptual | System Exchange Type Definition Viewpoint | `C2_SETD` | UI integration | spec maturity: released |
 | Conceptual | System Functional Breakdown Structure Viewpoint | `C2_SFBS` | UI integration | spec maturity: released |
 | Conceptual | System Structure Definition Viewpoint | `C2_SSTD` | UI integration | spec maturity: released |
 | Conceptual | System Functional Refinement Viewpoint | `C3_SFRE` | UI integration | spec maturity: released |
 | Conceptual | System Process Viewpoint | `C3_SPRO` | UI integration | spec maturity: released |
 | Conceptual | System Process White Box Viewpoint | `C3_SPWB` | Stereotypes present | spec maturity: proposed; diagram stereotype only (no viewpoint object yet) |
 | Conceptual | System State Viewpoint | `C3_SSTA` | UI integration | spec maturity: released |
-| Conceptual | System Context Interaction Viewpoint | `C4_SCXI` | Stereotypes present | spec maturity: released |
+| Conceptual | System Context Interaction Viewpoint | `C4_SCXI` | UI integration | spec maturity: released |
 | Conceptual | System Internal Exchange Viewpoint | `C4_SIEX` | UI integration | spec maturity: released |
-| Conceptual | System Internal Interaction Viewpoint | `C4_SITI` | Stereotypes present | spec maturity: released |
-| Conceptual | System Interface Definition Viewpoint | `C5_SIFD` | Stereotypes present | spec maturity: released |
+| Conceptual | System Internal Interaction Viewpoint | `C4_SITI` | UI integration | spec maturity: released |
+| Conceptual | System Interface Definition Viewpoint | `C5_SIFD` | UI integration | spec maturity: released |
 | Conceptual | System Requirement Definition Viewpoint | `C6_SRQD` | Stereotypes present | spec maturity: released |
 | Conceptual | Asset Identification Viewpoint | `C7_ASID` | Stereotypes present | spec maturity: proposed |
 | Conceptual | Impact Analysis Viewpoint | `C7_IMAN` | Stereotypes present | spec maturity: proposed |
 | Conceptual | Security Risk Analysis Viewpoint | `C7_RIAN` | Stereotypes present | spec maturity: proposed |
 | Conceptual | Security Context Viewpoint | `C7_SECT` | Stereotypes present | spec maturity: proposed |
 | Conceptual | Threat Szenario Viewpoint | `C7_THSC` | Stereotypes present | spec maturity: proposed |
-| Conceptual | System Capability Mapping Viewpoint | `C8_SCYM` | Stereotypes present | spec maturity: released |
-| Conceptual | System Function Mapping Viewpoint | `C8_SFUM` | Stereotypes present | spec maturity: released |
-| Conceptual | System Requirement Traceability Viewpoint | `C8_SRQT` | Stereotypes present | spec maturity: released |
+| Conceptual | System Capability Mapping Viewpoint | `C8_SCYM` | UI integration | spec maturity: released |
+| Conceptual | System Function Mapping Viewpoint | `C8_SFUM` | UI integration | spec maturity: released |
+| Conceptual | System Requirement Traceability Viewpoint | `C8_SRQT` | UI integration | spec maturity: released |
 | Operational | Operational Context Definition Viewpoint | `O1_OCXD` | UI integration | spec maturity: released |
 | Operational | Operational Context Exchange Viewpoint | `O1_OCXE` | UI integration | spec maturity: released |
 | Operational | Operational Story Viewpoint | `O1_OSTY` | UI integration | spec maturity: released |

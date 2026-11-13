@@ -3,7 +3,6 @@
     <stereotype id="_16_5beta1_8ba0276_1232443673758_573873_267"/>
     <stereotype id="_9_0_be00301_1108044380615_150487_0"/>
     <stereotype id="_2024x_8710274_1717757741721_127767_15486"/>
-    <stereotype id="_19_0_2_26f0132_1567115071113_47392_54955"/>
     <stereotype id="00264fab-35f4-407e-94f8-979178559bf9"/>
     <requiredPlugin>com.nomagic.magicdraw.diagramtable#Diagram Table;UML_Standard_Profile.mdzip;UAF_Customization.mdzip;SAF_Profile.mdzip;Report Profile.mdzip;SAF_UAFTracing_Profile.mdzip</requiredPlugin>
     <helpID>https://saf.gfse.org/userdoc/Physical%20Domain/Physical%20Context%20Exchange%20Viewpoint.html</helpID>

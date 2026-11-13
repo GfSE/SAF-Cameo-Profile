@@ -31,6 +31,7 @@ The plugin adds custom diagram types for most SAF Viewpoints to the New Diagram 
 ### What's new in this snapshot (2026-11-13)
 
 *   New user documentation: [SAF Profile Support](docs/profile-support.md) lists the supported viewpoints with their degree of support, the automation rules, and the validation rules; [Maintainer documentation](docs/maintainers.md) covers the profile maintenance macros
+*   9 more custom diagram types (2026-11-13): System Exchange Type Definition, System Interface Definition, System Context Interaction, System Internal Interaction, the Common Standards, System Capability Definition and System Capability Mapping Tables, and the System Function Mapping / System Requirement Traceability Matrices
 *   8 more custom diagram types (2026-11-11); the complete list per viewpoint is in [SAF Profile Support](docs/profile-support.md#supported-viewpoints)
 
 The previous snapshot (2026-11-09) added:

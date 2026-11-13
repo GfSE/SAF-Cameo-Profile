@@ -37,7 +37,7 @@ A palette section has:
 
 ## Current status (2026-11-13)
 
-26 diagram templates have a SAF palette section, and all 26 conform to rule 1; all 39 template directories conform to rule 3 (as of 2026-11-13; 2026-11-09 normalized 14 section names and 2 pre-refactor directory names, and 2026-11-11 added 8 more templates):
+28 diagram templates have a SAF palette section, and all 28 conform to rule 1; all 48 template directories conform to rule 3 (as of 2026-11-13; 2026-11-09 normalized 14 section names and 2 pre-refactor directory names, 2026-11-11 added 8 more templates, and 2026-11-13 added 9 more):
 
 | Abbreviation | Diagram (`type`) | SAF section name | Notes |
 |---|---|---|---|
@@ -67,11 +67,13 @@ A palette section has:
 | SAF_P1_PCXE | SAF Physical Context Exchange Diagram | SAF Physical Context Exchange Diagram | added 2026-11-11 |
 | SAF_C2_SCYD | SAF System Capability Definition Diagram | SAF System Capability Definition Diagram | added 2026-11-11 |
 | SAF_C2_SFBS | SAF System Functional Breakdown Structure Diagram | SAF System Functional Breakdown Structure Diagram | added 2026-11-11 |
+| SAF_C2_SETD | SAF System Exchange Type Definition Diagram | SAF System Exchange Type Definition Diagram | added 2026-11-13 |
+| SAF_C5_SIFD | SAF System Interface Definition Diagram | SAF System Interface Definition Diagram | added 2026-11-13 |
 
-The 9 table/matrix templates (Common Terms Definition Table, EA Traceability Matrix/Table, Grid Overview Table, SAF Operational Exchange Type Definition Table, Operational Performer Definition Table, Physical Context Exchange Table, Physical Internal Exchange Table, Physical Logical Mapping Matrix) have no palette and are out of scope.
+The 14 table/matrix templates (Common Standards Definition Table, Common Terms Definition Table, EA Traceability Matrix/Table, Grid Overview Table, SAF Operational Exchange Type Definition Table, Operational Performer Definition Table, Physical Context Exchange Table, Physical Internal Exchange Table, Physical Logical Mapping Matrix, System Capability Definition Table, System Capability Mapping Table, System Function Mapping Matrix, System Requirement Traceability Matrix) have no palette and are out of scope.
 
 Deviations and exceptions (as of 2026-11-13):
 
 - `SAF Internal Exchange Diagram` (`SAF_P4_PIEX`) is the one rule 1 exception: its SAF section is named `SAF Physical Internal Exchange Diagram`, while the `type` attribute and the directory still carry the pre-refactor short name. Renaming requires a plugin manifest update and a `SAF_Plugin.zip` rebuild.
-- The 3 sequence-diagram templates (`SAF_O4_OCXI`, `SAF_P4_PCXI`, `P4_PITI`) ship only the stock `Common` section, with no SAF palette section.
+- The 5 sequence-diagram templates (`SAF_O4_OCXI`, `SAF_C4_SCXI`, `SAF_C4_SITI`, `SAF_P4_PCXI`, `P4_PITI`) ship only the stock `Common` section, with no SAF palette section.
 - The empty `SAF Concept Diagram/` directory has no `descriptor.xml` and is excluded from the production plugin (its `SAF Development` category is filtered out by `genplugin.groovy`).
