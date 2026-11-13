@@ -1,3 +1,9 @@
+## 2026-11-13 (SAF Profile Support documentation)
+
+*   new `docs/profile-support.md`: user documentation of what the profile ships - the 52 user-facing SAF viewpoints ordered by domain with degree of support (UI integration / stereotypes present / unsupported) and remarks, the automation rules of the SAF Model Rules plugin (R1-R4), and the profile validation rules (13 rules, all warnings)
+*   new macro `GenerateProfileSupportDoc` in the profile (`SAF_Maintainers` package): regenerates `docs/profile-support.md` from the spec viewpoints data, the plugin diagram descriptors, the open model (viewpoint objects, diagram stereotypes, `SAF_ValidationSuite` rules) and the rules plugin sources - rerun after changes to keep the doc in sync, e.g. when preparing a release branch
+*   new `docs/maintainers.md`: maintainer documentation for the SAF Profile (the `SAF_Maintainers` macros: `UpdateSAFProfileFromSpec`, `GenerateProfileSupportDoc`); README links it from the developers section
+
 ## 2026-11-11 Add more custom diagrams
 
 *   SAF Internal Exchange Diagram
