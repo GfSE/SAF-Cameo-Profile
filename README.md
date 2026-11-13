@@ -20,7 +20,7 @@ This, because the plugin installation location provides an additional path to th
 For development within the SAF Working group, only the Dev Plugin is necessary, because all other resources are provided by the TWC.
 
 ## SAF Profile
-**[SAF_Profile.mdzip:](SAF_Plugin/profiles/SAF_Profile.mdzip)** The mdzip file contains the SAF Profile with SAF Stereotypes according to the [SAF-Specification](https://saf.gfse.org). See this [List of Stereotypes](https://saf.gfse.org/userdoc/stereotypes.html).
+**[SAF_Profile.mdzip:](SAF_Plugin/profiles/SAF_Profile.mdzip)** The mdzip file contains the SAF Profile with SAF Stereotypes according to the [SAF-Specification](https://saf.gfse.org/version/TdSE2025). See this [List of Stereotypes](https://saf.gfse.org/version/TdSE2025/userdoc/stereotypes.html).
 
 ## SCM Profile
 **[SAF_SCM_Profile.mdzip:](SAF_DevPlugin/profiles/SAF_SCM_Profile.mdzip)** The mdzip file contains the SCM Profile used to develop SAF Viewpoints.
