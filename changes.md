@@ -1,6 +1,7 @@
 ## 2026-11-13 (SAF Profile Support documentation)
 
-*   new `docs/profile-support.md`: user documentation of what the profile ships - the 52 user-facing SAF viewpoints ordered by domain with degree of support (UI integration / stereotypes present / unsupported) and remarks, the automation rules of the SAF Model Rules plugin (R1-R4), and the profile validation rules (13 rules, all warnings)
+*   new `docs/profile-support.md`: user documentation of what the profile ships - the 52 user-facing SAF viewpoints ordered by domain with degree of support (UI integration / stereotypes present / unsupported) and remarks, the automation rules of the SAF Model Rules plugin (R1-R4, each with what it does when triggered), and the profile validation rules (13 rules, all warnings)
+*   fixed two typos in validation rule messages: `SAF-CON-NOFLOW` ("potentially"), `SAF-CON-MIXUP` ("Don't")
 *   new macro `GenerateProfileSupportDoc` in the profile (`SAF_Maintainers` package): regenerates `docs/profile-support.md` from the spec viewpoints data, the plugin diagram descriptors, the open model (viewpoint objects, diagram stereotypes, `SAF_ValidationSuite` rules) and the rules plugin sources - rerun after changes to keep the doc in sync, e.g. when preparing a release branch
 *   new `docs/maintainers.md`: maintainer documentation for the SAF Profile (the `SAF_Maintainers` macros: `UpdateSAFProfileFromSpec`, `GenerateProfileSupportDoc`); README links it from the developers section
 
@@ -67,8 +68,8 @@
 
 ## 2026-03-20
 
-*   rename SAF\_LogcicalElement to SAF\_ConceptualSystem
-*   rename SAF\_LogcicalSOI to SAF\_LogicalSOI\_deprecated
+*   rename SAF\_LogicalElement to SAF\_ConceptualSystem
+*   rename SAF\_LogicalSOI to SAF\_LogicalSOI\_deprecated
 *   new stereotype on part property SAF\_ConceptualContextRole\_SoI
 *   rename SAF\_LogicalContextRole to SAF\_ConceptualContextRole
 *   rename SAF\_LogicalInternalRole to SAF\_ConceptualInternalRole
@@ -79,7 +80,6 @@
 *   rename SAF\_PhysicalSoftwareElement to SAF\_PhysicalSoftware
 *   rename SAF\_PhysicalElement to SAF\_PhysicalSystem
 *   rename SAF\_PhysicalHardwareElement to SAF\_PhysicalHardware
-*   rename SAF\_PhysicalSystem to SAF\_PhysicalSystem\_deprecated
 *   rename SAF\_O2\_ODIK to SAF\_O2\_OETD
 *   rename SAF\_O2\_ODIK\_Table to SAF\_O2\_OETD\_Table
 *   rename SAF\_F2\_SDIK to SAF\_F2\_SETD

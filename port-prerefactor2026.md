@@ -1,6 +1,6 @@
 # Porting valuable PreRefactor2026 additions into main
 
-Status: **planning/verification** — nothing ported yet.
+Status: **completed 2026-11-09** — the 9 portable diagrams were ported into main (see `changes.md` 2026-11-09, "port PreRefactor2026 branch diagram-template improvements").
 Created: 2026-11-09. Sources: `SAF-Cameo-Profile-PreRefactor2026` clone (branch `PreRefactor2026`, commit `cc64530`), `SAF-Specification` branches `main` vs `origin/PreRefactor2026`, this repo's `changes.md` (2026-03-20).
 
 ## Goal
@@ -39,7 +39,7 @@ New viewpoints in main: Operational/Physical/System (Internal/Context) Interacti
 | SAF Logical Structure Definition Diagram (`L2_LSTD`) | `C2_SSTD` System Structure Definition | portable, code remap |
 | SAF Operational Context Exchange Diagram (`O1_OCXE`) | `O1_OCXE` (unchanged) | portable, category fix only |
 | SAF Physical Structure Definition Diagram (`P2_PSTD`) | `P2_PSTD` (unchanged) | portable, category fix only |
-| SAF Stakeholder Identification Diagram (`O2_STIDF`) | `O2_STIDF` (unchanged) | portable, category fix only |
+| SAF Stakeholder Identification Diagram (`O2_STID`) | `O2_STID` (unchanged) | portable, category fix only |
 | SAF System Context Exchange Diagram (`F1_SCXE`) | `C1_SCXE` | portable, code remap |
 | SAF System Functional Refinement Diagram (`F3_SFRE`) | `C3_SFRE` | portable, code remap |
 | SAF System Process Diagram (`F3_SPRO`) | `C3_SPRO` (separate `C3_SPWB` already in main) | portable, code remap |
@@ -127,11 +127,11 @@ Allocate, FlowProperty, ItemFlow, ProxyPort, SAF_ContextAction, SAF_FunctionActi
 
 1. Replacements for the 3 deprecated stereotype refs (`SAF_LogicalExternalSystem`, `SAF_LogicalSOI`, old `SAF_PhysicalSystem`) in the ported toolbars: use the new `*_ContextRole_SoI` stereotypes, or drop the toolbar entries?
 2. `F3_SPRO` -> `C3_SPRO` (direct lineage) - confirm the pre-refactor SPRO diagram content matches the post-refactor SPRO viewpoint (main separately added C3_SPWB).
-3. `O2_STIDF` (Stakeholder Identification) kept its code in the post-refactor grid - confirm it belongs to the Operational domain diagrams category (not Development).
+3. `O2_STID` (Stakeholder Identification) kept its code in the post-refactor grid - confirm it belongs to the Operational domain diagrams category (not Development).
 4. `Physical Logical Item Mapping Viewpoint` was dropped - any pre-refactor diagram content for it is out of scope (none exists among the 10).
 
 ## Verification protocol (after port)
 
-1. `make clean && make dist` in SAF_Plugin; inspect generated MDR descriptor lists the 9 new diagram types.
+1. `make clean && make dist` in SAF_Plugin; inspect generated MDR descriptor list for the 9 new diagram types.
 2. Load plugin in Cameo: all 9 diagram types create; toolbar/manipulator stereotypes apply (no silently-dropped filters).
 3. `saf_check_consistency` + `validation_run` via MCP; spot-check one ported diagram per domain (C/O/P).

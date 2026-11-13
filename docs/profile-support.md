@@ -71,7 +71,7 @@ Degree of support:
 
 ## Automation Rules (SAF Model Rules)
 
-The plugin installs the **SAF Model Rules** plugin, which applies SAF stereotypes automatically while you model. All rules are idempotent - they never override a stereotype you applied deliberately. Rules run inside the commit path and are hot-reloaded from `rules/*.groovy`.
+The plugin installs the **SAF Model Rules** plugin, which applies SAF stereotypes automatically while you model. The rules listen to model commits: when an element is created and the change is committed, every rule whose trigger matches the new element is evaluated. All rules are idempotent - they never override a stereotype you applied deliberately. Rules are hot-reloaded from `rules/*.groovy`.
 
 | Rule | Trigger | Action |
 | --- | --- | --- |
@@ -79,6 +79,22 @@ The plugin installs the **SAF Model Rules** plugin, which applies SAF stereotype
 | R2 | States in a SAF_C3_SSTA state machine | SAF_SystemState |
 | R3 | System Process diagram | SAF_SystemProcess on context Activity |
 | R4 | Part of SAF_OperationalContext (OCXE diagram) | SAF_OperationalContextRole |
+
+### R1: Operational Process diagram
+
+When you create an **Operational Process diagram** (stereotype `SAF_O3_OPRO`), the rule applies the `SAF_OperationalProcess` stereotype to the diagram's **context Activity**, so the Activity is recognized as the operational process the diagram depicts. It skips (with a log note) when the diagram context is not an Activity, or when the SAF profile is not applied to the project.
+
+### R2: States in a SAF_C3_SSTA state machine
+
+When you create a **State** inside a state machine that has a System State diagram (stereotype `SAF_C3_SSTA`) - including nested states in subregions - the rule applies the `SAF_SystemState` stereotype to the state. States in state machines without a C3_SSTA diagram are left untouched.
+
+### R3: System Process diagram
+
+When you create a **System Process diagram** (stereotype `SAF_C3_SPRO`), the rule applies the `SAF_SystemProcess` stereotype to the diagram's **context Activity** - the conceptual-domain counterpart of R1.
+
+### R4: Part of SAF_OperationalContext (OCXE diagram)
+
+When you add a **part** (composition property) to a block stereotyped `SAF_OperationalContext` - the context block of an Operational Context Exchange (OCXE) diagram - the rule applies the `SAF_OperationalContextRole` stereotype, making the part an operational context role. Derived and non-composition properties are left untouched.
 
 ## Validation Rules
 
