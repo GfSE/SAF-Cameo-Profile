@@ -21,10 +21,10 @@ class PhysicalContextRoleRule {
             return
         }
         // The UI "SOI" button carries the SoI flag in the part's type name:
-        // when the type name contains "soi" (any case) the part is a SoI part.
+        // when the type name contains "soi" (exact, case-sensitive) the part is a SoI part.
         def partType = part.getType()
         String typeName = (partType == null) ? null : partType.getName()
-        boolean isSoI = (typeName != null && typeName.toLowerCase().contains("soi"))
+        boolean isSoI = (typeName != null && typeName.contains("soi"))
         String roleName = isSoI ? "SAF_PhysicalContextRole_SoI" : "SAF_PhysicalContextRole"
         Stereotype stereotype = RuleSupport.findStereotype(project, roleName)
         if (stereotype == null) {
@@ -37,7 +37,7 @@ class PhysicalContextRoleRule {
         StereotypesHelper.addStereotype(part, stereotype)
         removePlainPartProperty(project, part)
         if (isSoI && partType != null) {
-            String cleaned = typeName.replaceAll("(?i)soi", "")
+            String cleaned = typeName.replace("soi", "")
             if (!cleaned.isEmpty() && !cleaned.equals(typeName)) {
                 partType.setName(cleaned)
                 RuleSupport.log("R6: stripped 'soi' marker from type '" + typeName + "' -> '" + cleaned + "'")
