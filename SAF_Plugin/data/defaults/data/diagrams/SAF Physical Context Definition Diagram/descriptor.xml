@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <diagram version="9" type="SAF Physical Context Definition Diagram" baseType="Class Diagram" abbreviation="SAF_P1_PCXD" category="SAF PD Diagrams">
     <stereotype id="_2021x_2_6d8019d_1674914191877_627483_25391"/>
-    <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;SAF_Profile.mdzip;MD_customization_for_SysML.mdzip;UML_Standard_Profile.mdzip</requiredPlugin>
+    <requiredPlugin>com.nomagic.magicdraw.plugins.impl.sysml#SysML;SAF_Profile.mdzip;UML_Standard_Profile.mdzip</requiredPlugin>
     <helpID>saf.gfse.org/userdoc/Physical Domain/Physical Context Definition Viewpoint.html</helpID>
     <toolbarConfiguration>
         <category name="Common" id="COMMON_ELEMENTS_STATIC" expandedByDefault="false">
@@ -1243,10 +1243,10 @@
     <manipulators>
         <stereotype id="_19_0_2_164f041e_1564558860534_409677_52063" name="SAF_PhysicalContext"/>
         <path action="ADD_DIRECTED_COMPOSITION">
+            <target>IDaction_1794688655773_702008_0</target>
+            <target>IDaction_1760452075140_360427_3</target>
             <target>IDaction_1760451982782_289183_1</target>
             <target>IDaction_1760452110908_531144_4</target>
-            <target>IDaction_1760452075140_360427_3</target>
-            <target>IDaction_1760452042714_684237_2</target>
         </path>
         <path action="ADD_GENERALIZATION">
             <target>IDaction_1760452042714_684237_2</target>

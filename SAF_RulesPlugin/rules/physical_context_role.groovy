@@ -20,11 +20,25 @@ class PhysicalContextRoleRule {
         if (owner == null || !RuleSupport.hasAppliedStereotype(owner, "SAF_PhysicalContext")) {
             return
         }
-        // The UI "SOI" button carries the SoI flag in the part's type name:
-        // when the type name contains "soi" (exact, case-sensitive) the part is a SoI part.
+        // The UI "SOI" button creates a block whose documentation carries the
+        // "soi" flag; connecting it to the context auto-creates a part typed to
+        // that block. When the part's TYPE documentation contains "soi" (exact,
+        // case-sensitive) the part is a SoI part.
         def partType = part.getType()
-        String typeName = (partType == null) ? null : partType.getName()
-        boolean isSoI = (typeName != null && typeName.contains("soi"))
+        def comments = (partType == null) ? null : partType.getOwnedComment()
+        List soiComments = new ArrayList()
+        if (comments != null) {
+            if (comments instanceof List) {
+                for (Object c : (List) comments) {
+                    if (c != null && c.getBody() != null && c.getBody().contains("soi")) {
+                        soiComments.add(c)
+                    }
+                }
+            } else if (comments.getBody() != null && comments.getBody().contains("soi")) {
+                soiComments.add(comments)
+            }
+        }
+        boolean isSoI = !soiComments.isEmpty()
         String roleName = isSoI ? "SAF_PhysicalContextRole_SoI" : "SAF_PhysicalContextRole"
         Stereotype stereotype = RuleSupport.findStereotype(project, roleName)
         if (stereotype == null) {
@@ -36,12 +50,11 @@ class PhysicalContextRoleRule {
         }
         StereotypesHelper.addStereotype(part, stereotype)
         removePlainPartProperty(project, part)
-        if (isSoI && partType != null) {
-            String cleaned = typeName.replace("soi", "")
-            if (!cleaned.isEmpty() && !cleaned.equals(typeName)) {
-                partType.setName(cleaned)
-                RuleSupport.log("R6: stripped 'soi' marker from type '" + typeName + "' -> '" + cleaned + "'")
-            }
+        for (Object c : soiComments) {
+            String body = c.getBody()
+            String cleaned = body.replace("soi", "")
+            c.setBody(cleaned)
+            RuleSupport.log("R6: stripped 'soi' marker from type '" + partType.getName() + "' documentation -> '" + cleaned + "'")
         }
         RuleSupport.log("R6: applied '" + roleName + "' to part '" + part.getName()
                 + "' (of " + RuleSupport.describe(owner) + ")")

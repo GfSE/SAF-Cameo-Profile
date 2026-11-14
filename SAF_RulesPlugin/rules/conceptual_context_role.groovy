@@ -20,9 +20,29 @@ class ConceptualContextRoleRule {
         if (owner == null || !RuleSupport.hasAppliedStereotype(owner, "SAF_ConceptualContext")) {
             return
         }
-        Stereotype stereotype = RuleSupport.findStereotype(project, "SAF_ConceptualContextRole")
+        // The UI "SOI" button creates a block whose documentation carries the
+        // "soi" flag; connecting it to the context auto-creates a part typed to
+        // that block. When the part's TYPE documentation contains "soi" (exact,
+        // case-sensitive) the part is a SoI part.
+        def partType = part.getType()
+        def comments = (partType == null) ? null : partType.getOwnedComment()
+        List soiComments = new ArrayList()
+        if (comments != null) {
+            if (comments instanceof List) {
+                for (Object c : (List) comments) {
+                    if (c != null && c.getBody() != null && c.getBody().contains("soi")) {
+                        soiComments.add(c)
+                    }
+                }
+            } else if (comments.getBody() != null && comments.getBody().contains("soi")) {
+                soiComments.add(comments)
+            }
+        }
+        boolean isSoI = !soiComments.isEmpty()
+        String roleName = isSoI ? "SAF_ConceptualContextRole_SoI" : "SAF_ConceptualContextRole"
+        Stereotype stereotype = RuleSupport.findStereotype(project, roleName)
         if (stereotype == null) {
-            RuleSupport.log("R5: skip part '" + part.getName() + "': no 'SAF_ConceptualContextRole' stereotype in project (SAF profile not applied?)")
+            RuleSupport.log("R5: skip part '" + part.getName() + "': no '" + roleName + "' stereotype in project (SAF profile not applied?)")
             return
         }
         if (StereotypesHelper.hasStereotype(part, stereotype)) {
@@ -30,7 +50,13 @@ class ConceptualContextRoleRule {
         }
         StereotypesHelper.addStereotype(part, stereotype)
         removePlainPartProperty(project, part)
-        RuleSupport.log("R5: applied 'SAF_ConceptualContextRole' to part '" + part.getName()
+        for (Object c : soiComments) {
+            String body = c.getBody()
+            String cleaned = body.replace("soi", "")
+            c.setBody(cleaned)
+            RuleSupport.log("R5: stripped 'soi' marker from type '" + partType.getName() + "' documentation -> '" + cleaned + "'")
+        }
+        RuleSupport.log("R5: applied '" + roleName + "' to part '" + part.getName()
                 + "' (of " + RuleSupport.describe(owner) + ")")
     }
 
