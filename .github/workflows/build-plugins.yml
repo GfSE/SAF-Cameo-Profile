@@ -13,7 +13,11 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [2026x, 2024x]
+
     steps:
       - uses: actions/checkout@v4
       
@@ -29,27 +33,45 @@ jobs:
           groovy-version: '4.0.21'
       
       
-      - name: Build Plugins with Version
+      - name: Build Plugins with Version (target ${{ matrix.target }})
         run: |
           # Falls kein Tag da ist, nutze 'latest' als Fallback
           VERSION="${{ github.ref_name || 'latest' }}"
           groovy -DpluginVersion=$VERSION gendevplugin.groovy
-          groovy -DpluginVersion=$VERSION genplugin.groovy
+          groovy -DpluginVersion=$VERSION -Dtarget=${{ matrix.target }} genplugin.groovy
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: plugin-zips
+          name: plugin-zips-${{ matrix.target }}
           path: |
             SAF_DevPlugin.zip
-            SAF_Plugin.zip
-      
+            SAF_Plugin-cameo${{ matrix.target }}.zip
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download artifacts (2026x)
+        uses: actions/download-artifact@v4
+        with:
+          name: plugin-zips-2026x
+          path: release/2026x
+
+      - name: Download artifacts (2024x)
+        uses: actions/download-artifact@v4
+        with:
+          name: plugin-zips-2024x
+          path: release/2024x
+
       - name: Create Release
-        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
+          # SAF_DevPlugin.zip is target-independent; upload it once (from 2026x)
           files: |
-            SAF_DevPlugin.zip
-            SAF_Plugin.zip
+            release/2026x/SAF_DevPlugin.zip
+            release/2026x/SAF_Plugin-cameo2026x.zip
+            release/2024x/SAF_Plugin-cameo2024x.zip
           generate_release_notes: true
-

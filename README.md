@@ -1,6 +1,6 @@
 # 3DS Cameo Systems Modeler Resources for SAF users
 
-This repository provides the current state of development \[tracking the main branch of the spec\] of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2026x. Please see the model file itself for licensing terms.
+This repository provides the current state of development \[tracking the main branch of the spec\] of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2026x or 2024x. Please see the model file itself for licensing terms.
 
 Download the plugin at the [Releases Page of the Repository](https://github.com/GfSE/SAF-Cameo-Profile/releases).
 
@@ -10,7 +10,7 @@ If there is an issue with one of the SAF Plugins for Cameo Systems Modeler, plea
 
 ## SAF Plugin (recommended for model users)
 
-**SAF\_Plugin.zip** installs the SAF Profile, additional diagram types for some viewpoints, the **SAF Modeler** perspective, additional project templates, the FFDS Example Model, and an automation rules plugin (see below). 
+**SAF\_Plugin-cameo2026x.zip** and **SAF\_Plugin-cameo2024x.zip** install the SAF Profile, additional diagram types for some viewpoints, the **SAF Modeler** perspective, additional project templates, the FFDS Example Model, and an automation rules plugin (see below). Choose the artifact matching your Cameo version. Both contain the same model content; they differ only in the automation rules plugin, which is built for the Automaton plugin (and its bundled Groovy) of the respective Cameo version.
 
 This plugin is for users of SAF wanting to create system models with SAF. It is required to open the SAF FFDS Example Model.
 
@@ -82,8 +82,9 @@ Since February 2026 we switched to automated builds; all snapshots since then ar
 
 **Please download from the** [**Releases Page of the Repository**](https://github.com/GfSE/SAF-Cameo-Profile/releases)
 
-The releases follow the scheme vcameo2026x-YYYY-MM-DD.  
-e.g. vcameo2026x-2026-02-22 is a release for Cameo 2026x from 22nd February 2026
+The releases follow the scheme vYYYY-MM-DD.  
+e.g. v2026-11-14 is a release from 14th November 2026  
+Each release contains the artifacts for both targets: **SAF\_Plugin-cameo2026x.zip** and **SAF\_Plugin-cameo2024x.zip** (plus **SAF\_DevPlugin.zip** for SAF developers). Choose the SAF Plugin artifact matching your Cameo version.
 
 https://github.com/GfSE/SAF-Cameo-Profile/releases#release-vcameo2026x-2026-02-22 is the last release  
 before the refactoring of the SAF grid

@@ -1,3 +1,11 @@
+## 2026-11-14 (Multi-target build: separate Cameo 2024x plugin artifact)
+
+*   new **SAF\_Plugin-cameo2024x.zip** release artifact for Cameo 2024x, built from the same sources as the 2026x plugin. Both artifacts contain identical model content (profile, samples, templates, diagrams); they differ only in the SAF Model Rules plugin: the 2024x artifact requires the `2024x` Automaton plugin, and its rules are syntax-checked against the Groovy 3.0.9 bundled with it (2026x artifact: `2026x` Automaton, Groovy 5.0.0)
+*   `genplugin.groovy`: new `-Dtarget=` build parameter (`2026x` default, `2024x`); output zip is now named `SAF_Plugin-cameo<target>.zip`
+*   `SAF_RulesPlugin/build-rules.sh`: new optional `[groovyVersion]` argument (default `5.0.0`); picks the right Maven artifact for the Groovy jar (`org.codehaus.groovy` for 3.x, `org.apache.groovy` for 4+); for Groovy 3.x the rule syntax check runs on a Java 17 runtime (Groovy 3's ASM cannot read class files from newer JDKs)
+*   CI (`build-plugins.yml`): builds both targets in a matrix from one commit; a tag release now contains `SAF_Plugin-cameo2026x.zip`, `SAF_Plugin-cameo2024x.zip`, and `SAF_DevPlugin.zip`
+*   release tag scheme changed from `vcameo2026x-YYYY-MM-DD` to `vYYYY-MM-DD` (one release per tag, containing both targets)
+
 ## 2026-11-14 Add more custom diagrams
 
 *   SAF Common Standards Definition Table

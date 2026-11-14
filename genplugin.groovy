@@ -16,6 +16,21 @@ def OUTPUT_FILENAME = 'SAF_Plugin/data/resourcemanager/MDR_Profile_SAF_75377_des
 // Sucht nach -DpluginVersion=... beim Aufruf, sonst 'main'
 def versionLabel = System.getProperty("pluginVersion") ?: 'main'
 
+// --- Cameo target (2026x default) ---
+// Both targets ship the same model content (profile, samples, templates,
+// diagrams); only the SAF Model Rules plugin differs: the Automaton version
+// it requires and the Groovy version it must parse with (the rules are
+// compiled at runtime by the Groovy jar inside the Automaton plugin).
+def target = System.getProperty("target") ?: '2026x'
+def TARGETS = [
+    '2026x': [automaton: '2026x', groovy: '5.0.0'],
+    '2024x': [automaton: '2024x', groovy: '3.0.9']
+]
+def tcfg = TARGETS[target]
+if (!tcfg) {
+    throw new RuntimeException("Unknown target '${target}'. Valid: ${TARGETS.keySet().join(', ')}")
+}
+
 def VERSION = [human: versionLabel, internal: '100011', resource: '1000110']
 def PROVIDER = [email: 'saf@gfse.org', homePage: 'https://saf.gfse.org', name: 'GfSE SAF Working Group']
 
@@ -58,8 +73,8 @@ def RESOURCE_ATTRS = [
 // picks it up for the manifest and the zip step includes it.
 def rulesBuildScript = new File('SAF_RulesPlugin/build-rules.sh')
 if (rulesBuildScript.exists()) {
-    println "Building SAF Model Rules (version ${versionLabel}) ..."
-    def rulesBuild = ['bash', 'SAF_RulesPlugin/build-rules.sh', versionLabel].execute()
+    println "Building SAF Model Rules (version ${versionLabel}, target ${target}) ..."
+    def rulesBuild = ['bash', 'SAF_RulesPlugin/build-rules.sh', versionLabel, tcfg.automaton, tcfg.groovy].execute()
     def rulesOut = rulesBuild.text  // blocks until the build process exits (stderr merged)
     def rulesExit = rulesBuild.waitFor()
     println rulesOut
@@ -136,8 +151,8 @@ outFile.withWriter('UTF-8') { writer ->
 println "Wrote ${outFile.absolutePath}"
 
 // create a zip of the SAF_Plugin tree (like the Makefile)
-// zip will be created in the chosen outDir as SAF_Plugin.zip
-def zipFile = new File(outDir, 'SAF_Plugin.zip')
+// zip will be created in the chosen outDir as SAF_Plugin-cameo<target>.zip
+def zipFile = new File(outDir, "SAF_Plugin-cameo${target}.zip")
 // the plugin directory is expected under outDir (since descriptor was written there)
 // fallback to local BASE_SCAN_ROOT if not present in outDir
 def pluginDir = new File(outDir, BASE_SCAN_ROOT)

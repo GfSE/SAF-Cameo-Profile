@@ -13,10 +13,14 @@
 # (with hot reload). They are syntax-checked here at build time.
 #
 # Usage:
-#   bash SAF_RulesPlugin/build-rules.sh <pluginVersion> [automatonVersion]
+#   bash SAF_RulesPlugin/build-rules.sh <pluginVersion> [automatonVersion] [groovyVersion]
 #
 #   <pluginVersion>    version label, e.g. 'main', 'latest' or a release tag
 #   [automatonVersion] required Automaton plugin version (default: 2026x)
+#   [groovyVersion]    Groovy version bundled with the target Cameo's Automaton
+#                      plugin, used for the core compile classpath and the rule
+#                      syntax check (default: 5.0.0 = Cameo 2026x; use 3.0.9
+#                      for Cameo 2024x)
 #
 # Output (staged for genplugin.groovy):
 #   SAF_Plugin/plugins/com.haarer.saf.rules/cameo-saf-rules-<pluginVersion>.jar
@@ -37,11 +41,17 @@ WORK="$BUILD/work"
 DIST="$ROOT/SAF_Plugin/plugins/com.haarer.saf.rules"
 JAR_NAME="cameo-saf-rules-${VERSION}.jar"
 
-# Groovy bundled with Cameo 2026x (via the Automaton plugin); also the
-# compiler used for the rule syntax check.
-GROOVY_VERSION="5.0.0"
+# Groovy version bundled with the target Cameo's Automaton plugin; also the
+# compiler used for the rule syntax check. 5.0.0 = Cameo 2026x, 3.0.9 = 2024x.
+GROOVY_VERSION="${3:-5.0.0}"
 GROOVY_JAR="$BUILD/groovy-${GROOVY_VERSION}.jar"
-MAVEN_URL="https://repo1.maven.org/maven2/org/apache/groovy/groovy/${GROOVY_VERSION}/groovy-${GROOVY_VERSION}.jar"
+# Maven Central group: org.codehaus.groovy up to Groovy 3.x,
+# org.apache.groovy from 4.0 on.
+case "$GROOVY_VERSION" in
+    3.*) GROOVY_GROUP='org/codehaus/groovy' ;;
+    *)   GROOVY_GROUP='org/apache/groovy' ;;
+esac
+MAVEN_URL="https://repo1.maven.org/maven2/${GROOVY_GROUP}/groovy/${GROOVY_VERSION}/groovy-${GROOVY_VERSION}.jar"
 
 echo "=== Building SAF Model Rules (version ${VERSION}, automaton ${AUTOMATON}) ==="
 rm -rf "$WORK"
@@ -69,7 +79,21 @@ jar --create --file "$WORK/${JAR_NAME}" -C "$WORK/classes" .
 
 # 5. Syntax-check the Groovy rules (shipped as sources, compiled at runtime)
 echo "--- Syntax-checking Groovy rules ---"
-java -cp "$WORK/stubs:$GROOVY_JAR:$WORK/classes" \
+JAVA_BIN="java"
+if [ "${GROOVY_VERSION%%.*}" = "3" ]; then
+  # Groovy 3.x's ASM cannot read class files from JDKs newer than 17
+  # (e.g. major 71 on a Java 27 runtime), which makes its compiler fail
+  # during name resolution even for trivial scripts. Run the check with a
+  # Java 17 runtime when one is available.
+  for c in /usr/lib/jvm/java-17-openjdk*/bin/java /usr/lib/jvm/java-17/bin/java; do
+    if [ -x "$c" ]; then JAVA_BIN="$c"; break; fi
+  done
+  if [ "$JAVA_BIN" = "java" ] && [ "$(java -version 2>&1 | sed -n 's/.*"\([0-9][0-9]*\).*/\1/p' | head -1)" -gt 17 ]; then
+    echo "ERROR: Groovy ${GROOVY_VERSION} syntax check needs a Java <=17 runtime; none found" >&2
+    exit 1
+  fi
+fi
+"$JAVA_BIN" -cp "$WORK/stubs:$GROOVY_JAR:$WORK/classes" \
   org.codehaus.groovy.tools.FileSystemCompiler -d "$WORK/rulecheck" "$HERE"/rules/*.groovy
 
 # 6. Stage into the SAF_Plugin tree (picked up by genplugin.groovy: manifest + zip)
