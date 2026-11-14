@@ -30,7 +30,7 @@ Degree of support:
 | Conceptual | System Structure Definition Viewpoint | `C2_SSTD` | UI integration | spec maturity: released |
 | Conceptual | System Functional Refinement Viewpoint | `C3_SFRE` | UI integration | spec maturity: released |
 | Conceptual | System Process Viewpoint | `C3_SPRO` | UI integration | spec maturity: released |
-| Conceptual | System Process White Box Viewpoint | `C3_SPWB` | Stereotypes present | spec maturity: proposed; diagram stereotype only (no viewpoint object yet) |
+| Conceptual | System Process White Box Viewpoint | `C3_SPWB` | Stereotypes present | spec maturity: proposed |
 | Conceptual | System State Viewpoint | `C3_SSTA` | UI integration | spec maturity: released |
 | Conceptual | System Context Interaction Viewpoint | `C4_SCXI` | UI integration | spec maturity: released |
 | Conceptual | System Internal Exchange Viewpoint | `C4_SIEX` | UI integration | spec maturity: released |
@@ -62,9 +62,9 @@ Degree of support:
 | Physical | Physical Context Exchange Viewpoint | `P1_PCXE` | UI integration | spec maturity: released; 2 diagram types |
 | Physical | Physical Exchange Type Definition Viewpoint | `P2_PETD` | UI integration | spec maturity: released |
 | Physical | Physical Structure Definition Viewpoint | `P2_PSTD` | UI integration | spec maturity: released |
-| Physical | Physical Context Interaction Viewpoint | `P4_PCXI` | UI integration | spec maturity: under construction |
+| Physical | Physical Context Interaction Viewpoint | `P4_PCXI` | UI integration | spec maturity: released |
 | Physical | Physical Internal Exchange Viewpoint | `P4_PIEX` | UI integration | spec maturity: released; 2 diagram types |
-| Physical | Physical Internal Interaction Viewpoint | `P4_PITI` | UI integration | spec maturity: under construction |
+| Physical | Physical Internal Interaction Viewpoint | `P4_PITI` | UI integration | spec maturity: released |
 | Physical | Physical Interface Definition Viewpoint | `P5_PIFD` | UI integration | spec maturity: released |
 | Physical | Physical Functional Mapping Viewpoint | `P8_PFUM` | Stereotypes present | spec maturity: released |
 | Physical | Physical Logical Mapping Viewpoint | `P8_PLOM` | UI integration | spec maturity: released |
