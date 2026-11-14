@@ -29,7 +29,20 @@ class OperationalContextRoleRule {
             return
         }
         StereotypesHelper.addStereotype(part, stereotype)
+        removePlainPartProperty(project, part)
         RuleSupport.log("R4: applied 'SAF_OperationalContextRole' to part '" + part.getName()
                 + "' (of " + RuleSupport.describe(owner) + ")")
+    }
+
+    /**
+     * Remove the plain PartProperty stereotype once the context role has
+     * been applied (by the caller). The role is derived from PartProperty,
+     * so the property remains a part property through the role.
+     */
+    private void removePlainPartProperty(Project project, Property part) {
+        Stereotype partProperty = RuleSupport.findStereotype(project, "PartProperty")
+        if (partProperty != null && StereotypesHelper.hasStereotype(part, partProperty)) {
+            StereotypesHelper.removeStereotype(part, partProperty)
+        }
     }
 }
