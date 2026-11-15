@@ -31,7 +31,7 @@ A palette section has:
 
 1. **SAF section = diagram name.** The section that carries the template's own SAF stereotype buttons MUST be named exactly the diagram's `type` attribute, e.g. `SAF Operational Capability Definition Diagram`, `SAF Stakeholder Identification Diagram`. One diagram, one section, same name as shown in the New Diagram menu.
 2. **Stock sections keep stock names.** Sections that are stock Cameo toolbars copied into the template so standard buttons stay available keep their stock names unchanged: `Common`, `Block Definition Diagram`, `Requirements Diagram`, `Use Case Diagram`, `SysML Activity Diagram`.
-3. **Directory name = `type` attribute.** The template directory must be named exactly as the `type` attribute. (Renaming a directory requires updating the plugin manifest entries in `data/resourcemanager/MDR_Profile_SAF_75377_descriptor.xml` and rebuilding `SAF_Plugin.zip`.)
+3. **Directory name = `type` attribute.** The template directory must be named exactly as the `type` attribute. (Renaming a directory requires updating the plugin manifest entries in `data/resourcemanager/MDR_Profile_SAF_75377_descriptor.xml` and rebuilding the `SAF_Plugin-cameo*.zip` artifacts.)
 4. **Button descriptions are clean labels.** A `<custom>` button's `description` is the element concept in plain language — `Claim`, `Operational Capability`, `Stakeholder Representing` — never a raw stereotype name (`Class«SAF_Claim»`, `SAF_ConceptualContext`), never the `SAF_` prefix, guillemets, or trailing spaces.
 5. **No palette buttons for deprecated concepts.** Stereotypes named `*_deprecated` in the profile are not exposed as palette buttons (removed 2026-11-09 from SCXD, SSTD, SUCD). Their `<manipulators>` entries are kept: manipulators only appear when the user selects an existing element carrying the deprecated stereotype, which legacy models may still contain.
 
@@ -74,6 +74,6 @@ The 14 table/matrix templates (Common Standards Definition Table, Common Terms D
 
 Deviations and exceptions (as of 2026-11-14):
 
-- `SAF Internal Exchange Diagram` (`SAF_P4_PIEX`) is the one rule 1 exception: its SAF section is named `SAF Physical Internal Exchange Diagram`, while the `type` attribute and the directory still carry the pre-refactor short name. Renaming requires a plugin manifest update and a `SAF_Plugin.zip` rebuild.
+- `SAF Internal Exchange Diagram` (`SAF_P4_PIEX`) is the one rule 1 exception: its SAF section is named `SAF Physical Internal Exchange Diagram`, while the `type` attribute and the directory still carry the pre-refactor short name. Renaming requires a plugin manifest update and a `SAF_Plugin-cameo*.zip` rebuild.
 - The 5 sequence-diagram templates (`SAF_O4_OCXI`, `SAF_C4_SCXI`, `SAF_C4_SITI`, `SAF_P4_PCXI`, `P4_PITI`) ship only the stock `Common` section, with no SAF palette section.
 - The empty `SAF Concept Diagram/` directory has no `descriptor.xml` and is excluded from the production plugin (its `SAF Development` category is filtered out by `genplugin.groovy`).

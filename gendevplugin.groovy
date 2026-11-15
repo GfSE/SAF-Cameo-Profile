@@ -116,7 +116,7 @@ outFile.withWriter('UTF-8') { writer ->
 println "Wrote ${outFile.absolutePath}"
 
 // create a zip of the SAF_Plugin tree (like the Makefile)
-// zip will be created in the chosen outDir as SAF_Plugin.zip
+// zip will be created in the chosen outDir as SAF_DevPlugin.zip
 def zipFile = new File(outDir, 'SAF_DevPlugin.zip')
 // the plugin directory is expected under outDir (since descriptor was written there)
 // fallback to local BASE_SCAN_ROOT if not present in outDir

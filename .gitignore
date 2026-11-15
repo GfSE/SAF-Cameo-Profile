@@ -1,6 +1,7 @@
 *.bak
 SAF_DevPlugin.zip
-SAF_Plugin.zip
+SAF_Plugin-cameo2026x.zip
+SAF_Plugin-cameo2024x.zip
 *.info
 SAF_RulesPlugin/build/
 SAF_Plugin/plugins/

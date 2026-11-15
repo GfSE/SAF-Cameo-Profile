@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Build the SAF Model Rules plugin (com.haarer.saf.rules) and stage it into
 # SAF_Plugin/plugins/com.haarer.saf.rules/ so that genplugin.groovy includes it
-# in the resource manifest (descriptor.xml) and in SAF_Plugin.zip.
+# in the resource manifest (descriptor.xml) and in the SAF_Plugin-cameo<target>.zip.
 #
 # The build is hermetic (no Cameo installation required): the Java core is
 # compiled against minimal compile-time stubs of the Cameo SDK (stubs/) and
