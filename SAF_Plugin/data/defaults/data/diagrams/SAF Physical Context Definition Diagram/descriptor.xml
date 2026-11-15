@@ -610,6 +610,19 @@
                 <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Physical Context" listAsElement="false" opposite="false" id="IDaction_1760452042714_684237_2">
                     <stereotype id="_19_0_2_164f041e_1564558860534_409677_52063"/>
                 </custom>
+                <standard action="ADD_PORT" shortcut="shift pressed R "/>
+                <group>
+                    <standard action="ADD_GENERALIZATION" shortcut="pressed G "/>
+                    <standard action="ADD_GENERALIZATION_OPPOSITE" description="Generalization" shortcut="shift pressed Z "/>
+                </group>
+                <group>
+                    <standard action="ADD_DIRECTED_COMPOSITION"/>
+                    <standard action="ADD_COMPOSITION" description="Composition" shortcut="shift pressed M "/>
+                </group>
+                <group>
+                    <standard action="ADD_DIRECTED_AGGREGATION"/>
+                    <standard action="ADD_AGGREGATION" shortcut="pressed A "/>
+                </group>
             </actions>
         </category>
     </toolbarConfiguration>

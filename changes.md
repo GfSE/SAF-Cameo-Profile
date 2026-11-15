@@ -1,3 +1,7 @@
+## 2026-11-15 (PCXD palette: Port and relationship buttons)
+
+*   The Physical Context Definition diagram palette gained the relationship/structure operations of the System Context Definition palette: `Port`, `Generalization` (with opposite), `Directed Composition` (with `Composition`), `Directed Aggregation` (with `Aggregation`), appended after the element buttons in the `SAF Physical Context Definition Diagram` section, mirroring the SCXD section verbatim (shortcuts included; the duplication with the stock Block Definition Diagram section follows the established SCXD precedent)
+
 ## 2026-11-14 (Multi-target build: separate Cameo 2024x plugin artifact)
 
 *   new **SAF\_Plugin-cameo2024x.zip** release artifact for Cameo 2024x, built from the same sources as the 2026x plugin. Both artifacts contain identical model content (profile, samples, templates, diagrams); they differ only in the SAF Model Rules plugin: the 2024x artifact requires the `2024x` Automaton plugin, and its rules are syntax-checked against the Groovy 3.0.9 bundled with it (2026x artifact: `2026x` Automaton, Groovy 5.0.0)

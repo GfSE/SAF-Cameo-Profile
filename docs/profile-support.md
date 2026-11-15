@@ -1,6 +1,6 @@
 # SAF Profile Support
 
-What the SAF Profile (installed by **SAF_Plugin.zip**) supports: the SAF viewpoints with their degree of support, the automation rules of the SAF Model Rules plugin, and the validation rules shipped in the profile.
+What the SAF Profile (installed by the SAF Plugin, `SAF_Plugin-cameo2026x.zip` / `SAF_Plugin-cameo2024x.zip`) supports: the SAF viewpoints with their degree of support, the automation rules of the SAF Model Rules plugin, and the validation rules shipped in the profile.
 
 This file documents the current state of the SAF Profile.
 
