@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<resourceDescriptor critical="false" date="26-11-15" description="SAF Profile v-2026-11-15,&#10;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="https://saf.gfse.org" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF Profile" product="SAF Profile" restartMagicdraw="true" type="Profile">
+<resourceDescriptor critical="false" date="26-11-16" description="SAF Profile v-2026-11-15,&#10;Provider Name: GfSE SAF Working Group" group="mac Resource" homePage="https://saf.gfse.org" id="75377" mdVersionMax="higher" mdVersionMin="19.0" name="SAF Profile" product="SAF Profile" restartMagicdraw="true" type="Profile">
   <version human="v-2026-11-15" internal="100011" resource="1000110" />
   <provider email="saf@gfse.org" homePage="https://saf.gfse.org" name="GfSE SAF Working Group" />
 		
