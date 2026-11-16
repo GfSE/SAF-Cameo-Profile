@@ -2,10 +2,9 @@ name: Build Plugin Zips
 
 on:
   push:
-    branches: [main, cameo2026x]
+    branches: [main, TdSE2026]
     tags: ["v*"]    
-  pull_request:
-    branches: [main, mcameo2026x]
+  workflow_dispatch:
 
 permissions:
   contents: write

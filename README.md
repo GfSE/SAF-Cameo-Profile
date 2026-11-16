@@ -1,6 +1,6 @@
 # 3DS Cameo Systems Modeler Resources for SAF users
 
-This repository provides the current state of development \[tracking the main branch of the spec\] of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2026x or 2024x. Please see the model file itself for licensing terms.
+This repository provides the the TdSE2026 release \[based on the TdSE2026 branch of the spec\] of the **SAF Profile** intended to be used with Cameo Systems Modeler/Magic Draw / Magic System of Systems Architect 2026x or 2024x. Please see the model file itself for licensing terms.
 
 Download the plugin at the [Releases Page of the Repository](https://github.com/GfSE/SAF-Cameo-Profile/releases).
 
@@ -51,12 +51,12 @@ This is because the plugin installation location provides an additional path to 
 
 ## SAF Profile
 
-[**SAF\_Profile.mdzip:**](SAF_Plugin/profiles/SAF_Profile.mdzip) The mdzip file contains the SAF Profile with SAF Stereotypes according to the [SAF-Specification](https://saf.gfse.org). See this [List of Stereotypes](https://saf.gfse.org/userdoc/stereotypes.html). [Maintainers](docs/maintainers.md)
+[**SAF\_Profile.mdzip:**](SAF_Plugin/profiles/SAF_Profile.mdzip) The mdzip file contains the SAF Profile with SAF Stereotypes according to the [SAF-Specification](https://saf.gfse.org/version/TdSE2026). See this [List of Stereotypes](https://saf.gfse.org/version/TdSE2026/userdoc/stereotypes.html). [Maintainers](docs/maintainers.md)
 
 ## SCM Profile
 
 [**SAF\_SCM\_Profile.mdzip:**](SAF_DevPlugin/profiles/SAF_SCM_Profile.mdzip) The mdzip file contains the SCM Profile used to develop SAF Viewpoints.  
-This [development documentation](https://saf.gfse.org/devdoc/devdoc.html) is intended to help with the modification or extension of SAF. If you need help with extending SAF, please contact the SAF developers at the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
+This [development documentation](https://saf.gfse.org/version/TdSE2026/devdoc/devdoc.html) is intended to help with the modification or extension of SAF. If you need help with extending SAF, please contact the SAF developers at the [SAF discussion forum](https://github.com/GfSE/SAF-Specification/discussions).
 
 ## SAF FFDS Example Model
 
