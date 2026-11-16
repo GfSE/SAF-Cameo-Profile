@@ -83,8 +83,13 @@ Since February 2026 we switched to automated builds; all snapshots since then ar
 
 **Please download from the** [**Releases Page of the Repository**](https://github.com/GfSE/SAF-Cameo-Profile/releases)
 
-The releases follow the scheme vYYYY-MM-DD.  
-e.g. v2026-11-14 is a release from 14th November 2026  
+The releases follow the scheme v\<branch\>-YYYY-MM-DD.  
+e.g.  
+* vTdSE2026-2026-11-14 is a release in the TdSE2026 branch from 14th November 2026
+* vmain-2026-11-15 is a release in the main branch from 15th November 2026
+
+The release tag is also baked into the plugin and visible in the plugin manager. 
+
 Each release contains the artifacts for both targets: **SAF\_Plugin-cameo2026x.zip** and **SAF\_Plugin-cameo2024x.zip** (plus **SAF\_DevPlugin.zip** for SAF developers). Choose the SAF Plugin artifact matching your Cameo version.
 
 https://github.com/GfSE/SAF-Cameo-Profile/releases#release-vcameo2026x-2026-02-22 is the last release  
